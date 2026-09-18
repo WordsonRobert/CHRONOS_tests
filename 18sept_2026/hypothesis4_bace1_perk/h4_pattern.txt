@@ -1,0 +1,9 @@
+
+PATTERN CLASSIFICATION (Test E)
+================================
+BACE1 direction  : DOWN
+ATF4 targets sig : YES
+CHOP targets sig : YES
+
+Interpretation:
+BACE1 DOWN + ATF4/CHOP mixed → see individual results
