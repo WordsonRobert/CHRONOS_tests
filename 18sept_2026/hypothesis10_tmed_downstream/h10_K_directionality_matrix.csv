@@ -1,0 +1,7 @@
+TMED,Target,Expected,RNA_raw,RNA_adj,Prot_adj
+TMED2,BACE1,−,+(***),+(***),n/a
+TMED2,APP,−,+(***),+(***),n/a
+TMED9,BACE1,+,+(***),+(***),n/a
+TMED2,ceradsc,−,n/a,+(**),+(*)
+TMED10,ceradsc,−,n/a,+(ns),+(ns)
+TMED9,ceradsc,?,n/a,+(***),+(ns)
