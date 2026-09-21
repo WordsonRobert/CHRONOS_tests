@@ -1,0 +1,55 @@
+{
+  "dataset": "BannerLFQ",
+  "n_people": 190,
+  "proteins_found": 58,
+  "auroc_raw": 0.5372,
+  "auroc_adjusted": 0.5896,
+  "Z_star": [
+    "proteomePC1",
+    "Braak",
+    "TangleTotal",
+    "PlaqueTotal",
+    "proteomePC9"
+  ],
+  "n_strong_regions": 0,
+  "best_region": null,
+  "top_regions": [
+    {
+      "region": "celltype_neuron <= -0.182 (low third)  AND  CERAD = 3",
+      "n": 46,
+      "auroc": 0.596,
+      "z": 1.9773,
+      "q_fdr": 0.6965
+    },
+    {
+      "region": "celltype_astrocyte <= -0.0155 (lower half)  AND  CERAD = 3",
+      "n": 41,
+      "auroc": 0.5911,
+      "z": 1.8999,
+      "q_fdr": 0.6965
+    },
+    {
+      "region": "sex = female",
+      "n": 81,
+      "auroc": 0.5933,
+      "z": 1.6924,
+      "q_fdr": 0.6965
+    },
+    {
+      "region": "celltype_neuron <= -0.182 (low third)",
+      "n": 64,
+      "auroc": 0.5921,
+      "z": 1.6178,
+      "q_fdr": 0.6965
+    },
+    {
+      "region": "sex = female  AND  diagnosis = control",
+      "n": 44,
+      "auroc": 0.5871,
+      "z": 1.6066,
+      "q_fdr": 0.6965
+    }
+  ],
+  "data_supported_edges": 135,
+  "prior_edges": 688
+}

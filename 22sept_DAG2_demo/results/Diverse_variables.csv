@@ -1,0 +1,156 @@
+step,variable,adjusted_for,auroc,null_mean,gain_vs_current,z_vs_shuffled,n_subjects,kind
+1,dataContributionGroup,dataContributionGroup,0.54729,0.54902,-0.00184,-5.55,964,technical
+1,cohort,cohort,0.54666,0.54908,-0.00247,-5.68,964,technical
+1,sex,sex,0.54916,0.54915,3e-05,0.1,964,clinical/pathology
+1,race,race,0.54901,0.54859,-0.00012,1.0,961,clinical/pathology
+1,isHispanic,isHispanic,0.54961,0.54893,0.00048,5.19,963,clinical/pathology
+1,ageDeath,ageDeath,0.54934,0.54902,0.00021,1.55,963,clinical/pathology
+1,PMI,PMI,0.55137,0.55136,0.00224,0.02,818,technical
+1,apoeGenotype,apoeGenotype,0.54827,0.54794,-0.00086,2.23,895,clinical/pathology
+1,amyThal,amyThal,0.54868,0.54825,-0.00045,0.95,391,clinical/pathology
+1,amyA,amyA,0.54921,0.54879,9e-05,0.81,398,clinical/pathology
+1,amyCerad,amyCerad,0.56638,0.55934,0.01725,17.01,676,clinical/pathology
+1,Braak,Braak,0.55339,0.54939,0.00426,15.24,908,clinical/pathology
+1,mayoDx,mayoDx,0.5283,0.52602,-0.02083,5.98,285,clinical/pathology
+1,amyAny,amyAny,0.56717,0.55919,0.01805,28.43,676,clinical/pathology
+1,bScore,bScore,0.55303,0.54923,0.0039,13.59,908,clinical/pathology
+1,reag,reag,0.56566,0.55923,0.01653,16.29,676,clinical/pathology
+1,ADoutcome,ADoutcome,0.55554,0.54848,0.00641,37.32,961,clinical/pathology
+1,derivedOutcomeBasedOnMayoDx,derivedOutcomeBasedOnMayoDx,0.54714,0.54911,-0.00199,-16.34,964,clinical/pathology
+1,celltype_neuron,celltype_neuron,0.58935,0.54909,0.04022,249.43,964,proteome-derived
+1,celltype_astrocyte,celltype_astrocyte,0.53616,0.54908,-0.01297,-133.5,964,proteome-derived
+1,celltype_microglia,celltype_microglia,0.54537,0.54913,-0.00376,-32.34,964,proteome-derived
+1,celltype_oligodendrocyte,celltype_oligodendrocyte,0.56018,0.54908,0.01105,60.2,964,proteome-derived
+1,celltype_endothelial,celltype_endothelial,0.52761,0.54916,-0.02152,-91.26,964,proteome-derived
+1,proteomePC1,proteomePC1,0.61859,0.54907,0.06946,775.31,964,proteome-derived
+1,proteomePC2,proteomePC2,0.5071,0.54909,-0.04203,-200.82,964,proteome-derived
+1,proteomePC3,proteomePC3,0.55023,0.54915,0.0011,4.64,964,proteome-derived
+1,proteomePC4,proteomePC4,0.55059,0.54915,0.00146,9.5,964,proteome-derived
+1,proteomePC5,proteomePC5,0.54703,0.54899,-0.0021,-13.56,964,proteome-derived
+1,proteomePC6,proteomePC6,0.55202,0.54911,0.00289,20.96,964,proteome-derived
+1,proteomePC7,proteomePC7,0.54337,0.54919,-0.00576,-33.44,964,proteome-derived
+1,proteomePC8,proteomePC8,0.55094,0.54913,0.00181,19.28,964,proteome-derived
+1,proteomePC9,proteomePC9,0.54799,0.54915,-0.00114,-8.74,964,proteome-derived
+1,proteomePC10,proteomePC10,0.54865,0.54907,-0.00048,-3.83,964,proteome-derived
+2,dataContributionGroup,proteomePC1 + dataContributionGroup,0.61751,0.61867,-0.00108,-5.64,964,technical
+2,cohort,proteomePC1 + cohort,0.61944,0.61843,0.00085,2.38,964,technical
+2,sex,proteomePC1 + sex,0.61813,0.61849,-0.00045,-2.59,964,clinical/pathology
+2,race,proteomePC1 + race,0.61778,0.61825,-0.00081,-1.76,961,clinical/pathology
+2,isHispanic,proteomePC1 + isHispanic,0.61833,0.6185,-0.00025,-1.03,963,clinical/pathology
+2,ageDeath,proteomePC1 + ageDeath,0.61957,0.61841,0.00098,4.03,963,clinical/pathology
+2,PMI,proteomePC1 + PMI,0.62322,0.62286,0.00463,1.65,818,technical
+2,apoeGenotype,proteomePC1 + apoeGenotype,0.61867,0.61875,8e-05,-0.33,895,clinical/pathology
+2,amyThal,proteomePC1 + amyThal,0.61583,0.6192,-0.00275,-5.57,391,clinical/pathology
+2,amyA,proteomePC1 + amyA,0.61692,0.61945,-0.00166,-5.64,398,clinical/pathology
+2,amyCerad,proteomePC1 + amyCerad,0.62128,0.62114,0.0027,0.34,676,clinical/pathology
+2,Braak,proteomePC1 + Braak,0.61923,0.62008,0.00065,-3.74,908,clinical/pathology
+2,mayoDx,proteomePC1 + mayoDx,0.60072,0.60244,-0.01786,-1.72,285,clinical/pathology
+2,amyAny,proteomePC1 + amyAny,0.62284,0.62118,0.00426,9.02,676,clinical/pathology
+2,bScore,proteomePC1 + bScore,0.61981,0.62002,0.00123,-1.24,908,clinical/pathology
+2,reag,proteomePC1 + reag,0.61988,0.62094,0.0013,-1.87,676,clinical/pathology
+2,ADoutcome,proteomePC1 + ADoutcome,0.61933,0.61826,0.00075,4.07,961,clinical/pathology
+2,derivedOutcomeBasedOnMayoDx,proteomePC1 + derivedOutcomeBasedOnMayoDx,0.6176,0.61858,-0.00099,-2.67,964,clinical/pathology
+2,celltype_neuron,proteomePC1 + celltype_neuron,0.60384,0.61856,-0.01475,-50.95,964,proteome-derived
+2,celltype_astrocyte,proteomePC1 + celltype_astrocyte,0.62084,0.6185,0.00226,9.27,964,proteome-derived
+2,celltype_microglia,proteomePC1 + celltype_microglia,0.61674,0.61858,-0.00185,-8.42,964,proteome-derived
+2,celltype_oligodendrocyte,proteomePC1 + celltype_oligodendrocyte,0.62156,0.6185,0.00297,26.29,964,proteome-derived
+2,celltype_endothelial,proteomePC1 + celltype_endothelial,0.60251,0.61863,-0.01607,-190.04,964,proteome-derived
+2,proteomePC2,proteomePC1 + proteomePC2,0.57592,0.61848,-0.04267,-321.43,964,proteome-derived
+2,proteomePC3,proteomePC1 + proteomePC3,0.61956,0.61857,0.00097,6.54,964,proteome-derived
+2,proteomePC4,proteomePC1 + proteomePC4,0.62119,0.61857,0.0026,23.43,964,proteome-derived
+2,proteomePC5,proteomePC1 + proteomePC5,0.61308,0.61852,-0.00551,-28.13,964,proteome-derived
+2,proteomePC6,proteomePC1 + proteomePC6,0.62146,0.61861,0.00287,14.25,964,proteome-derived
+2,proteomePC7,proteomePC1 + proteomePC7,0.61096,0.61862,-0.00763,-48.3,964,proteome-derived
+2,proteomePC8,proteomePC1 + proteomePC8,0.62442,0.61862,0.00584,30.32,964,proteome-derived
+2,proteomePC9,proteomePC1 + proteomePC9,0.61928,0.6185,0.00069,3.65,964,proteome-derived
+2,proteomePC10,proteomePC1 + proteomePC10,0.62017,0.61875,0.00159,6.03,964,proteome-derived
+3,dataContributionGroup,proteomePC1 + proteomePC8 + dataContributionGroup,0.62337,0.62423,-0.00106,-3.92,964,technical
+3,cohort,proteomePC1 + proteomePC8 + cohort,0.625,0.62408,0.00058,1.87,964,technical
+3,sex,proteomePC1 + proteomePC8 + sex,0.62385,0.62444,-0.00058,-4.17,964,clinical/pathology
+3,race,proteomePC1 + proteomePC8 + race,0.62234,0.62402,-0.00208,-7.38,961,clinical/pathology
+3,isHispanic,proteomePC1 + proteomePC8 + isHispanic,0.62425,0.62436,-0.00017,-1.16,963,clinical/pathology
+3,ageDeath,proteomePC1 + proteomePC8 + ageDeath,0.62509,0.6242,0.00066,3.54,963,clinical/pathology
+3,PMI,proteomePC1 + proteomePC8 + PMI,0.62976,0.62963,0.00534,0.65,818,technical
+3,apoeGenotype,proteomePC1 + proteomePC8 + apoeGenotype,0.62447,0.62482,4e-05,-2.19,895,clinical/pathology
+3,amyThal,proteomePC1 + proteomePC8 + amyThal,0.61786,0.62422,-0.00656,-8.34,391,clinical/pathology
+3,amyA,proteomePC1 + proteomePC8 + amyA,0.61995,0.62352,-0.00448,-5.36,398,clinical/pathology
+3,amyCerad,proteomePC1 + proteomePC8 + amyCerad,0.62702,0.62711,0.00259,-0.19,676,clinical/pathology
+3,Braak,proteomePC1 + proteomePC8 + Braak,0.62512,0.62523,0.0007,-0.28,908,clinical/pathology
+3,mayoDx,proteomePC1 + proteomePC8 + mayoDx,0.60098,0.60684,-0.02344,-7.65,285,clinical/pathology
+3,amyAny,proteomePC1 + proteomePC8 + amyAny,0.62882,0.62743,0.00439,6.66,676,clinical/pathology
+3,bScore,proteomePC1 + proteomePC8 + bScore,0.62545,0.62544,0.00102,0.03,908,clinical/pathology
+3,reag,proteomePC1 + proteomePC8 + reag,0.6257,0.62735,0.00128,-7.16,676,clinical/pathology
+3,ADoutcome,proteomePC1 + proteomePC8 + ADoutcome,0.62485,0.6239,0.00043,8.24,961,clinical/pathology
+3,derivedOutcomeBasedOnMayoDx,proteomePC1 + proteomePC8 + derivedOutcomeBasedOnMayoDx,0.6235,0.62447,-0.00093,-6.57,964,clinical/pathology
+3,celltype_neuron,proteomePC1 + proteomePC8 + celltype_neuron,0.61069,0.6243,-0.01373,-45.06,964,proteome-derived
+3,celltype_astrocyte,proteomePC1 + proteomePC8 + celltype_astrocyte,0.62945,0.62438,0.00503,23.92,964,proteome-derived
+3,celltype_microglia,proteomePC1 + proteomePC8 + celltype_microglia,0.62344,0.6244,-0.00099,-6.99,964,proteome-derived
+3,celltype_oligodendrocyte,proteomePC1 + proteomePC8 + celltype_oligodendrocyte,0.62888,0.62427,0.00445,34.61,964,proteome-derived
+3,celltype_endothelial,proteomePC1 + proteomePC8 + celltype_endothelial,0.6112,0.62443,-0.01322,-84.39,964,proteome-derived
+3,proteomePC2,proteomePC1 + proteomePC8 + proteomePC2,0.58363,0.62435,-0.04079,-382.93,964,proteome-derived
+3,proteomePC3,proteomePC1 + proteomePC8 + proteomePC3,0.62619,0.62436,0.00177,17.18,964,proteome-derived
+3,proteomePC4,proteomePC1 + proteomePC8 + proteomePC4,0.6265,0.62427,0.00208,11.28,964,proteome-derived
+3,proteomePC5,proteomePC1 + proteomePC8 + proteomePC5,0.61788,0.62445,-0.00654,-32.02,964,proteome-derived
+3,proteomePC6,proteomePC1 + proteomePC8 + proteomePC6,0.62738,0.62435,0.00296,16.57,964,proteome-derived
+3,proteomePC7,proteomePC1 + proteomePC8 + proteomePC7,0.61733,0.62442,-0.00709,-52.77,964,proteome-derived
+3,proteomePC9,proteomePC1 + proteomePC8 + proteomePC9,0.62473,0.62437,0.0003,1.54,964,proteome-derived
+3,proteomePC10,proteomePC1 + proteomePC8 + proteomePC10,0.62529,0.62444,0.00086,3.5,964,proteome-derived
+4,dataContributionGroup,proteomePC1 + proteomePC8 + celltype_astrocyte + dataContributionGroup,0.62874,0.62953,-0.00071,-2.16,964,technical
+4,cohort,proteomePC1 + proteomePC8 + celltype_astrocyte + cohort,0.62766,0.62944,-0.00179,-3.07,964,technical
+4,sex,proteomePC1 + proteomePC8 + celltype_astrocyte + sex,0.62817,0.62944,-0.00128,-7.66,964,clinical/pathology
+4,race,proteomePC1 + proteomePC8 + celltype_astrocyte + race,0.62663,0.62879,-0.00282,-4.69,961,clinical/pathology
+4,isHispanic,proteomePC1 + proteomePC8 + celltype_astrocyte + isHispanic,0.62956,0.62941,0.00012,0.74,963,clinical/pathology
+4,ageDeath,proteomePC1 + proteomePC8 + celltype_astrocyte + ageDeath,0.63047,0.62924,0.00102,7.24,963,clinical/pathology
+4,PMI,proteomePC1 + proteomePC8 + celltype_astrocyte + PMI,0.63685,0.63691,0.0074,-0.22,818,technical
+4,apoeGenotype,proteomePC1 + proteomePC8 + celltype_astrocyte + apoeGenotype,0.62796,0.6292,-0.00149,-4.75,895,clinical/pathology
+4,amyThal,proteomePC1 + proteomePC8 + celltype_astrocyte + amyThal,0.62052,0.62452,-0.00893,-6.27,391,clinical/pathology
+4,amyA,proteomePC1 + proteomePC8 + celltype_astrocyte + amyA,0.62297,0.62537,-0.00648,-2.83,398,clinical/pathology
+4,amyCerad,proteomePC1 + proteomePC8 + celltype_astrocyte + amyCerad,0.63366,0.63397,0.00421,-0.62,676,clinical/pathology
+4,Braak,proteomePC1 + proteomePC8 + celltype_astrocyte + Braak,0.62994,0.63102,0.00049,-1.72,908,clinical/pathology
+4,mayoDx,proteomePC1 + proteomePC8 + celltype_astrocyte + mayoDx,0.59328,0.5958,-0.03617,-2.28,285,clinical/pathology
+4,amyAny,proteomePC1 + proteomePC8 + celltype_astrocyte + amyAny,0.63549,0.63397,0.00604,7.01,676,clinical/pathology
+4,bScore,proteomePC1 + proteomePC8 + celltype_astrocyte + bScore,0.63069,0.63095,0.00124,-0.68,908,clinical/pathology
+4,reag,proteomePC1 + proteomePC8 + celltype_astrocyte + reag,0.63219,0.63374,0.00274,-3.25,676,clinical/pathology
+4,ADoutcome,proteomePC1 + proteomePC8 + celltype_astrocyte + ADoutcome,0.6298,0.62899,0.00035,2.14,961,clinical/pathology
+4,derivedOutcomeBasedOnMayoDx,proteomePC1 + proteomePC8 + celltype_astrocyte + derivedOutcomeBasedOnMayoDx,0.62882,0.62938,-0.00063,-4.52,964,clinical/pathology
+4,celltype_neuron,proteomePC1 + proteomePC8 + celltype_astrocyte + celltype_neuron,0.62063,0.62941,-0.00882,-44.71,964,proteome-derived
+4,celltype_microglia,proteomePC1 + proteomePC8 + celltype_astrocyte + celltype_microglia,0.63127,0.62944,0.00182,15.48,964,proteome-derived
+4,celltype_oligodendrocyte,proteomePC1 + proteomePC8 + celltype_astrocyte + celltype_oligodendrocyte,0.62956,0.62939,0.00011,1.07,964,proteome-derived
+4,celltype_endothelial,proteomePC1 + proteomePC8 + celltype_astrocyte + celltype_endothelial,0.6184,0.62947,-0.01105,-77.21,964,proteome-derived
+4,proteomePC2,proteomePC1 + proteomePC8 + celltype_astrocyte + proteomePC2,0.58922,0.6293,-0.04023,-209.78,964,proteome-derived
+4,proteomePC3,proteomePC1 + proteomePC8 + celltype_astrocyte + proteomePC3,0.63161,0.62942,0.00216,8.63,964,proteome-derived
+4,proteomePC4,proteomePC1 + proteomePC8 + celltype_astrocyte + proteomePC4,0.63229,0.62945,0.00284,24.27,964,proteome-derived
+4,proteomePC5,proteomePC1 + proteomePC8 + celltype_astrocyte + proteomePC5,0.6212,0.62943,-0.00825,-45.3,964,proteome-derived
+4,proteomePC6,proteomePC1 + proteomePC8 + celltype_astrocyte + proteomePC6,0.63406,0.62939,0.00461,33.59,964,proteome-derived
+4,proteomePC7,proteomePC1 + proteomePC8 + celltype_astrocyte + proteomePC7,0.61746,0.62939,-0.01198,-97.57,964,proteome-derived
+4,proteomePC9,proteomePC1 + proteomePC8 + celltype_astrocyte + proteomePC9,0.63288,0.62943,0.00343,16.05,964,proteome-derived
+4,proteomePC10,proteomePC1 + proteomePC8 + celltype_astrocyte + proteomePC10,0.62916,0.62932,-0.00028,-0.51,964,proteome-derived
+5,dataContributionGroup,proteomePC1 + proteomePC8 + celltype_astrocyte + amyAny + dataContributionGroup,0.63443,0.63528,-0.00106,-2.28,676,technical
+5,cohort,proteomePC1 + proteomePC8 + celltype_astrocyte + amyAny + cohort,0.63489,0.63491,-0.0006,-0.03,676,technical
+5,sex,proteomePC1 + proteomePC8 + celltype_astrocyte + amyAny + sex,0.63413,0.63544,-0.00136,-3.73,676,clinical/pathology
+5,race,proteomePC1 + proteomePC8 + celltype_astrocyte + amyAny + race,0.6336,0.63528,-0.00189,-2.5,673,clinical/pathology
+5,isHispanic,proteomePC1 + proteomePC8 + celltype_astrocyte + amyAny + isHispanic,0.63519,0.63532,-0.0003,-0.32,675,clinical/pathology
+5,ageDeath,proteomePC1 + proteomePC8 + celltype_astrocyte + amyAny + ageDeath,0.63457,0.63531,-0.00092,-2.06,676,clinical/pathology
+5,PMI,proteomePC1 + proteomePC8 + celltype_astrocyte + amyAny + PMI,0.63709,0.63674,0.00159,1.56,662,technical
+5,apoeGenotype,proteomePC1 + proteomePC8 + celltype_astrocyte + amyAny + apoeGenotype,0.63468,0.63518,-0.00081,-2.16,607,clinical/pathology
+5,amyThal,proteomePC1 + proteomePC8 + celltype_astrocyte + amyAny + amyThal,0.63753,0.64086,0.00204,-1.95,200,clinical/pathology
+5,amyA,proteomePC1 + proteomePC8 + celltype_astrocyte + amyAny + amyA,0.63723,0.64019,0.00174,-2.71,207,clinical/pathology
+5,amyCerad,proteomePC1 + proteomePC8 + celltype_astrocyte + amyAny + amyCerad,0.63366,0.63564,-0.00183,-2.91,676,clinical/pathology
+5,Braak,proteomePC1 + proteomePC8 + celltype_astrocyte + amyAny + Braak,0.63546,0.63723,-3e-05,-2.59,641,clinical/pathology
+5,mayoDx,proteomePC1 + proteomePC8 + celltype_astrocyte + amyAny + mayoDx,,,,,0,clinical/pathology
+5,bScore,proteomePC1 + proteomePC8 + celltype_astrocyte + amyAny + bScore,0.63564,0.63706,0.00015,-2.8,641,clinical/pathology
+5,reag,proteomePC1 + proteomePC8 + celltype_astrocyte + amyAny + reag,0.63313,0.63534,-0.00236,-4.05,676,clinical/pathology
+5,ADoutcome,proteomePC1 + proteomePC8 + celltype_astrocyte + amyAny + ADoutcome,0.63499,0.63537,-0.00051,-1.0,676,clinical/pathology
+5,derivedOutcomeBasedOnMayoDx,proteomePC1 + proteomePC8 + celltype_astrocyte + amyAny + derivedOutcomeBasedOnMayoDx,0.63549,0.63549,0.0,0.02,676,clinical/pathology
+5,celltype_neuron,proteomePC1 + proteomePC8 + celltype_astrocyte + amyAny + celltype_neuron,0.62442,0.63559,-0.01107,-33.37,676,proteome-derived
+5,celltype_microglia,proteomePC1 + proteomePC8 + celltype_astrocyte + amyAny + celltype_microglia,0.63482,0.63548,-0.00068,-2.6,676,proteome-derived
+5,celltype_oligodendrocyte,proteomePC1 + proteomePC8 + celltype_astrocyte + amyAny + celltype_oligodendrocyte,0.63352,0.63559,-0.00197,-10.17,676,proteome-derived
+5,celltype_endothelial,proteomePC1 + proteomePC8 + celltype_astrocyte + amyAny + celltype_endothelial,0.62422,0.63547,-0.01127,-28.71,676,proteome-derived
+5,proteomePC2,proteomePC1 + proteomePC8 + celltype_astrocyte + amyAny + proteomePC2,0.60082,0.63558,-0.03467,-139.99,676,proteome-derived
+5,proteomePC3,proteomePC1 + proteomePC8 + celltype_astrocyte + amyAny + proteomePC3,0.63243,0.63556,-0.00307,-8.07,676,proteome-derived
+5,proteomePC4,proteomePC1 + proteomePC8 + celltype_astrocyte + amyAny + proteomePC4,0.64166,0.63542,0.00617,22.49,676,proteome-derived
+5,proteomePC5,proteomePC1 + proteomePC8 + celltype_astrocyte + amyAny + proteomePC5,0.62742,0.63536,-0.00807,-42.39,676,proteome-derived
+5,proteomePC6,proteomePC1 + proteomePC8 + celltype_astrocyte + amyAny + proteomePC6,0.63741,0.63551,0.00191,7.61,676,proteome-derived
+5,proteomePC7,proteomePC1 + proteomePC8 + celltype_astrocyte + amyAny + proteomePC7,0.62529,0.63549,-0.0102,-43.95,676,proteome-derived
+5,proteomePC9,proteomePC1 + proteomePC8 + celltype_astrocyte + amyAny + proteomePC9,0.6431,0.63557,0.00761,25.26,676,proteome-derived
+5,proteomePC10,proteomePC1 + proteomePC8 + celltype_astrocyte + amyAny + proteomePC10,0.63476,0.63555,-0.00073,-3.85,676,proteome-derived

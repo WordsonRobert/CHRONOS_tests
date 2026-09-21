@@ -1,0 +1,54 @@
+{
+  "dataset": "ROSMAP",
+  "n_people": 400,
+  "proteins_found": 80,
+  "auroc_raw": 0.5618,
+  "auroc_adjusted": 0.5946,
+  "Z_star": [
+    "proteomePC2",
+    "proteomePC3",
+    "proteomePC5",
+    "proteomePC10"
+  ],
+  "n_strong_regions": 0,
+  "best_region": null,
+  "top_regions": [
+    {
+      "region": "celltype_oligodendrocyte <= -0.127 (lower half)  AND  age_death 86.8-90 (middle third)",
+      "n": 154,
+      "auroc": 0.6111,
+      "z": 3.3568,
+      "q_fdr": 0.1511
+    },
+    {
+      "region": "celltype_oligodendrocyte <= -0.127 (lower half)  AND  age_at_visit_max 85.7-90 (middle third)",
+      "n": 152,
+      "auroc": 0.6102,
+      "z": 3.2502,
+      "q_fdr": 0.1511
+    },
+    {
+      "region": "celltype_oligodendrocyte <= -0.127 (lower half)  AND  pmi > 6.5 (upper half)",
+      "n": 104,
+      "auroc": 0.6099,
+      "z": 3.2464,
+      "q_fdr": 0.1511
+    },
+    {
+      "region": "celltype_oligodendrocyte <= -0.127 (lower half)  AND  cts_mmse30_lv <= 26 (lower half)",
+      "n": 102,
+      "auroc": 0.6082,
+      "z": 3.0872,
+      "q_fdr": 0.1846
+    },
+    {
+      "region": "celltype_oligodendrocyte <= -0.127 (lower half)  AND  braaksc <= 4 (lower half)",
+      "n": 163,
+      "auroc": 0.6089,
+      "z": 3.0331,
+      "q_fdr": 0.1511
+    }
+  ],
+  "data_supported_edges": 172,
+  "prior_edges": 688
+}

@@ -1,0 +1,85 @@
+region,depth,n,auroc,null_mean,null_sd,z,p_vs_random_same_size,q_fdr,strong
+celltype_neuron <= -0.182 (low third)  AND  CERAD = 3,2,46,0.59598,0.57224,0.012,1.97731,0.0199,0.69652,False
+celltype_astrocyte <= -0.0155 (lower half)  AND  CERAD = 3,2,41,0.59115,0.56524,0.01364,1.89993,0.0199,0.69652,False
+sex = female,1,81,0.59328,0.57701,0.00962,1.69243,0.0398,0.69652,False
+celltype_neuron <= -0.182 (low third),1,64,0.59208,0.57439,0.01094,1.61777,0.04975,0.69652,False
+sex = female  AND  diagnosis = control,2,44,0.58715,0.56524,0.01364,1.60655,0.03483,0.69652,False
+pmi <= 2.5 (low third),1,65,0.59148,0.57439,0.01094,1.56259,0.0597,0.71642,False
+sex = female  AND  celltype_oligodendrocyte <= -0.073 (lower half),2,44,0.58481,0.56524,0.01364,1.43531,0.04975,0.69652,False
+sex = female  AND  TangleTotal <= 8 (lower half),2,45,0.58338,0.56524,0.01364,1.33053,0.07463,0.76842,False
+celltype_astrocyte <= -0.0155 (lower half)  AND  apoeGenotype = e3-3,2,56,0.58884,0.57439,0.01094,1.32104,0.0995,0.76842,False
+celltype_astrocyte <= -0.0155 (lower half),1,95,0.58804,0.57948,0.00706,1.21363,0.1194,0.76842,False
+sex = female  AND  pmi <= 3 (lower half),2,50,0.58636,0.57224,0.012,1.17615,0.13433,0.76842,False
+sex = female  AND  CERAD = 3,2,41,0.58044,0.56524,0.01364,1.11507,0.10945,0.76842,False
+sex = female  AND  lastMMSE > 25 (upper half),2,41,0.58005,0.56524,0.01364,1.08646,0.12438,0.76842,False
+sex = female  AND  celltype_astrocyte <= -0.0155 (lower half),2,43,0.5796,0.56524,0.01364,1.05277,0.14925,0.76842,False
+celltype_astrocyte <= -0.0155 (lower half)  AND  celltype_oligodendrocyte > -0.073 (upper half),2,51,0.58473,0.57224,0.012,1.04085,0.1791,0.76842,False
+celltype_neuron <= -0.182 (low third)  AND  diagnosis = Alzheimer Disease,2,41,0.57904,0.56524,0.01364,1.01235,0.1592,0.76842,False
+celltype_astrocyte -0.237-0.251 (middle third),1,63,0.58469,0.57439,0.01094,0.94204,0.18408,0.76842,False
+celltype_astrocyte <= -0.0155 (lower half)  AND  pmi <= 3 (lower half),2,56,0.58449,0.57439,0.01094,0.92332,0.19403,0.76842,False
+celltype_neuron <= -0.182 (low third)  AND  lastMMSE <= 25 (lower half),2,43,0.57689,0.56524,0.01364,0.85408,0.18408,0.76842,False
+sex = female  AND  PlaqueTotal <= 12.1 (lower half),2,47,0.58208,0.57224,0.012,0.8198,0.20398,0.76842,False
+sex = female  AND  celltype_neuron <= 0.0182 (lower half),2,42,0.57631,0.56524,0.01364,0.81164,0.199,0.76842,False
+celltype_oligodendrocyte <= -0.464 (low third),1,64,0.58309,0.57439,0.01094,0.79582,0.22886,0.76842,False
+ageDeath <= 82 (low third),1,73,0.58198,0.57498,0.00944,0.7408,0.23383,0.76842,False
+TangleTotal > 11.8 (high third),1,63,0.58244,0.57439,0.01094,0.73621,0.23383,0.76842,False
+PlaqueTotal > 13.5 (high third),1,55,0.58179,0.57439,0.01094,0.67702,0.25373,0.76842,False
+celltype_astrocyte <= -0.0155 (lower half)  AND  celltype_neuron > 0.0182 (upper half),2,50,0.57998,0.57224,0.012,0.64439,0.22886,0.76842,False
+sex = female  AND  lastMMSE <= 25 (lower half),2,40,0.5729,0.56524,0.01364,0.56168,0.28856,0.76842,False
+pmi <= 3 (lower half),1,117,0.58504,0.58208,0.00573,0.51598,0.29353,0.76842,False
+celltype_astrocyte <= -0.0155 (lower half)  AND  ageDeath <= 86 (lower half),2,47,0.57828,0.57224,0.012,0.50301,0.27861,0.76842,False
+CERAD = 3,1,106,0.58451,0.58136,0.00655,0.48148,0.29353,0.76842,False
+TangleTotal 6-11.8 (middle third),1,63,0.57964,0.57439,0.01094,0.48009,0.33333,0.76842,False
+celltype_neuron <= -0.182 (low third)  AND  celltype_oligodendrocyte > -0.073 (upper half),2,43,0.57177,0.56524,0.01364,0.4788,0.34328,0.76842,False
+celltype_astrocyte <= -0.0155 (lower half)  AND  celltype_neuron <= 0.0182 (lower half),2,45,0.57122,0.56524,0.01364,0.43823,0.36816,0.76842,False
+TangleTotal > 8 (upper half),1,92,0.58106,0.57751,0.00875,0.40588,0.36318,0.76842,False
+diagnosis = Alzheimer Disease,1,90,0.58102,0.57751,0.00875,0.40186,0.36318,0.76842,False
+celltype_astrocyte <= -0.0155 (lower half)  AND  TangleTotal <= 8 (lower half),2,66,0.57875,0.57498,0.00944,0.39846,0.35323,0.76842,False
+lastMMSE <= 25 (lower half),1,99,0.58206,0.57948,0.00706,0.36579,0.34826,0.76842,False
+sex = female  AND  ageDeath > 86 (upper half),2,45,0.56991,0.56524,0.01364,0.3423,0.43781,0.76842,False
+lastMMSE > 28 (high third),1,48,0.57618,0.57224,0.012,0.32783,0.32836,0.76842,False
+Braak = 4,1,57,0.57776,0.57439,0.01094,0.30813,0.39801,0.76842,False
+lastMMSE 18-28 (middle third),1,75,0.57994,0.57701,0.00962,0.30483,0.39303,0.76842,False
+celltype_oligodendrocyte <= -0.073 (lower half),1,95,0.58159,0.57948,0.00706,0.29966,0.39303,0.76842,False
+ageDeath <= 86 (lower half),1,104,0.58156,0.57948,0.00706,0.29447,0.39303,0.76842,False
+PlaqueTotal > 12.1 (upper half),1,95,0.58147,0.57948,0.00706,0.28228,0.39303,0.76842,False
+apoeGenotype = e3-4,1,62,0.57705,0.57439,0.01094,0.24332,0.42289,0.76842,False
+celltype_astrocyte <= -0.0155 (lower half)  AND  lastMMSE 18-28 (middle third),2,40,0.56806,0.56524,0.01364,0.20713,0.48756,0.76842,False
+celltype_astrocyte <= -0.0155 (lower half)  AND  celltype_oligodendrocyte <= -0.073 (lower half),2,44,0.56799,0.56524,0.01364,0.20176,0.49254,0.76842,False
+ageDeath > 88 (high third),1,63,0.57571,0.57439,0.01094,0.12034,0.46269,0.76842,False
+celltype_astrocyte <= -0.0155 (lower half)  AND  diagnosis = control,2,65,0.57546,0.57439,0.01094,0.09749,0.46269,0.76842,False
+ageDeath > 86 (upper half),1,86,0.5782,0.57751,0.00875,0.07878,0.50249,0.76842,False
+PlaqueTotal 8-13.5 (middle third),1,69,0.57566,0.57498,0.00944,0.07163,0.48259,0.76842,False
+celltype_oligodendrocyte > 0.391 (high third),1,63,0.57517,0.57439,0.01094,0.07108,0.46766,0.76842,False
+celltype_endothelial <= -0.0629 (lower half),1,51,0.57207,0.57224,0.012,-0.01406,0.54229,0.76842,False
+celltype_astrocyte -0.237-0.251 (middle third)  AND  sex = male,2,40,0.56472,0.56524,0.01364,-0.03813,0.54726,0.76842,False
+celltype_astrocyte <= -0.0155 (lower half)  AND  TangleTotal <= 6 (low third),2,43,0.56468,0.56524,0.01364,-0.04129,0.55224,0.76842,False
+lastMMSE <= 18 (low third),1,67,0.57453,0.57498,0.00944,-0.04782,0.51741,0.76842,False
+celltype_astrocyte <= -0.0155 (lower half)  AND  PlaqueTotal <= 12.1 (lower half),2,62,0.57383,0.57439,0.01094,-0.05095,0.49751,0.76842,False
+TangleTotal <= 6 (low third),1,64,0.57352,0.57439,0.01094,-0.07934,0.50746,0.76842,False
+celltype_oligodendrocyte > -0.073 (upper half),1,95,0.57886,0.57948,0.00706,-0.08803,0.51741,0.76842,False
+celltype_astrocyte <= -0.237 (low third),1,64,0.5729,0.57439,0.01094,-0.13634,0.56219,0.76842,False
+diagnosis = control,1,100,0.57843,0.57948,0.00706,-0.1485,0.55721,0.76842,False
+TangleTotal <= 8 (lower half),1,98,0.57816,0.57948,0.00706,-0.18631,0.56716,0.76842,False
+celltype_astrocyte <= -0.0155 (lower half)  AND  ageDeath > 86 (upper half),2,48,0.5698,0.57224,0.012,-0.20326,0.61692,0.79724,False
+pmi 2.5-3.25 (middle third),1,66,0.57261,0.57498,0.00944,-0.25131,0.59701,0.79602,False
+celltype_neuron <= 0.0182 (lower half),1,95,0.57758,0.57948,0.00706,-0.26882,0.61692,0.79724,False
+celltype_neuron > 0.263 (high third),1,63,0.56957,0.57439,0.01094,-0.44038,0.70647,0.88572,False
+PlaqueTotal <= 12.1 (lower half),1,95,0.57582,0.57948,0.00706,-0.51801,0.70647,0.88572,False
+apoeGenotype = e3-3,1,92,0.57159,0.57751,0.00875,-0.67662,0.77114,0.92169,False
+Braak = 5,1,48,0.56372,0.57224,0.012,-0.70977,0.77612,0.92169,False
+celltype_astrocyte > -0.0155 (upper half),1,95,0.57421,0.57948,0.00706,-0.7461,0.76617,0.92169,False
+celltype_endothelial > -0.0629 (upper half),1,50,0.56306,0.57224,0.012,-0.76474,0.79104,0.92169,False
+lastMMSE > 25 (upper half),1,91,0.57042,0.57751,0.00875,-0.81005,0.78607,0.92169,False
+pmi > 3 (upper half),1,73,0.5666,0.57498,0.00944,-0.88811,0.801,0.92169,False
+celltype_astrocyte <= -0.0155 (lower half)  AND  lastMMSE > 25 (upper half),2,61,0.56402,0.57439,0.01094,-0.94789,0.83582,0.9293,False
+celltype_astrocyte > 0.251 (high third),1,63,0.56373,0.57439,0.01094,-0.9747,0.8408,0.9293,False
+PlaqueTotal <= 8 (low third),1,66,0.56543,0.57498,0.00944,-1.0122,0.8408,0.9293,False
+celltype_astrocyte <= -0.0155 (lower half)  AND  sex = male,2,52,0.5596,0.57224,0.012,-1.05351,0.89055,0.93775,False
+ageDeath 82-88 (middle third),1,54,0.55858,0.57224,0.012,-1.138,0.9005,0.93775,False
+celltype_neuron > 0.0182 (upper half),1,95,0.57117,0.57948,0.00706,-1.17708,0.9005,0.93775,False
+celltype_oligodendrocyte -0.464-0.391 (middle third),1,63,0.56077,0.57439,0.01094,-1.24553,0.9005,0.93775,False
+celltype_astrocyte <= -0.0155 (lower half)  AND  PlaqueTotal <= 8 (low third),2,47,0.5566,0.57224,0.012,-1.30336,0.91542,0.93775,False
+pmi > 3.25 (high third),1,59,0.55981,0.57439,0.01094,-1.33295,0.91542,0.93775,False
+sex = male,1,109,0.56491,0.58136,0.00655,-2.51049,0.98507,0.98507,False
+celltype_neuron -0.182-0.263 (middle third),1,63,0.54607,0.57439,0.01094,-2.58992,0.9801,0.98507,False

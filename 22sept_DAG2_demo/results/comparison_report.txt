@@ -1,0 +1,65 @@
+========================================================================
+CHRONOS — cross-dataset comparison  (ROSMAP, Diverse, Banner)
+========================================================================
+
+1. HOW WELL EACH DATASET RECOVERS THE CONFIDENCE GRAPH  (AUROC; 0.5 = chance)
+   dataset   people     raw  adjusted   trajectory variables Z*
+   ROSMAP       400   0.562     0.595   ['proteomePC2', 'proteomePC3', 'proteomePC5', 'proteomePC10']
+   Diverse      964   0.549     0.643   ['proteomePC1', 'proteomePC8', 'celltype_astrocyte', 'amyAny', 'proteomePC9']
+   Banner       190   0.531     0.581   ['proteomePC3', 'proteomePC1', 'proteomePC5', 'proteomePC8', 'celltype_oligodendrocyte']
+
+2. REGIONS WHERE THE CONFIDENCE GRAPH IS STRONGEST (after adjusting for Z*)
+   ROSMAP: 0 regions beat random same-size subsets (FDR<0.10, z>2)
+      AUROC 0.611  z=3.36  q=0.151  n=154  celltype_oligodendrocyte <= -0.127 (lower half)  AND  age_death 86.8-90 (middle third)
+      AUROC 0.610  z=3.25  q=0.151  n=152  celltype_oligodendrocyte <= -0.127 (lower half)  AND  age_at_visit_max 85.7-90 (middle third)
+      AUROC 0.610  z=3.25  q=0.151  n=104  celltype_oligodendrocyte <= -0.127 (lower half)  AND  pmi > 6.5 (upper half)
+   Diverse: 28 regions beat random same-size subsets (FDR<0.10, z>2)
+      AUROC 0.652  z=3.00  q=0.040  n=57  ADoutcome = Other  AND  celltype_neuron <= -0.0632 (low third)
+      AUROC 0.658  z=2.95  q=0.040  n=192  PMI 5.17-10 (middle third)  AND  amyAny = 1
+      AUROC 0.656  z=2.90  q=0.040  n=75  ADoutcome = Other  AND  celltype_endothelial > -0.0425 (upper half)
+   Banner: 0 regions beat random same-size subsets (FDR<0.10, z>2)
+      AUROC 0.590  z=2.51  q=0.276  n=54  celltype_endothelial <= -0.0477 (lower half)  AND  celltype_oligodendrocyte > -0.129 (upper half)
+      AUROC 0.589  z=2.41  q=0.276  n=44  apoeGenotype = e3-3  AND  celltype_microglia > 0.00693 (upper half)
+      AUROC 0.588  z=2.32  q=0.276  n=44  lastMMSE > 28 (high third)  AND  PlaqueTotal <= 12.1 (lower half)
+
+3. DATA-SUPPORTED EDGES  (prior edge AND correlation FDR < 0.05)
+   ROSMAP     172 / 688 prior edges (25%)
+   Diverse    354 / 688 prior edges (51%)
+   Banner     101 / 688 prior edges (15%)
+
+4. AGREEMENT BETWEEN DATASETS
+   'expected' = overlap if each dataset's supported edges were a random pick of
+   the prior edges both datasets could test (hypergeometric); p = chance of >= shared
+   pair                  Jaccard  shared  expected  fold         p  same direction
+   ROSMAP vs Diverse       0.373     143     120.1  1.19   1.2e-06           74.1%
+   ROSMAP vs Banner        0.252      55      34.3  1.61   1.6e-06           50.9%
+   Diverse vs Banner       0.226      84      70.5  1.19   5.5e-04           75.0%
+
+5. CONSENSUS PAIRS  (protein pair data-supported in >= 2 datasets)
+   Counted on pairs, not arrows: direction is mostly set by the prior, and where the
+   prior is two-way the data's direction choice is unstable (see 'same direction').
+   178 consensus pairs (52 in all 3); direction consistent in 124; top 20:
+     TMED10 - TMED2    ROSMAP:TMED10->TMED2    W=0.270  Diverse:TMED10->TMED2    W=0.402  Banner:TMED2->TMED10    W=0.534
+      AP2A1 - AP2B1    ROSMAP:AP2B1->AP2A1     W=0.405  Diverse:AP2B1->AP2A1     W=0.377  Banner:AP2B1->AP2A1     W=0.390
+     TMED10 - TMED9    ROSMAP:TMED9->TMED10    W=0.269  Diverse:TMED10->TMED9    W=0.427  Banner:TMED9->TMED10    W=0.214
+       COPA - COPB1    ROSMAP:COPB1->COPA      W=0.177  Diverse:COPA->COPB1      W=0.452  Banner:COPA->COPB1      W=0.208
+       COPA - COPB2    ROSMAP:COPB2->COPA      W=0.176  Diverse:COPA->COPB2      W=0.424  Banner:COPA->COPB2      W=0.215
+       COPA - COPG1    ROSMAP:COPG1->COPA      W=0.207  Diverse:COPA->COPG1      W=0.420  Banner:COPG1->COPA      W=0.158
+      VPS29 - VPS35    ROSMAP:VPS29->VPS35     W=0.215  Diverse:VPS29->VPS35     W=0.311  Banner:VPS35->VPS29     W=0.235
+     SEC23A - SEC24C   ROSMAP:SEC24C->SEC23A   W=0.226  Diverse:SEC24C->SEC23A   W=0.259  Banner:SEC23A->SEC24C   W=0.193
+      TMED2 - TMED9    ROSMAP:TMED9->TMED2     W=0.145  Diverse:TMED9->TMED2     W=0.298  Banner:TMED9->TMED2     W=0.212
+     VPS26A - VPS29    ROSMAP:VPS29->VPS26A    W=0.135  Diverse:VPS29->VPS26A    W=0.325  Banner:VPS26A->VPS29    W=0.195
+     EIF2S1 - HSPA5    ROSMAP:HSPA5->EIF2S1    W=0.120  Diverse:EIF2S1->HSPA5    W=0.287  Banner:EIF2S1->HSPA5    W=0.173
+      SEC13 - SEC31A   ROSMAP:SEC31A->SEC13    W=0.176  Diverse:SEC31A->SEC13    W=0.246  Banner:SEC31A->SEC13    W=0.143
+       COPA - COPG2    ROSMAP:COPA->COPG2      W=0.153  Diverse:COPA->COPG2      W=0.269  Banner:COPG2->COPA      W=0.111
+      HSPA9 - MFN2     ROSMAP:MFN2->HSPA9      W=0.147  Diverse:MFN2->HSPA9      W=0.134  Banner:HSPA9->MFN2      W=0.168
+       LRP1 - SORL1    ROSMAP:SORL1->LRP1      W=0.110  Diverse:LRP1->SORL1      W=0.131  Banner:LRP1->SORL1      W=0.180
+     SEC23A - SEC24B   ROSMAP:SEC24B->SEC23A   W=0.094  Diverse:SEC23A->SEC24B   W=0.182  Banner:SEC23A->SEC24B   W=0.143
+      COPB2 - TMED2    ROSMAP:TMED2->COPB2     W=0.190  Diverse:COPB2->TMED2     W=0.122  Banner:COPB2->TMED2     W=0.090
+     SEC24C - TMED10   ROSMAP:SEC24C->TMED10   W=0.110  Diverse:TMED10->SEC24C   W=0.182  Banner:SEC24C->TMED10   W=0.084
+      HSPA5 - TMED10   ROSMAP:HSPA5->TMED10    W=0.118  Diverse:HSPA5->TMED10    W=0.139  Banner:HSPA5->TMED10    W=0.115
+       APOE - CLU      ROSMAP:CLU->APOE        W=0.086  Diverse:CLU->APOE        W=0.160  Banner:CLU->APOE        W=0.118
+
+6. TECHNICAL CHECK: Banner TMT vs Banner LFQ (same people, different mass-spec method)
+   edges testable in both: 289 pairs | supported TMT 91, LFQ 135, both 52 (chance 42.5, p=1.1e-02)
+   Spearman of |W| across shared testable edges: 0.198

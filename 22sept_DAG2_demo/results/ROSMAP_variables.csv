@@ -1,0 +1,136 @@
+step,variable,adjusted_for,auroc,null_mean,gain_vs_current,z_vs_shuffled,n_subjects,kind
+1,Study,Study,0.56138,0.56185,-0.00043,-1.02,400,technical
+1,msex,msex,0.5621,0.56169,0.00029,0.87,400,clinical/pathology
+1,educ,educ,0.56166,0.56131,-0.00015,0.53,400,clinical/pathology
+1,apoe_genotype,apoe_genotype,0.56211,0.56166,0.00031,0.63,400,clinical/pathology
+1,age_at_visit_max,age_at_visit_max,0.56221,0.56125,0.0004,1.44,400,clinical/pathology
+1,age_first_ad_dx,age_first_ad_dx,0.55795,0.56076,-0.00385,-1.5,132,clinical/pathology
+1,age_death,age_death,0.56211,0.56155,0.0003,1.2,400,clinical/pathology
+1,cts_mmse30_first_ad_dx,cts_mmse30_first_ad_dx,0.56047,0.56095,-0.00133,-0.37,126,clinical/pathology
+1,cts_mmse30_lv,cts_mmse30_lv,0.55956,0.56136,-0.00225,-3.28,400,clinical/pathology
+1,pmi,pmi,0.5604,0.56063,-0.00141,-0.47,398,technical
+1,braaksc,braaksc,0.56162,0.56151,-0.00018,0.29,400,clinical/pathology
+1,ceradsc,ceradsc,0.5603,0.56153,-0.00151,-1.44,400,clinical/pathology
+1,cogdx,cogdx,0.5601,0.56169,-0.00171,-2.21,400,clinical/pathology
+1,dcfdx_lv,dcfdx_lv,0.56023,0.56175,-0.00158,-2.55,400,clinical/pathology
+1,celltype_neuron,celltype_neuron,0.5609,0.56156,-0.00091,-1.14,400,proteome-derived
+1,celltype_astrocyte,celltype_astrocyte,0.55993,0.56161,-0.00188,-3.83,400,proteome-derived
+1,celltype_microglia,celltype_microglia,0.56096,0.56119,-0.00085,-0.36,400,proteome-derived
+1,celltype_oligodendrocyte,celltype_oligodendrocyte,0.56483,0.56179,0.00302,5.67,400,proteome-derived
+1,celltype_endothelial,celltype_endothelial,0.5591,0.56146,-0.00271,-3.3,400,proteome-derived
+1,proteomePC1,proteomePC1,0.5593,0.56177,-0.00251,-4.05,400,proteome-derived
+1,proteomePC2,proteomePC2,0.58241,0.56166,0.0206,24.46,400,proteome-derived
+1,proteomePC3,proteomePC3,0.56521,0.56186,0.0034,7.75,400,proteome-derived
+1,proteomePC4,proteomePC4,0.54493,0.5616,-0.01688,-19.45,400,proteome-derived
+1,proteomePC5,proteomePC5,0.56674,0.56139,0.00493,11.63,400,proteome-derived
+1,proteomePC6,proteomePC6,0.55768,0.56149,-0.00412,-16.54,400,proteome-derived
+1,proteomePC7,proteomePC7,0.56232,0.56145,0.00051,1.05,400,proteome-derived
+1,proteomePC8,proteomePC8,0.56069,0.56172,-0.00112,-2.01,400,proteome-derived
+1,proteomePC9,proteomePC9,0.55613,0.56155,-0.00568,-14.74,400,proteome-derived
+1,proteomePC10,proteomePC10,0.56255,0.56154,0.00074,2.4,400,proteome-derived
+2,Study,proteomePC2 + Study,0.58192,0.58243,-0.00049,-1.15,400,technical
+2,msex,proteomePC2 + msex,0.58198,0.58223,-0.00043,-0.45,400,clinical/pathology
+2,educ,proteomePC2 + educ,0.58198,0.58241,-0.00043,-0.94,400,clinical/pathology
+2,apoe_genotype,proteomePC2 + apoe_genotype,0.58279,0.58267,0.00038,0.24,400,clinical/pathology
+2,age_at_visit_max,proteomePC2 + age_at_visit_max,0.58246,0.58275,4e-05,-0.82,400,clinical/pathology
+2,age_first_ad_dx,proteomePC2 + age_first_ad_dx,0.56375,0.56688,-0.01867,-2.55,132,clinical/pathology
+2,age_death,proteomePC2 + age_death,0.58237,0.58237,-5e-05,-0.02,400,clinical/pathology
+2,cts_mmse30_first_ad_dx,proteomePC2 + cts_mmse30_first_ad_dx,0.56783,0.567,-0.01458,0.77,126,clinical/pathology
+2,cts_mmse30_lv,proteomePC2 + cts_mmse30_lv,0.58107,0.58243,-0.00134,-3.35,400,clinical/pathology
+2,pmi,proteomePC2 + pmi,0.58081,0.58169,-0.0016,-1.9,398,technical
+2,braaksc,proteomePC2 + braaksc,0.58211,0.58219,-0.00031,-0.15,400,clinical/pathology
+2,ceradsc,proteomePC2 + ceradsc,0.58175,0.58241,-0.00066,-1.12,400,clinical/pathology
+2,cogdx,proteomePC2 + cogdx,0.58087,0.58214,-0.00154,-3.81,400,clinical/pathology
+2,dcfdx_lv,proteomePC2 + dcfdx_lv,0.58064,0.58247,-0.00178,-5.6,400,clinical/pathology
+2,celltype_neuron,proteomePC2 + celltype_neuron,0.58427,0.58184,0.00186,4.1,400,proteome-derived
+2,celltype_astrocyte,proteomePC2 + celltype_astrocyte,0.57887,0.58251,-0.00354,-6.46,400,proteome-derived
+2,celltype_microglia,proteomePC2 + celltype_microglia,0.58203,0.58236,-0.00038,-0.55,400,proteome-derived
+2,celltype_oligodendrocyte,proteomePC2 + celltype_oligodendrocyte,0.58713,0.58249,0.00472,11.53,400,proteome-derived
+2,celltype_endothelial,proteomePC2 + celltype_endothelial,0.58188,0.58253,-0.00054,-1.24,400,proteome-derived
+2,proteomePC1,proteomePC2 + proteomePC1,0.58735,0.58203,0.00493,14.24,400,proteome-derived
+2,proteomePC3,proteomePC2 + proteomePC3,0.58917,0.58234,0.00675,26.05,400,proteome-derived
+2,proteomePC4,proteomePC2 + proteomePC4,0.56764,0.58242,-0.01478,-31.7,400,proteome-derived
+2,proteomePC5,proteomePC2 + proteomePC5,0.58753,0.58233,0.00511,10.33,400,proteome-derived
+2,proteomePC6,proteomePC2 + proteomePC6,0.57837,0.58262,-0.00404,-8.12,400,proteome-derived
+2,proteomePC7,proteomePC2 + proteomePC7,0.58196,0.58232,-0.00045,-0.67,400,proteome-derived
+2,proteomePC8,proteomePC2 + proteomePC8,0.58073,0.58232,-0.00168,-3.59,400,proteome-derived
+2,proteomePC9,proteomePC2 + proteomePC9,0.57769,0.58213,-0.00473,-17.33,400,proteome-derived
+2,proteomePC10,proteomePC2 + proteomePC10,0.58293,0.58237,0.00052,0.81,400,proteome-derived
+3,Study,proteomePC2 + proteomePC3 + Study,0.58864,0.58903,-0.00052,-0.6,400,technical
+3,msex,proteomePC2 + proteomePC3 + msex,0.58853,0.58896,-0.00064,-0.79,400,clinical/pathology
+3,educ,proteomePC2 + proteomePC3 + educ,0.58903,0.58899,-0.00014,0.08,400,clinical/pathology
+3,apoe_genotype,proteomePC2 + proteomePC3 + apoe_genotype,0.58957,0.58905,0.00041,1.04,400,clinical/pathology
+3,age_at_visit_max,proteomePC2 + proteomePC3 + age_at_visit_max,0.58905,0.58889,-0.00012,0.3,400,clinical/pathology
+3,age_first_ad_dx,proteomePC2 + proteomePC3 + age_first_ad_dx,0.56329,0.56653,-0.02588,-2.89,132,clinical/pathology
+3,age_death,proteomePC2 + proteomePC3 + age_death,0.58897,0.58897,-0.00019,0.01,400,clinical/pathology
+3,cts_mmse30_first_ad_dx,proteomePC2 + proteomePC3 + cts_mmse30_first_ad_dx,0.56661,0.56728,-0.02255,-0.34,126,clinical/pathology
+3,cts_mmse30_lv,proteomePC2 + proteomePC3 + cts_mmse30_lv,0.58793,0.58917,-0.00124,-3.05,400,clinical/pathology
+3,pmi,proteomePC2 + proteomePC3 + pmi,0.58621,0.58806,-0.00295,-2.28,398,technical
+3,braaksc,proteomePC2 + proteomePC3 + braaksc,0.59017,0.58902,0.001,2.22,400,clinical/pathology
+3,ceradsc,proteomePC2 + proteomePC3 + ceradsc,0.58946,0.58862,0.00029,1.86,400,clinical/pathology
+3,cogdx,proteomePC2 + proteomePC3 + cogdx,0.58733,0.58882,-0.00184,-2.1,400,clinical/pathology
+3,dcfdx_lv,proteomePC2 + proteomePC3 + dcfdx_lv,0.5877,0.58913,-0.00147,-3.26,400,clinical/pathology
+3,celltype_neuron,proteomePC2 + proteomePC3 + celltype_neuron,0.58585,0.5889,-0.00331,-7.1,400,proteome-derived
+3,celltype_astrocyte,proteomePC2 + proteomePC3 + celltype_astrocyte,0.58373,0.58907,-0.00544,-9.93,400,proteome-derived
+3,celltype_microglia,proteomePC2 + proteomePC3 + celltype_microglia,0.58815,0.58863,-0.00101,-0.96,400,proteome-derived
+3,celltype_oligodendrocyte,proteomePC2 + proteomePC3 + celltype_oligodendrocyte,0.58867,0.58884,-0.00049,-0.43,400,proteome-derived
+3,celltype_endothelial,proteomePC2 + proteomePC3 + celltype_endothelial,0.58768,0.58884,-0.00148,-3.11,400,proteome-derived
+3,proteomePC1,proteomePC2 + proteomePC3 + proteomePC1,0.58526,0.5891,-0.00391,-7.03,400,proteome-derived
+3,proteomePC4,proteomePC2 + proteomePC3 + proteomePC4,0.57482,0.58891,-0.01435,-36.31,400,proteome-derived
+3,proteomePC5,proteomePC2 + proteomePC3 + proteomePC5,0.5927,0.58898,0.00353,11.69,400,proteome-derived
+3,proteomePC6,proteomePC2 + proteomePC3 + proteomePC6,0.58486,0.58876,-0.00431,-7.69,400,proteome-derived
+3,proteomePC7,proteomePC2 + proteomePC3 + proteomePC7,0.58956,0.58881,0.00039,1.43,400,proteome-derived
+3,proteomePC8,proteomePC2 + proteomePC3 + proteomePC8,0.58866,0.58917,-0.0005,-0.8,400,proteome-derived
+3,proteomePC9,proteomePC2 + proteomePC3 + proteomePC9,0.58586,0.58887,-0.0033,-6.67,400,proteome-derived
+3,proteomePC10,proteomePC2 + proteomePC3 + proteomePC10,0.59009,0.58865,0.00092,4.23,400,proteome-derived
+4,Study,proteomePC2 + proteomePC3 + proteomePC5 + Study,0.59214,0.59264,-0.00056,-0.94,400,technical
+4,msex,proteomePC2 + proteomePC3 + proteomePC5 + msex,0.59219,0.59286,-0.00051,-2.04,400,clinical/pathology
+4,educ,proteomePC2 + proteomePC3 + proteomePC5 + educ,0.59273,0.59282,3e-05,-0.17,400,clinical/pathology
+4,apoe_genotype,proteomePC2 + proteomePC3 + proteomePC5 + apoe_genotype,0.5931,0.59286,0.00041,0.29,400,clinical/pathology
+4,age_at_visit_max,proteomePC2 + proteomePC3 + proteomePC5 + age_at_visit_max,0.5933,0.59269,0.0006,1.17,400,clinical/pathology
+4,age_first_ad_dx,proteomePC2 + proteomePC3 + proteomePC5 + age_first_ad_dx,0.56487,0.56832,-0.02782,-1.88,132,clinical/pathology
+4,age_death,proteomePC2 + proteomePC3 + proteomePC5 + age_death,0.593,0.59253,0.00031,1.33,400,clinical/pathology
+4,cts_mmse30_first_ad_dx,proteomePC2 + proteomePC3 + proteomePC5 + cts_mmse30_first_ad_dx,0.56743,0.56886,-0.02526,-1.71,126,clinical/pathology
+4,cts_mmse30_lv,proteomePC2 + proteomePC3 + proteomePC5 + cts_mmse30_lv,0.59199,0.59312,-0.00071,-1.63,400,clinical/pathology
+4,pmi,proteomePC2 + proteomePC3 + proteomePC5 + pmi,0.58999,0.59161,-0.00271,-4.11,398,technical
+4,braaksc,proteomePC2 + proteomePC3 + proteomePC5 + braaksc,0.59397,0.5926,0.00127,2.0,400,clinical/pathology
+4,ceradsc,proteomePC2 + proteomePC3 + proteomePC5 + ceradsc,0.5935,0.59286,0.0008,1.69,400,clinical/pathology
+4,cogdx,proteomePC2 + proteomePC3 + proteomePC5 + cogdx,0.59081,0.59281,-0.00188,-4.77,400,clinical/pathology
+4,dcfdx_lv,proteomePC2 + proteomePC3 + proteomePC5 + dcfdx_lv,0.59128,0.59268,-0.00141,-2.33,400,clinical/pathology
+4,celltype_neuron,proteomePC2 + proteomePC3 + proteomePC5 + celltype_neuron,0.58984,0.59281,-0.00286,-5.05,400,proteome-derived
+4,celltype_astrocyte,proteomePC2 + proteomePC3 + proteomePC5 + celltype_astrocyte,0.58366,0.59276,-0.00903,-16.96,400,proteome-derived
+4,celltype_microglia,proteomePC2 + proteomePC3 + proteomePC5 + celltype_microglia,0.59238,0.59267,-0.00031,-0.61,400,proteome-derived
+4,celltype_oligodendrocyte,proteomePC2 + proteomePC3 + proteomePC5 + celltype_oligodendrocyte,0.59219,0.59225,-0.0005,-0.12,400,proteome-derived
+4,celltype_endothelial,proteomePC2 + proteomePC3 + proteomePC5 + celltype_endothelial,0.59182,0.5927,-0.00088,-2.89,400,proteome-derived
+4,proteomePC1,proteomePC2 + proteomePC3 + proteomePC5 + proteomePC1,0.58604,0.59287,-0.00666,-16.04,400,proteome-derived
+4,proteomePC4,proteomePC2 + proteomePC3 + proteomePC5 + proteomePC4,0.5791,0.59263,-0.0136,-21.73,400,proteome-derived
+4,proteomePC6,proteomePC2 + proteomePC3 + proteomePC5 + proteomePC6,0.5891,0.59249,-0.0036,-6.73,400,proteome-derived
+4,proteomePC7,proteomePC2 + proteomePC3 + proteomePC5 + proteomePC7,0.59228,0.59228,-0.00042,-0.01,400,proteome-derived
+4,proteomePC8,proteomePC2 + proteomePC3 + proteomePC5 + proteomePC8,0.59098,0.59257,-0.00171,-2.61,400,proteome-derived
+4,proteomePC9,proteomePC2 + proteomePC3 + proteomePC5 + proteomePC9,0.58796,0.59281,-0.00474,-11.36,400,proteome-derived
+4,proteomePC10,proteomePC2 + proteomePC3 + proteomePC5 + proteomePC10,0.59462,0.59238,0.00193,2.54,400,proteome-derived
+5,Study,proteomePC2 + proteomePC3 + proteomePC5 + proteomePC10 + Study,0.59375,0.5939,-0.00087,-0.17,400,technical
+5,msex,proteomePC2 + proteomePC3 + proteomePC5 + proteomePC10 + msex,0.59412,0.59432,-0.00051,-0.51,400,clinical/pathology
+5,educ,proteomePC2 + proteomePC3 + proteomePC5 + proteomePC10 + educ,0.59456,0.59459,-6e-05,-0.08,400,clinical/pathology
+5,apoe_genotype,proteomePC2 + proteomePC3 + proteomePC5 + proteomePC10 + apoe_genotype,0.59456,0.59482,-6e-05,-0.36,400,clinical/pathology
+5,age_at_visit_max,proteomePC2 + proteomePC3 + proteomePC5 + proteomePC10 + age_at_visit_max,0.59409,0.59437,-0.00053,-0.42,400,clinical/pathology
+5,age_first_ad_dx,proteomePC2 + proteomePC3 + proteomePC5 + proteomePC10 + age_first_ad_dx,0.56879,0.56986,-0.02583,-0.64,132,clinical/pathology
+5,age_death,proteomePC2 + proteomePC3 + proteomePC5 + proteomePC10 + age_death,0.59411,0.59472,-0.00051,-1.27,400,clinical/pathology
+5,cts_mmse30_first_ad_dx,proteomePC2 + proteomePC3 + proteomePC5 + proteomePC10 + cts_mmse30_first_ad_dx,0.5716,0.57202,-0.02302,-0.45,126,clinical/pathology
+5,cts_mmse30_lv,proteomePC2 + proteomePC3 + proteomePC5 + proteomePC10 + cts_mmse30_lv,0.59406,0.59483,-0.00056,-1.3,400,clinical/pathology
+5,pmi,proteomePC2 + proteomePC3 + proteomePC5 + proteomePC10 + pmi,0.59253,0.59329,-0.00209,-1.25,398,technical
+5,braaksc,proteomePC2 + proteomePC3 + proteomePC5 + proteomePC10 + braaksc,0.5952,0.59448,0.00058,1.6,400,clinical/pathology
+5,ceradsc,proteomePC2 + proteomePC3 + proteomePC5 + proteomePC10 + ceradsc,0.59492,0.59476,0.0003,0.29,400,clinical/pathology
+5,cogdx,proteomePC2 + proteomePC3 + proteomePC5 + proteomePC10 + cogdx,0.59266,0.5945,-0.00196,-3.2,400,clinical/pathology
+5,dcfdx_lv,proteomePC2 + proteomePC3 + proteomePC5 + proteomePC10 + dcfdx_lv,0.59319,0.59446,-0.00143,-4.63,400,clinical/pathology
+5,celltype_neuron,proteomePC2 + proteomePC3 + proteomePC5 + proteomePC10 + celltype_neuron,0.59016,0.59445,-0.00447,-8.92,400,proteome-derived
+5,celltype_astrocyte,proteomePC2 + proteomePC3 + proteomePC5 + proteomePC10 + celltype_astrocyte,0.58662,0.59393,-0.008,-9.23,400,proteome-derived
+5,celltype_microglia,proteomePC2 + proteomePC3 + proteomePC5 + proteomePC10 + celltype_microglia,0.59396,0.59433,-0.00066,-0.68,400,proteome-derived
+5,celltype_oligodendrocyte,proteomePC2 + proteomePC3 + proteomePC5 + proteomePC10 + celltype_oligodendrocyte,0.5942,0.59447,-0.00042,-0.42,400,proteome-derived
+5,celltype_endothelial,proteomePC2 + proteomePC3 + proteomePC5 + proteomePC10 + celltype_endothelial,0.59426,0.59466,-0.00036,-1.24,400,proteome-derived
+5,proteomePC1,proteomePC2 + proteomePC3 + proteomePC5 + proteomePC10 + proteomePC1,0.5885,0.5944,-0.00612,-11.14,400,proteome-derived
+5,proteomePC4,proteomePC2 + proteomePC3 + proteomePC5 + proteomePC10 + proteomePC4,0.57927,0.59419,-0.01535,-20.29,400,proteome-derived
+5,proteomePC6,proteomePC2 + proteomePC3 + proteomePC5 + proteomePC10 + proteomePC6,0.5915,0.59434,-0.00312,-2.94,400,proteome-derived
+5,proteomePC7,proteomePC2 + proteomePC3 + proteomePC5 + proteomePC10 + proteomePC7,0.59496,0.5944,0.00034,0.99,400,proteome-derived
+5,proteomePC8,proteomePC2 + proteomePC3 + proteomePC5 + proteomePC10 + proteomePC8,0.59411,0.59449,-0.00052,-0.78,400,proteome-derived
+5,proteomePC9,proteomePC2 + proteomePC3 + proteomePC5 + proteomePC10 + proteomePC9,0.59001,0.5944,-0.00462,-8.83,400,proteome-derived

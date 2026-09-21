@@ -1,0 +1,55 @@
+======================================================================
+CHRONOS — BannerLFQ
+======================================================================
+Proteins: 58/80 of the confidence-graph nodes found
+Samples: 225  |  matched to a person: 198
+Excluded 8 people shared with another dataset
+People (one row each, replicates averaged): 190
+  Rest-of-proteome: 2649 well-measured proteins -> 10 PCs + 5 cell-type scores
+    celltype_neuron: mean of SNAP25, SYT1, STMN2, GAP43, SYN1, RBFOX3, NEFL, CAMK2A
+    celltype_astrocyte: mean of GFAP, ALDH1L1, AQP4, SLC1A2, SLC1A3, GJA1
+    celltype_microglia: mean of AIF1, HLA-DRA
+    celltype_oligodendrocyte: mean of MBP, MOG, PLP1, MAG, CNP, MOBP
+    celltype_endothelial: mean of VWF, PECAM1
+    proteomePC1: 24.1% of rest-of-proteome variance; tracks microglia (rho=-0.42)
+    proteomePC2: 11.8% of rest-of-proteome variance; tracks neuron (rho=-0.73)
+    proteomePC3: 6.8% of rest-of-proteome variance; tracks oligodendrocyte (rho=-0.49)
+    proteomePC4: 4.0% of rest-of-proteome variance; tracks astrocyte (rho=+0.38)
+    proteomePC5: 3.9% of rest-of-proteome variance; tracks oligodendrocyte (rho=+0.36)
+    proteomePC6: 2.4% of rest-of-proteome variance; tracks astrocyte (rho=+0.23)
+    proteomePC7: 1.7% of rest-of-proteome variance; tracks oligodendrocyte (rho=+0.45)
+    proteomePC8: 1.7% of rest-of-proteome variance; tracks endothelial (rho=+0.20)
+    proteomePC9: 1.2% of rest-of-proteome variance; tracks microglia (rho=-0.20)
+    proteomePC10: 1.1% of rest-of-proteome variance; tracks microglia (rho=-0.15)
+Trajectory-variable candidates (everything except the 80 proteins): 25
+  sex, ageDeath, apoeGenotype, pmi, diagnosis, CERAD, Braak, PlaqueTotal, TangleTotal, lastMMSE, celltype_neuron, celltype_astrocyte, celltype_microglia, celltype_oligodendrocyte, celltype_endothelial, proteomePC1, proteomePC2, proteomePC3, proteomePC4, proteomePC5, proteomePC6, proteomePC7, proteomePC8, proteomePC9, proteomePC10
+Median people per protein pair: 190  (people with ALL 58 proteins: 0)
+
+[1-2] SIGNAL + TRAJECTORY VARIABLES
+  Signal with no adjustment: AUROC = 0.5372
+  + proteomePC1                  AUROC -> 0.5625   (z vs shuffled = 35.5)   [24.1% of rest-of-proteome variance; tracks microglia (rho=-0.42)]
+  + Braak                        AUROC -> 0.5831   (z vs shuffled = 12.9)
+  + TangleTotal                  AUROC -> 0.5864   (z vs shuffled = 2.3)
+  + PlaqueTotal                  AUROC -> 0.5883   (z vs shuffled = 2.6)
+  + proteomePC9                  AUROC -> 0.5896   (z vs shuffled = 3.0)   [1.2% of rest-of-proteome variance; tracks microglia (rho=-0.20)]
+
+[3] REGIONS (who shows the confidence graph most strongly, AFTER adjusting for Z*)
+  Testing 51 single-variable regions ...
+  Whole cohort AUROC after adjustment 0.5896
+         AUROC 0.5960  (random same-size 0.5722)  z= 1.98  n=46   celltype_neuron <= -0.182 (low third)  AND  CERAD = 3
+         AUROC 0.5911  (random same-size 0.5652)  z= 1.90  n=41   celltype_astrocyte <= -0.0155 (lower half)  AND  CERAD = 3
+         AUROC 0.5933  (random same-size 0.5770)  z= 1.69  n=81   sex = female
+         AUROC 0.5921  (random same-size 0.5744)  z= 1.62  n=64   celltype_neuron <= -0.182 (low third)
+         AUROC 0.5871  (random same-size 0.5652)  z= 1.61  n=44   sex = female  AND  diagnosis = control
+         AUROC 0.5915  (random same-size 0.5744)  z= 1.56  n=65   pmi <= 2.5 (low third)
+         AUROC 0.5848  (random same-size 0.5652)  z= 1.44  n=44   sex = female  AND  celltype_oligodendrocyte <= -0.073 (lower half)
+         AUROC 0.5834  (random same-size 0.5652)  z= 1.33  n=45   sex = female  AND  TangleTotal <= 8 (lower half)
+  Weakest regions (C least visible):
+         AUROC 0.5461  (random same-size 0.5744)  z=-2.59  n=63   celltype_neuron -0.182-0.263 (middle third)
+         AUROC 0.5649  (random same-size 0.5814)  z=-2.51  n=109  sex = male
+         AUROC 0.5598  (random same-size 0.5744)  z=-1.33  n=59   pmi > 3.25 (high third)
+
+[4] FINAL GRAPH (whole cohort, adjusted for selected variables)
+  Prior edges: 688 | testable (n>=20): 404 | non-zero W: 310 | data-supported (FDR<0.05): 135
+
+Done.

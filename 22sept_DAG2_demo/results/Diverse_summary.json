@@ -1,0 +1,55 @@
+{
+  "dataset": "Diverse",
+  "n_people": 964,
+  "proteins_found": 80,
+  "auroc_raw": 0.5491,
+  "auroc_adjusted": 0.6431,
+  "Z_star": [
+    "proteomePC1",
+    "proteomePC8",
+    "celltype_astrocyte",
+    "amyAny",
+    "proteomePC9"
+  ],
+  "n_strong_regions": 28,
+  "best_region": "ADoutcome = Other  AND  celltype_neuron <= -0.0632 (low third)",
+  "top_regions": [
+    {
+      "region": "ADoutcome = Other  AND  celltype_neuron <= -0.0632 (low third)",
+      "n": 57,
+      "auroc": 0.6522,
+      "z": 3.0028,
+      "q_fdr": 0.0397
+    },
+    {
+      "region": "PMI 5.17-10 (middle third)  AND  amyAny = 1",
+      "n": 192,
+      "auroc": 0.658,
+      "z": 2.9526,
+      "q_fdr": 0.0397
+    },
+    {
+      "region": "ADoutcome = Other  AND  celltype_endothelial > -0.0425 (upper half)",
+      "n": 75,
+      "auroc": 0.656,
+      "z": 2.8992,
+      "q_fdr": 0.0397
+    },
+    {
+      "region": "celltype_oligodendrocyte -0.482-0.323 (middle third)  AND  amyCerad = Moderate/Probable/C2",
+      "n": 48,
+      "auroc": 0.6458,
+      "z": 2.7657,
+      "q_fdr": 0.0567
+    },
+    {
+      "region": "ADoutcome = Other  AND  celltype_neuron <= 0.103 (lower half)",
+      "n": 86,
+      "auroc": 0.6571,
+      "z": 2.722,
+      "q_fdr": 0.0397
+    }
+  ],
+  "data_supported_edges": 354,
+  "prior_edges": 688
+}

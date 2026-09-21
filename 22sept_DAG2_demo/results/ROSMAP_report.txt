@@ -1,0 +1,51 @@
+======================================================================
+CHRONOS — ROSMAP
+======================================================================
+Proteins: 80/80 of the confidence-graph nodes found
+Samples: 400  |  matched to a person: 400
+People (one row each, replicates averaged): 400
+  Rest-of-proteome: 5683 well-measured proteins -> 10 PCs + 5 cell-type scores
+    celltype_neuron: mean of SNAP25, SYT1, STMN2, GAP43, SYN1, RBFOX3, NEFL, CAMK2A
+    celltype_astrocyte: mean of GFAP, ALDH1L1, AQP4, SLC1A2, SLC1A3, GJA1
+    celltype_microglia: mean of AIF1, ITGAM, P2RY12, HLA-DRA
+    celltype_oligodendrocyte: mean of MBP, MOG, PLP1, MAG, CNP, MOBP
+    celltype_endothelial: mean of CLDN5, VWF, PECAM1, FLT1, ESAM
+    proteomePC1: 9.9% of rest-of-proteome variance; tracks neuron (rho=+0.59)
+    proteomePC2: 6.1% of rest-of-proteome variance; tracks neuron (rho=+0.27)
+    proteomePC3: 4.9% of rest-of-proteome variance; tracks oligodendrocyte (rho=-0.47)
+    proteomePC4: 4.6% of rest-of-proteome variance; tracks oligodendrocyte (rho=-0.48)
+    proteomePC5: 3.2% of rest-of-proteome variance; tracks astrocyte (rho=-0.47)
+    proteomePC6: 2.9% of rest-of-proteome variance; tracks oligodendrocyte (rho=-0.13)
+    proteomePC7: 2.4% of rest-of-proteome variance; tracks microglia (rho=-0.23)
+    proteomePC8: 2.3% of rest-of-proteome variance; tracks oligodendrocyte (rho=+0.29)
+    proteomePC9: 2.1% of rest-of-proteome variance; tracks astrocyte (rho=+0.27)
+    proteomePC10: 1.7% of rest-of-proteome variance; tracks astrocyte (rho=+0.32)
+Trajectory-variable candidates (everything except the 80 proteins): 29
+  Study, msex, educ, apoe_genotype, age_at_visit_max, age_first_ad_dx, age_death, cts_mmse30_first_ad_dx, cts_mmse30_lv, pmi, braaksc, ceradsc, cogdx, dcfdx_lv, celltype_neuron, celltype_astrocyte, celltype_microglia, celltype_oligodendrocyte, celltype_endothelial, proteomePC1, proteomePC2, proteomePC3, proteomePC4, proteomePC5, proteomePC6, proteomePC7, proteomePC8, proteomePC9, proteomePC10
+Median people per protein pair: 400  (people with ALL 80 proteins: 40)
+
+[1-2] SIGNAL + TRAJECTORY VARIABLES
+  Signal with no adjustment: AUROC = 0.5618
+  + proteomePC2                  AUROC -> 0.5824   (z vs shuffled = 24.5)   [6.1% of rest-of-proteome variance; tracks neuron (rho=+0.27)]
+  + proteomePC3                  AUROC -> 0.5892   (z vs shuffled = 26.0)   [4.9% of rest-of-proteome variance; tracks oligodendrocyte (rho=-0.47)]
+  + proteomePC5                  AUROC -> 0.5927   (z vs shuffled = 11.7)   [3.2% of rest-of-proteome variance; tracks astrocyte (rho=-0.47)]
+  + proteomePC10                 AUROC -> 0.5946   (z vs shuffled = 2.5)   [1.7% of rest-of-proteome variance; tracks astrocyte (rho=+0.32)]
+
+[3] REGIONS (who shows the confidence graph most strongly, AFTER adjusting for Z*)
+  Testing 77 single-variable regions ...
+  Whole cohort AUROC after adjustment 0.5946
+         AUROC 0.6111  (random same-size 0.5817)  z= 3.36  n=154  celltype_oligodendrocyte <= -0.127 (lower half)  AND  age_death 86.8-90 (middle third)
+         AUROC 0.6102  (random same-size 0.5817)  z= 3.25  n=152  celltype_oligodendrocyte <= -0.127 (lower half)  AND  age_at_visit_max 85.7-90 (middle third)
+         AUROC 0.6099  (random same-size 0.5743)  z= 3.25  n=104  celltype_oligodendrocyte <= -0.127 (lower half)  AND  pmi > 6.5 (upper half)
+         AUROC 0.6082  (random same-size 0.5743)  z= 3.09  n=102  celltype_oligodendrocyte <= -0.127 (lower half)  AND  cts_mmse30_lv <= 26 (lower half)
+         AUROC 0.6089  (random same-size 0.5836)  z= 3.03  n=163  celltype_oligodendrocyte <= -0.127 (lower half)  AND  braaksc <= 4 (lower half)
+         AUROC 0.6023  (random same-size 0.5659)  z= 2.92  n=65   celltype_oligodendrocyte <= -0.127 (lower half)  AND  cts_mmse30_lv <= 23 (low third)
+         AUROC 0.6085  (random same-size 0.5809)  z= 2.83  n=129  celltype_oligodendrocyte <= -0.127 (lower half)  AND  apoe_genotype = 33
+         AUROC 0.6069  (random same-size 0.5777)  z= 2.82  n=112  celltype_oligodendrocyte <= -0.127 (lower half)  AND  celltype_microglia <= -0.077 (lower half)
+  Weakest regions (C least visible):
+         AUROC 0.5685  (random same-size 0.5874)  z=-2.35  n=200  celltype_neuron <= 0.0321 (lower half)
+         AUROC 0.5286  (random same-size 0.5609)  z=-2.27  n=49   apoe_genotype = 33  AND  educ > 18 (high third)
+         AUROC 0.5693  (random same-size 0.5874)  z=-2.25  n=200  celltype_oligodendrocyte > -0.127 (upper half)
+
+[4] FINAL GRAPH (whole cohort, adjusted for selected variables)
+  Prior edges: 688 | testable (n>=20): 688 | non-zero W: 505 | data-supported (FDR<0.05): 172
