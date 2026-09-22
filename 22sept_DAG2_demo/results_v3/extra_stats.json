@@ -1,0 +1,170 @@
+{
+  "ROSMAP": {
+    "people": 400,
+    "usable_after_adjustment": 400,
+    "nodes": 80,
+    "missing_fraction": 0.0563,
+    "raw": {
+      "pairs_scored": 3160,
+      "prior_pairs_scored": 654,
+      "signed_auroc": 0.5926,
+      "unsigned_auroc": 0.5471,
+      "prior_mean_rho": 0.072,
+      "prior_frac_pos": 0.641,
+      "prior_mean_abs": 0.138,
+      "other_mean_rho": 0.017,
+      "other_frac_pos": 0.523,
+      "other_mean_abs": 0.114
+    },
+    "adjusted": {
+      "pairs_scored": 3160,
+      "prior_pairs_scored": 654,
+      "signed_auroc": 0.6232,
+      "unsigned_auroc": 0.5722,
+      "prior_mean_rho": 0.069,
+      "prior_frac_pos": 0.68,
+      "prior_mean_abs": 0.122,
+      "other_mean_rho": 0.008,
+      "other_frac_pos": 0.501,
+      "other_mean_abs": 0.088
+    },
+    "arrow_setting": {
+      "one_way_agrees": 0,
+      "one_way_disagrees_downweighted": 0,
+      "two_way_picked": 654,
+      "low_n_placeholder": 0
+    },
+    "regions_corrected": {
+      "rescored": 301,
+      "strong": 0,
+      "z_above_2": 31,
+      "min_q": 0.1248
+    }
+  },
+  "Diverse": {
+    "people": 964,
+    "usable_after_adjustment": 676,
+    "nodes": 80,
+    "missing_fraction": 0.0101,
+    "raw": {
+      "pairs_scored": 3160,
+      "prior_pairs_scored": 654,
+      "signed_auroc": 0.5767,
+      "unsigned_auroc": 0.5862,
+      "prior_mean_rho": 0.175,
+      "prior_frac_pos": 0.746,
+      "prior_mean_abs": 0.278,
+      "other_mean_rho": 0.104,
+      "other_frac_pos": 0.687,
+      "other_mean_abs": 0.221
+    },
+    "adjusted": {
+      "pairs_scored": 3160,
+      "prior_pairs_scored": 654,
+      "signed_auroc": 0.6441,
+      "unsigned_auroc": 0.612,
+      "prior_mean_rho": 0.156,
+      "prior_frac_pos": 0.804,
+      "prior_mean_abs": 0.19,
+      "other_mean_rho": 0.066,
+      "other_frac_pos": 0.644,
+      "other_mean_abs": 0.13
+    },
+    "arrow_setting": {
+      "one_way_agrees": 0,
+      "one_way_disagrees_downweighted": 0,
+      "two_way_picked": 654,
+      "low_n_placeholder": 0
+    },
+    "regions_corrected": {
+      "rescored": 419,
+      "strong": 0,
+      "z_above_2": 33,
+      "min_q": 0.1866
+    }
+  },
+  "Banner": {
+    "people": 190,
+    "usable_after_adjustment": 189,
+    "nodes": 80,
+    "missing_fraction": 0.0491,
+    "raw": {
+      "pairs_scored": 3157,
+      "prior_pairs_scored": 654,
+      "signed_auroc": 0.5535,
+      "unsigned_auroc": 0.5345,
+      "prior_mean_rho": 0.052,
+      "prior_frac_pos": 0.587,
+      "prior_mean_abs": 0.152,
+      "other_mean_rho": 0.012,
+      "other_frac_pos": 0.516,
+      "other_mean_abs": 0.13
+    },
+    "adjusted": {
+      "pairs_scored": 3157,
+      "prior_pairs_scored": 654,
+      "signed_auroc": 0.5825,
+      "unsigned_auroc": 0.5374,
+      "prior_mean_rho": 0.05,
+      "prior_frac_pos": 0.598,
+      "prior_mean_abs": 0.13,
+      "other_mean_rho": -0.0,
+      "other_frac_pos": 0.494,
+      "other_mean_abs": 0.109
+    },
+    "arrow_setting": {
+      "one_way_agrees": 0,
+      "one_way_disagrees_downweighted": 0,
+      "two_way_picked": 654,
+      "low_n_placeholder": 0
+    },
+    "regions_corrected": {
+      "rescored": 126,
+      "strong": 0,
+      "z_above_2": 3,
+      "min_q": 0.5237
+    }
+  },
+  "BannerLFQ": {
+    "people": 190,
+    "usable_after_adjustment": 190,
+    "nodes": 58,
+    "missing_fraction": 0.1087,
+    "raw": {
+      "pairs_scored": 1533,
+      "prior_pairs_scored": 386,
+      "signed_auroc": 0.5283,
+      "unsigned_auroc": 0.5213,
+      "prior_mean_rho": 0.122,
+      "prior_frac_pos": 0.668,
+      "prior_mean_abs": 0.268,
+      "other_mean_rho": 0.092,
+      "other_frac_pos": 0.669,
+      "other_mean_abs": 0.258
+    },
+    "adjusted": {
+      "pairs_scored": 1533,
+      "prior_pairs_scored": 386,
+      "signed_auroc": 0.5369,
+      "unsigned_auroc": 0.5238,
+      "prior_mean_rho": 0.145,
+      "prior_frac_pos": 0.687,
+      "prior_mean_abs": 0.276,
+      "other_mean_rho": 0.104,
+      "other_frac_pos": 0.66,
+      "other_mean_abs": 0.263
+    },
+    "arrow_setting": {
+      "one_way_agrees": 0,
+      "one_way_disagrees_downweighted": 0,
+      "two_way_picked": 386,
+      "low_n_placeholder": 23
+    },
+    "regions_corrected": {
+      "rescored": 139,
+      "strong": 0,
+      "z_above_2": 15,
+      "min_q": 0.1482
+    }
+  }
+}

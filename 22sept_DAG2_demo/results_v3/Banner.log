@@ -1,0 +1,55 @@
+======================================================================
+CHRONOS — Banner
+======================================================================
+Proteins: 80/80 of the confidence-graph nodes found
+Samples: 220  |  matched to a person: 198
+Excluded 8 people shared with another dataset
+People (one row each, replicates averaged): 190
+  Rest-of-proteome: 6184 well-measured proteins -> 10 PCs + 5 cell-type scores
+    celltype_neuron: mean of SNAP25, SYT1, STMN2, GAP43, SYN1, NEFL, CAMK2A
+    celltype_astrocyte: mean of GFAP, ALDH1L1, AQP4, SLC1A2, SLC1A3, GJA1
+    celltype_microglia: mean of AIF1, ITGAM, CSF1R, P2RY12, CX3CR1, HLA-DRA
+    celltype_oligodendrocyte: mean of MBP, MOG, PLP1, MAG, CNP, MOBP
+    celltype_endothelial: mean of CLDN5, VWF, PECAM1, FLT1, ESAM
+    proteomePC1: 12.2% of rest-of-proteome variance; tracks oligodendrocyte (rho=-0.59)
+    proteomePC2: 6.9% of rest-of-proteome variance; tracks oligodendrocyte (rho=-0.35)
+    proteomePC3: 5.6% of rest-of-proteome variance; tracks neuron (rho=+0.23)
+    proteomePC4: 3.6% of rest-of-proteome variance; tracks endothelial (rho=-0.38)
+    proteomePC5: 3.1% of rest-of-proteome variance; tracks neuron (rho=-0.31)
+    proteomePC6: 2.6% of rest-of-proteome variance; tracks astrocyte (rho=-0.20)
+    proteomePC7: 2.2% of rest-of-proteome variance; tracks microglia (rho=-0.30)
+    proteomePC8: 2.1% of rest-of-proteome variance; tracks oligodendrocyte (rho=-0.08)
+    proteomePC9: 2.0% of rest-of-proteome variance; tracks endothelial (rho=-0.27)
+    proteomePC10: 1.8% of rest-of-proteome variance; tracks astrocyte (rho=+0.39)
+Trajectory-variable candidates (everything except the 80 proteins): 25
+  sex, ageDeath, apoeGenotype, pmi, diagnosis, CERAD, Braak, PlaqueTotal, TangleTotal, lastMMSE, celltype_neuron, celltype_astrocyte, celltype_microglia, celltype_oligodendrocyte, celltype_endothelial, proteomePC1, proteomePC2, proteomePC3, proteomePC4, proteomePC5, proteomePC6, proteomePC7, proteomePC8, proteomePC9, proteomePC10
+Median people per protein pair: 190  (people with ALL 80 proteins: 0)
+
+[1-2] SIGNAL + TRAJECTORY VARIABLES
+  Signal with no adjustment: AUROC = 0.5535
+  + celltype_oligodendrocyte     AUROC -> 0.5578   (z vs shuffled = 6.1)   [mean of MBP, MOG, PLP1, MAG, CNP, MOBP]
+  + proteomePC3                  AUROC -> 0.5634   (z vs shuffled = 4.1)   [5.6% of rest-of-proteome variance; tracks neuron (rho=+0.23)]
+  + celltype_neuron              AUROC -> 0.5710   (z vs shuffled = 8.4)   [mean of SNAP25, SYT1, STMN2, GAP43, SYN1, NEFL, CAMK2A]
+  + proteomePC8                  AUROC -> 0.5770   (z vs shuffled = 8.2)   [2.1% of rest-of-proteome variance; tracks oligodendrocyte (rho=-0.08)]
+  + apoeGenotype                 AUROC -> 0.5825   (z vs shuffled = 3.4)
+
+[3] REGIONS (who shows the confidence graph most strongly, AFTER adjusting for Z*)
+  Testing 59 single-variable regions ...
+  Whole cohort AUROC after adjustment 0.5825
+         AUROC 0.5980  (random same-size 0.5676)  z= 2.39  n=50   PlaqueTotal > 13.5 (high third)  AND  CERAD = 3
+         AUROC 0.5973  (random same-size 0.5648)  z= 2.30  n=44   celltype_microglia > 0.00693 (upper half)  AND  apoeGenotype = e3-3
+         AUROC 0.5966  (random same-size 0.5648)  z= 2.24  n=41   apoeGenotype = e3-3  AND  celltype_neuron <= -1.75e-05 (lower half)
+         AUROC 0.5912  (random same-size 0.5648)  z= 1.87  n=45   celltype_microglia > 0.00693 (upper half)  AND  diagnosis = control
+         AUROC 0.5876  (random same-size 0.5688)  z= 1.81  n=63   celltype_endothelial > 0.125 (high third)
+         AUROC 0.5899  (random same-size 0.5648)  z= 1.77  n=42   celltype_microglia > 0.00693 (upper half)  AND  ageDeath > 86 (upper half)
+         AUROC 0.5899  (random same-size 0.5648)  z= 1.77  n=40   celltype_microglia > 0.00693 (upper half)  AND  TangleTotal <= 8 (lower half)
+         AUROC 0.5894  (random same-size 0.5648)  z= 1.73  n=44   apoeGenotype = e3-3  AND  CERAD = 3
+  Weakest regions (C least visible):
+         AUROC 0.5470  (random same-size 0.5688)  z=-2.09  n=63   celltype_endothelial -0.261-0.125 (middle third)
+         AUROC 0.5576  (random same-size 0.5710)  z=-1.34  n=66   PlaqueTotal <= 8 (low third)
+         AUROC 0.5642  (random same-size 0.5750)  z=-1.30  n=95   celltype_microglia <= 0.00693 (lower half)
+
+[4] FINAL GRAPH (whole cohort, adjusted for selected variables)
+  Prior edges: 1308 | testable (n>=20): 1308 | non-zero W: 654 | data-supported (FDR<0.05): 143
+
+Done.

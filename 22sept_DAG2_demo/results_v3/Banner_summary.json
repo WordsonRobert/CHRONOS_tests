@@ -1,0 +1,55 @@
+{
+  "dataset": "Banner",
+  "n_people": 190,
+  "proteins_found": 80,
+  "auroc_raw": 0.5535,
+  "auroc_adjusted": 0.5825,
+  "Z_star": [
+    "celltype_oligodendrocyte",
+    "proteomePC3",
+    "celltype_neuron",
+    "proteomePC8",
+    "apoeGenotype"
+  ],
+  "n_strong_regions": 0,
+  "best_region": null,
+  "top_regions": [
+    {
+      "region": "PlaqueTotal > 13.5 (high third)  AND  CERAD = 3",
+      "n": 50,
+      "auroc": 0.598,
+      "z": 2.3931,
+      "q_fdr": 0.4822
+    },
+    {
+      "region": "celltype_microglia > 0.00693 (upper half)  AND  apoeGenotype = e3-3",
+      "n": 44,
+      "auroc": 0.5973,
+      "z": 2.2986,
+      "q_fdr": 0.4822
+    },
+    {
+      "region": "apoeGenotype = e3-3  AND  celltype_neuron <= -1.75e-05 (lower half)",
+      "n": 41,
+      "auroc": 0.5966,
+      "z": 2.2448,
+      "q_fdr": 0.4822
+    },
+    {
+      "region": "celltype_microglia > 0.00693 (upper half)  AND  diagnosis = control",
+      "n": 45,
+      "auroc": 0.5912,
+      "z": 1.868,
+      "q_fdr": 0.4822
+    },
+    {
+      "region": "celltype_endothelial > 0.125 (high third)",
+      "n": 63,
+      "auroc": 0.5876,
+      "z": 1.8081,
+      "q_fdr": 0.4822
+    }
+  ],
+  "data_supported_edges": 143,
+  "prior_edges": 1308
+}

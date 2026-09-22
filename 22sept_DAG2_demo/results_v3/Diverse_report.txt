@@ -1,0 +1,54 @@
+======================================================================
+CHRONOS — Diverse
+======================================================================
+Proteins: 80/80 of the confidence-graph nodes found
+Samples: 1086  |  matched to a person: 1086
+Excluded 16 people shared with another dataset
+People (one row each, replicates averaged): 964
+  Rest-of-proteome: 7286 well-measured proteins -> 10 PCs + 5 cell-type scores
+    celltype_neuron: mean of SNAP25, SYT1, STMN2, GAP43, SYN1, RBFOX3, NEFL, CAMK2A
+    celltype_astrocyte: mean of GFAP, ALDH1L1, AQP4, SLC1A2, SLC1A3, GJA1
+    celltype_microglia: mean of AIF1, ITGAM, CSF1R, P2RY12, CX3CR1, HLA-DRA
+    celltype_oligodendrocyte: mean of MBP, MOG, PLP1, MAG, CNP, MOBP
+    celltype_endothelial: mean of CLDN5, VWF, PECAM1, FLT1, ESAM
+    proteomePC1: 23.3% of rest-of-proteome variance; tracks neuron (rho=-0.89)
+    proteomePC2: 8.8% of rest-of-proteome variance; tracks astrocyte (rho=+0.67)
+    proteomePC3: 4.0% of rest-of-proteome variance; tracks oligodendrocyte (rho=+0.25)
+    proteomePC4: 3.2% of rest-of-proteome variance; tracks endothelial (rho=-0.17)
+    proteomePC5: 3.0% of rest-of-proteome variance; tracks microglia (rho=-0.24)
+    proteomePC6: 2.7% of rest-of-proteome variance; tracks microglia (rho=+0.21)
+    proteomePC7: 2.0% of rest-of-proteome variance; tracks oligodendrocyte (rho=-0.22)
+    proteomePC8: 1.9% of rest-of-proteome variance; tracks astrocyte (rho=+0.14)
+    proteomePC9: 1.8% of rest-of-proteome variance; tracks astrocyte (rho=-0.37)
+    proteomePC10: 1.5% of rest-of-proteome variance; tracks astrocyte (rho=+0.24)
+Trajectory-variable candidates (everything except the 80 proteins): 33
+  dataContributionGroup, cohort, sex, race, isHispanic, ageDeath, PMI, apoeGenotype, amyThal, amyA, amyCerad, Braak, mayoDx, amyAny, bScore, reag, ADoutcome, derivedOutcomeBasedOnMayoDx, celltype_neuron, celltype_astrocyte, celltype_microglia, celltype_oligodendrocyte, celltype_endothelial, proteomePC1, proteomePC2, proteomePC3, proteomePC4, proteomePC5, proteomePC6, proteomePC7, proteomePC8, proteomePC9, proteomePC10
+Median people per protein pair: 964  (people with ALL 80 proteins: 525)
+
+[1-2] SIGNAL + TRAJECTORY VARIABLES
+  Signal with no adjustment: AUROC = 0.5767
+  + celltype_oligodendrocyte     AUROC -> 0.6001   (z vs shuffled = 174.1)   [mean of MBP, MOG, PLP1, MAG, CNP, MOBP]
+  + reag                         AUROC -> 0.6192   (z vs shuffled = 14.1)
+  + proteomePC2                  AUROC -> 0.6346   (z vs shuffled = 58.9)   [8.8% of rest-of-proteome variance; tracks astrocyte (rho=+0.67)]
+  + proteomePC8                  AUROC -> 0.6398   (z vs shuffled = 37.7)   [1.9% of rest-of-proteome variance; tracks astrocyte (rho=+0.14)]
+  + proteomePC6                  AUROC -> 0.6441   (z vs shuffled = 28.7)   [2.7% of rest-of-proteome variance; tracks microglia (rho=+0.21)]
+
+[3] REGIONS (who shows the confidence graph most strongly, AFTER adjusting for Z*)
+  Testing 87 single-variable regions ...
+  Whole cohort AUROC after adjustment 0.6441
+  STRONG AUROC 0.6615  (random same-size 0.6335)  z= 3.35  n=256  PMI <= 6.83 (lower half)  AND  race = White
+  STRONG AUROC 0.6633  (random same-size 0.6259)  z= 3.33  n=139  PMI <= 6.83 (lower half)  AND  celltype_microglia <= -0.289 (low third)
+  STRONG AUROC 0.6588  (random same-size 0.6284)  z= 3.12  n=172  PMI <= 5.17 (low third)  AND  race = White
+  STRONG AUROC 0.6563  (random same-size 0.6275)  z= 2.80  n=162  celltype_neuron <= 0.103 (lower half)  AND  celltype_oligodendrocyte <= -0.11 (lower half)
+  STRONG AUROC 0.6550  (random same-size 0.6209)  z= 2.73  n=108  PMI <= 6.83 (lower half)  AND  celltype_astrocyte <= -0.213 (low third)
+  STRONG AUROC 0.6537  (random same-size 0.6223)  z= 2.69  n=116  PMI <= 5.17 (low third)  AND  celltype_astrocyte <= 0.0206 (lower half)
+  STRONG AUROC 0.6556  (random same-size 0.6347)  z= 2.67  n=279  race = White  AND  sex = female
+  STRONG AUROC 0.6533  (random same-size 0.6099)  z= 2.64  n=64   celltype_neuron <= 0.103 (lower half)  AND  reag = Low Likelihood
+  Weakest regions (C least visible):
+         AUROC 0.5767  (random same-size 0.6328)  z=-6.26  n=214  race = other
+         AUROC 0.5599  (random same-size 0.6049)  z=-2.64  n=52   amyThal = Phase 4
+         AUROC 0.6160  (random same-size 0.6353)  z=-2.44  n=273  amyA = Thal Phase 4 or 5
+
+[4] FINAL GRAPH (whole cohort, adjusted for selected variables)
+  Prior edges: 1308 | testable (n>=20): 1308 | non-zero W: 654 | data-supported (FDR<0.05): 464
+  Best region graph saved: PMI <= 6.83 (lower half)  AND  race = White  (n=256)

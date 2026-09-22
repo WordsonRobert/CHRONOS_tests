@@ -1,0 +1,52 @@
+{
+  "dataset": "BannerLFQ",
+  "n_people": 190,
+  "proteins_found": 58,
+  "auroc_raw": 0.5283,
+  "auroc_adjusted": 0.5369,
+  "Z_star": [
+    "celltype_neuron",
+    "proteomePC9"
+  ],
+  "n_strong_regions": 0,
+  "best_region": null,
+  "top_regions": [
+    {
+      "region": "celltype_neuron <= -0.182 (low third)  AND  celltype_oligodendrocyte > -0.073 (upper half)",
+      "n": 43,
+      "auroc": 0.5778,
+      "z": 3.792,
+      "q_fdr": 0.1729
+    },
+    {
+      "region": "celltype_neuron <= 0.0182 (lower half)  AND  celltype_oligodendrocyte > -0.073 (upper half)",
+      "n": 60,
+      "auroc": 0.5671,
+      "z": 3.3447,
+      "q_fdr": 0.1729
+    },
+    {
+      "region": "celltype_neuron <= 0.0182 (lower half)  AND  ageDeath <= 86 (lower half)",
+      "n": 55,
+      "auroc": 0.5644,
+      "z": 3.0453,
+      "q_fdr": 0.1729
+    },
+    {
+      "region": "celltype_neuron <= 0.0182 (lower half)  AND  pmi <= 3 (lower half)",
+      "n": 53,
+      "auroc": 0.5657,
+      "z": 2.9891,
+      "q_fdr": 0.1729
+    },
+    {
+      "region": "celltype_neuron <= 0.0182 (lower half)",
+      "n": 95,
+      "auroc": 0.5573,
+      "z": 2.901,
+      "q_fdr": 0.2305
+    }
+  ],
+  "data_supported_edges": 244,
+  "prior_edges": 1308
+}

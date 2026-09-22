@@ -1,0 +1,302 @@
+region,depth,n,auroc,null_mean,null_sd,z,p_vs_random_same_size,q_fdr,strong
+celltype_neuron > 0.0321 (upper half)  AND  celltype_endothelial <= -0.043 (lower half),2,124,0.63251,0.60413,0.01094,2.59419,0.00498,0.26427,False
+celltype_neuron > 0.0321 (upper half)  AND  pmi 5.67-7.61 (middle third),2,69,0.62444,0.59085,0.01304,2.5769,0.01493,0.26427,False
+celltype_neuron > 0.0321 (upper half)  AND  cts_mmse30_lv <= 26 (lower half),2,111,0.63088,0.60227,0.01113,2.57085,0.00498,0.26427,False
+celltype_astrocyte > 0.235 (high third)  AND  ceradsc = 2,2,49,0.62338,0.58435,0.01562,2.498,0.00995,0.26427,False
+cts_mmse30_lv <= 26 (lower half)  AND  educ <= 14 (low third),2,85,0.6299,0.59548,0.01378,2.49734,0.01493,0.26427,False
+celltype_neuron > 0.0321 (upper half)  AND  pmi > 6.5 (upper half),2,99,0.62603,0.599,0.01092,2.47527,0.00995,0.26427,False
+apoe_genotype = 23  AND  educ <= 16 (lower half),2,40,0.61774,0.57936,0.01553,2.47176,0.00498,0.26427,False
+celltype_astrocyte > 0.235 (high third)  AND  educ <= 16 (lower half),2,76,0.62911,0.59548,0.01378,2.4397,0.01493,0.26427,False
+celltype_neuron > 0.0321 (upper half),1,200,0.63131,0.61266,0.0079,2.35979,0.00995,0.26427,False
+cts_mmse30_lv <= 26 (lower half)  AND  ceradsc = 2,2,84,0.62786,0.59548,0.01378,2.34894,0.01493,0.26427,False
+celltype_neuron > 0.0321 (upper half)  AND  celltype_microglia > -0.077 (upper half),2,80,0.62741,0.59548,0.01378,2.3166,0.02985,0.26427,False
+celltype_neuron > 0.0321 (upper half)  AND  educ <= 16 (lower half),2,123,0.62909,0.60413,0.01094,2.28199,0.00995,0.26427,False
+cts_mmse30_lv <= 26 (lower half)  AND  cogdx = 2,2,53,0.61985,0.58435,0.01562,2.27246,0.0199,0.26427,False
+apoe_genotype = 23,1,57,0.62088,0.58907,0.01434,2.21857,0.02488,0.26427,False
+celltype_neuron > 0.0321 (upper half)  AND  braaksc <= 4 (lower half),2,171,0.6311,0.61085,0.00916,2.21134,0.02985,0.26427,False
+celltype_neuron > 0.194 (high third)  AND  age_at_visit_max <= 85.7 (low third),2,51,0.61888,0.58435,0.01562,2.20998,0.0199,0.26427,False
+celltype_neuron > 0.0321 (upper half)  AND  cogdx = 2,2,43,0.61325,0.57936,0.01553,2.18244,0.0199,0.26427,False
+celltype_neuron > 0.0321 (upper half)  AND  msex = 1,2,70,0.61907,0.59085,0.01304,2.16489,0.02488,0.26427,False
+celltype_neuron > 0.194 (high third)  AND  age_death <= 89.4 (lower half),2,69,0.619,0.59085,0.01304,2.15943,0.02985,0.26427,False
+apoe_genotype = 23  AND  braaksc <= 4 (lower half),2,54,0.61807,0.58435,0.01562,2.1581,0.0199,0.26427,False
+celltype_astrocyte > 0.235 (high third)  AND  celltype_oligodendrocyte > -0.127 (upper half),2,59,0.61969,0.58907,0.01434,2.13593,0.02488,0.26427,False
+celltype_neuron > 0.194 (high third)  AND  braaksc <= 4 (lower half),2,116,0.62746,0.60413,0.01094,2.13309,0.01493,0.26427,False
+cts_mmse30_lv <= 26 (lower half)  AND  age_at_visit_max > 88.9 (upper half),2,131,0.62814,0.60656,0.01017,2.12293,0.01493,0.26427,False
+cts_mmse30_lv <= 26 (lower half)  AND  celltype_neuron > 0.194 (high third),2,71,0.61836,0.59085,0.01304,2.10973,0.02985,0.26427,False
+celltype_neuron > 0.194 (high third)  AND  celltype_microglia > -0.077 (upper half),2,54,0.61714,0.58435,0.01562,2.09868,0.02488,0.26427,False
+celltype_neuron > 0.0321 (upper half)  AND  braaksc <= 3 (low third),2,105,0.62182,0.599,0.01092,2.08961,0.02488,0.26427,False
+cts_mmse30_lv <= 26 (lower half)  AND  celltype_astrocyte > 0.235 (high third),2,80,0.62405,0.59548,0.01378,2.0729,0.03483,0.26427,False
+celltype_astrocyte > 0.235 (high third)  AND  educ <= 14 (low third),2,52,0.61667,0.58435,0.01562,2.06899,0.02488,0.26427,False
+cts_mmse30_lv <= 26 (lower half)  AND  celltype_astrocyte > 0.0643 (upper half),2,115,0.62587,0.60413,0.01094,1.98716,0.01493,0.26427,False
+celltype_neuron > 0.0321 (upper half)  AND  cts_mmse30_lv 23-28 (middle third),2,90,0.61965,0.59593,0.01201,1.97404,0.03483,0.26427,False
+cts_mmse30_lv <= 26 (lower half),1,210,0.62771,0.61323,0.0074,1.95722,0.04478,0.26427,False
+celltype_neuron > 0.0321 (upper half)  AND  celltype_endothelial <= -0.263 (low third),2,87,0.61936,0.59593,0.01201,1.95016,0.03483,0.26427,False
+celltype_neuron > 0.194 (high third)  AND  age_at_visit_max <= 88.9 (lower half),2,69,0.61597,0.59085,0.01304,1.92658,0.04478,0.26427,False
+apoe_genotype = 23  AND  msex = 0,2,45,0.60927,0.57936,0.01553,1.9261,0.0398,0.26427,False
+cts_mmse30_lv <= 26 (lower half)  AND  educ <= 16 (lower half),2,124,0.62483,0.60413,0.01094,1.89215,0.02488,0.26427,False
+cts_mmse30_lv <= 26 (lower half)  AND  braaksc <= 4 (lower half),2,148,0.6264,0.60722,0.01018,1.88428,0.02488,0.26427,False
+cts_mmse30_lv <= 26 (lower half)  AND  age_death > 89.4 (upper half),2,128,0.62569,0.60656,0.01017,1.88221,0.01493,0.26427,False
+celltype_neuron > 0.194 (high third)  AND  braaksc <= 3 (low third),2,69,0.61505,0.59085,0.01304,1.85587,0.04478,0.26427,False
+celltype_neuron > 0.0321 (upper half)  AND  ceradsc = 2,2,69,0.61488,0.59085,0.01304,1.84297,0.04478,0.26427,False
+celltype_neuron > 0.194 (high third),1,133,0.62526,0.60656,0.01017,1.8395,0.01493,0.26427,False
+celltype_neuron > 0.194 (high third)  AND  celltype_astrocyte > 0.235 (high third),2,45,0.60736,0.57936,0.01553,1.80356,0.0398,0.26427,False
+celltype_neuron > 0.194 (high third)  AND  pmi > 7.61 (high third),2,42,0.60711,0.57936,0.01553,1.78699,0.0398,0.26427,False
+celltype_neuron > 0.194 (high third)  AND  celltype_endothelial <= -0.043 (lower half),2,87,0.61732,0.59593,0.01201,1.78024,0.0398,0.26427,False
+cts_mmse30_lv <= 26 (lower half)  AND  celltype_oligodendrocyte <= -0.127 (lower half),2,102,0.6183,0.599,0.01092,1.76668,0.0398,0.26427,False
+celltype_neuron > 0.0321 (upper half)  AND  cogdx = 1,2,90,0.6171,0.59593,0.01201,1.76193,0.04478,0.26427,False
+celltype_neuron > 0.0321 (upper half)  AND  celltype_oligodendrocyte -0.371-0.164 (middle third),2,69,0.61365,0.59085,0.01304,1.74865,0.04975,0.27227,False
+celltype_neuron > 0.194 (high third)  AND  celltype_oligodendrocyte > 0.164 (high third),2,40,0.6062,0.57936,0.01553,1.72867,0.04975,0.27227,False
+celltype_neuron > 0.0321 (upper half)  AND  apoe_genotype = 33,2,134,0.62413,0.60656,0.01017,1.72807,0.02985,0.26427,False
+celltype_neuron > 0.0321 (upper half)  AND  dcfdx_lv = 1,2,93,0.61669,0.59593,0.01201,1.72761,0.04478,0.26427,False
+cts_mmse30_lv <= 26 (lower half)  AND  age_at_visit_max 85.7-90 (middle third),2,163,0.62589,0.61023,0.00913,1.71487,0.03483,0.26427,False
+celltype_neuron > 0.194 (high third)  AND  celltype_oligodendrocyte -0.371-0.164 (middle third),2,51,0.61087,0.58435,0.01562,1.6974,0.06965,0.29528,False
+celltype_neuron > 0.194 (high third)  AND  age_death <= 86.8 (low third),2,53,0.61044,0.58435,0.01562,1.66982,0.06965,0.29528,False
+celltype_neuron > 0.0321 (upper half)  AND  educ <= 14 (low third),2,77,0.61825,0.59548,0.01378,1.6522,0.0597,0.29528,False
+cts_mmse30_lv <= 26 (lower half)  AND  age_death 86.8-90 (middle third),2,165,0.62515,0.61023,0.00913,1.63443,0.0398,0.26427,False
+cts_mmse30_lv <= 26 (lower half)  AND  pmi > 6.5 (upper half),2,99,0.61681,0.599,0.01092,1.63088,0.04478,0.26427,False
+celltype_neuron > 0.0321 (upper half)  AND  age_at_visit_max <= 85.7 (low third),2,78,0.61789,0.59548,0.01378,1.62575,0.0597,0.29528,False
+celltype_astrocyte > 0.235 (high third)  AND  msex = 0,2,88,0.61541,0.59593,0.01201,1.62178,0.04975,0.27227,False
+celltype_neuron > 0.194 (high third)  AND  msex = 1,2,46,0.60929,0.58435,0.01562,1.59629,0.06965,0.29528,False
+celltype_neuron > 0.194 (high third)  AND  pmi > 6.5 (upper half),2,65,0.61183,0.58907,0.01434,1.58709,0.0597,0.29528,False
+cts_mmse30_lv <= 26 (lower half)  AND  msex = 0,2,149,0.62332,0.60722,0.01018,1.58108,0.0398,0.26427,False
+cts_mmse30_lv <= 26 (lower half)  AND  Study = MAP,2,123,0.62121,0.60413,0.01094,1.5617,0.04975,0.27227,False
+celltype_neuron > 0.194 (high third)  AND  cogdx = 1,2,63,0.6109,0.58907,0.01434,1.52266,0.06468,0.29528,False
+celltype_neuron > 0.0321 (upper half)  AND  celltype_oligodendrocyte > -0.127 (upper half),2,90,0.61417,0.59593,0.01201,1.51858,0.05473,0.29415,False
+celltype_neuron > 0.0321 (upper half)  AND  ceradsc = 4,2,57,0.61077,0.58907,0.01434,1.51356,0.06468,0.29528,False
+cts_mmse30_lv <= 26 (lower half)  AND  celltype_microglia <= -0.284 (low third),2,65,0.61072,0.58907,0.01434,1.51016,0.06468,0.29528,False
+cts_mmse30_lv <= 26 (lower half)  AND  pmi 5.67-7.61 (middle third),2,70,0.61049,0.59085,0.01304,1.50636,0.06965,0.29528,False
+celltype_neuron > 0.0321 (upper half)  AND  celltype_astrocyte > 0.235 (high third),2,69,0.61003,0.59085,0.01304,1.47108,0.06965,0.29528,False
+celltype_neuron > 0.194 (high third)  AND  cts_mmse30_lv 23-28 (middle third),2,61,0.60993,0.58907,0.01434,1.45477,0.06468,0.29528,False
+celltype_astrocyte > 0.235 (high third),1,133,0.62122,0.60656,0.01017,1.4423,0.06468,0.29528,False
+celltype_astrocyte > 0.235 (high third)  AND  braaksc <= 4 (lower half),2,101,0.61474,0.599,0.01092,1.44086,0.06965,0.29528,False
+msex = 0,1,281,0.62657,0.61838,0.00574,1.42825,0.08955,0.33872,False
+celltype_neuron > 0.0321 (upper half)  AND  age_death <= 89.4 (lower half),2,106,0.61814,0.60227,0.01113,1.42578,0.09453,0.33872,False
+celltype_neuron > 0.194 (high third)  AND  celltype_astrocyte <= 0.0643 (lower half),2,72,0.60936,0.59085,0.01304,1.41962,0.0796,0.31527,False
+cogdx = 2,1,97,0.61447,0.599,0.01092,1.41603,0.06965,0.29528,False
+celltype_neuron > 0.0321 (upper half)  AND  age_at_visit_max <= 88.9 (lower half),2,107,0.61789,0.60227,0.01113,1.40319,0.09453,0.33872,False
+cts_mmse30_lv <= 26 (lower half)  AND  dcfdx_lv = 2,2,55,0.60915,0.58907,0.01434,1.40027,0.0796,0.31527,False
+celltype_neuron > 0.0321 (upper half)  AND  celltype_oligodendrocyte > 0.164 (high third),2,58,0.60906,0.58907,0.01434,1.39428,0.0796,0.31527,False
+celltype_neuron > 0.0321 (upper half)  AND  celltype_astrocyte <= 0.0643 (lower half),2,106,0.61763,0.60227,0.01113,1.38042,0.0995,0.34826,False
+ceradsc = 2,1,138,0.62098,0.60744,0.01004,1.34941,0.07463,0.31198,False
+educ <= 16 (lower half),1,247,0.62498,0.61683,0.00605,1.34756,0.0796,0.31527,False
+celltype_astrocyte > 0.235 (high third)  AND  Study = MAP,2,87,0.6121,0.59593,0.01201,1.34576,0.08955,0.33872,False
+age_at_visit_max > 88.9 (upper half),1,200,0.62323,0.61266,0.0079,1.33753,0.1194,0.39066,False
+celltype_neuron > 0.194 (high third)  AND  educ <= 16 (lower half),2,80,0.61366,0.59548,0.01378,1.31905,0.09453,0.33872,False
+cts_mmse30_lv <= 26 (lower half)  AND  celltype_endothelial -0.263-0.217 (middle third),2,62,0.60789,0.58907,0.01434,1.31219,0.10448,0.35736,False
+celltype_neuron > 0.0321 (upper half)  AND  Study = MAP,2,126,0.61971,0.60656,0.01017,1.29368,0.10448,0.35736,False
+celltype_astrocyte > 0.235 (high third)  AND  age_death > 89.4 (upper half),2,70,0.60752,0.59085,0.01304,1.27886,0.09453,0.33872,False
+celltype_astrocyte > 0.235 (high third)  AND  age_at_visit_max > 88.9 (upper half),2,69,0.60742,0.59085,0.01304,1.27059,0.0995,0.34826,False
+celltype_neuron > 0.0321 (upper half)  AND  celltype_astrocyte > 0.0643 (upper half),2,94,0.61078,0.59593,0.01201,1.23561,0.09453,0.33872,False
+celltype_neuron > 0.194 (high third)  AND  dcfdx_lv = 1,2,63,0.60678,0.58907,0.01434,1.23505,0.11443,0.37849,False
+celltype_neuron > 0.194 (high third)  AND  celltype_astrocyte > 0.0643 (upper half),2,61,0.6067,0.58907,0.01434,1.22948,0.11443,0.37849,False
+celltype_neuron > 0.0321 (upper half)  AND  dcfdx_lv = 2,2,46,0.60333,0.58435,0.01562,1.21482,0.12935,0.3964,False
+celltype_neuron > 0.0321 (upper half)  AND  educ 14-18 (middle third),2,90,0.61043,0.59593,0.01201,1.2069,0.09453,0.33872,False
+celltype_neuron > 0.0321 (upper half)  AND  celltype_microglia > 0.197 (high third),2,50,0.60309,0.58435,0.01562,1.19968,0.12935,0.3964,False
+educ <= 14 (low third),1,158,0.62117,0.61023,0.00913,1.19851,0.10945,0.37017,False
+celltype_neuron > 0.194 (high third)  AND  celltype_oligodendrocyte > -0.127 (upper half),2,63,0.60584,0.58907,0.01434,1.16943,0.12935,0.3964,False
+celltype_astrocyte > 0.235 (high third)  AND  pmi 5.67-7.61 (middle third),2,43,0.59711,0.57936,0.01553,1.14306,0.12935,0.3964,False
+celltype_astrocyte > 0.235 (high third)  AND  celltype_oligodendrocyte -0.371-0.164 (middle third),2,45,0.59703,0.57936,0.01553,1.13812,0.13433,0.3964,False
+celltype_neuron > 0.0321 (upper half)  AND  celltype_oligodendrocyte <= -0.127 (lower half),2,110,0.6149,0.60227,0.01113,1.13522,0.13433,0.3964,False
+dcfdx_lv = 2,1,100,0.61137,0.599,0.01092,1.13285,0.12935,0.3964,False
+cts_mmse30_lv <= 26 (lower half)  AND  celltype_microglia > -0.077 (upper half),2,106,0.61477,0.60227,0.01113,1.12341,0.13433,0.3964,False
+cts_mmse30_lv <= 26 (lower half)  AND  celltype_microglia <= -0.077 (lower half),2,104,0.61107,0.599,0.01092,1.10544,0.13433,0.3964,False
+celltype_neuron > 0.194 (high third)  AND  pmi 5.67-7.61 (middle third),2,46,0.60152,0.58435,0.01562,1.09934,0.14428,0.40587,False
+celltype_astrocyte > 0.235 (high third)  AND  pmi > 6.5 (upper half),2,48,0.60122,0.58435,0.01562,1.08009,0.14428,0.40587,False
+celltype_microglia > -0.077 (upper half),1,200,0.62112,0.61266,0.0079,1.07011,0.16418,0.42602,False
+celltype_neuron > 0.194 (high third)  AND  celltype_microglia -0.284-0.197 (middle third),2,43,0.59572,0.57936,0.01553,1.05395,0.17413,0.43677,False
+celltype_neuron > 0.0321 (upper half)  AND  age_death <= 86.8 (low third),2,80,0.60993,0.59548,0.01378,1.04801,0.12438,0.3964,False
+age_death > 89.4 (upper half),1,200,0.62091,0.61266,0.0079,1.04409,0.16418,0.42602,False
+cts_mmse30_lv <= 26 (lower half)  AND  braaksc 3-4 (middle third),2,71,0.60441,0.59085,0.01304,1.03955,0.1393,0.39934,False
+celltype_astrocyte > 0.235 (high third)  AND  celltype_microglia <= -0.077 (lower half),2,61,0.60342,0.58907,0.01434,1.0007,0.14925,0.41598,False
+celltype_neuron > 0.0321 (upper half)  AND  age_death 86.8-90 (middle third),2,120,0.61505,0.60413,0.01094,0.99818,0.16915,0.42786,False
+celltype_neuron > 0.0321 (upper half)  AND  pmi > 7.61 (high third),2,67,0.60372,0.59085,0.01304,0.98685,0.1393,0.39934,False
+celltype_astrocyte > 0.235 (high third)  AND  cts_mmse30_lv 23-28 (middle third),2,62,0.6032,0.58907,0.01434,0.98561,0.15423,0.42203,False
+cts_mmse30_lv <= 26 (lower half)  AND  pmi > 7.61 (high third),2,67,0.60343,0.59085,0.01304,0.96454,0.1393,0.39934,False
+celltype_neuron > 0.194 (high third)  AND  educ 14-18 (middle third),2,65,0.60286,0.58907,0.01434,0.96181,0.16418,0.42602,False
+cts_mmse30_lv 23-28 (middle third),1,174,0.61961,0.61085,0.00916,0.95625,0.16418,0.42602,False
+celltype_astrocyte > 0.235 (high third)  AND  age_death 86.8-90 (middle third),2,92,0.6074,0.59593,0.01201,0.95441,0.1791,0.4383,False
+celltype_neuron > 0.0321 (upper half)  AND  celltype_microglia <= -0.284 (low third),2,88,0.60733,0.59593,0.01201,0.94842,0.1791,0.4383,False
+cts_mmse30_lv <= 26 (lower half)  AND  celltype_endothelial <= -0.043 (lower half),2,107,0.6128,0.60227,0.01113,0.94603,0.16915,0.42786,False
+celltype_astrocyte > 0.235 (high third)  AND  celltype_microglia <= -0.284 (low third),2,41,0.59384,0.57936,0.01553,0.93296,0.18905,0.45163,False
+celltype_neuron > 0.194 (high third)  AND  Study = ROS,2,52,0.5989,0.58435,0.01562,0.93126,0.16915,0.42786,False
+celltype_neuron > 0.0321 (upper half)  AND  Study = ROS,2,74,0.6028,0.59085,0.01304,0.91653,0.15423,0.42203,False
+cts_mmse30_lv <= 26 (lower half)  AND  celltype_endothelial > -0.043 (upper half),2,103,0.60894,0.599,0.01092,0.90956,0.19403,0.4548,False
+celltype_neuron > 0.194 (high third)  AND  celltype_endothelial <= -0.263 (low third),2,65,0.60207,0.58907,0.01434,0.9066,0.19403,0.4548,False
+cts_mmse30_lv <= 26 (lower half)  AND  apoe_genotype = 33,2,142,0.6165,0.60744,0.01004,0.90281,0.1791,0.4383,False
+celltype_astrocyte > 0.235 (high third)  AND  celltype_microglia > -0.077 (upper half),2,72,0.60257,0.59085,0.01304,0.89851,0.16418,0.42602,False
+celltype_neuron > 0.194 (high third)  AND  apoe_genotype = 33,2,89,0.60665,0.59593,0.01201,0.89244,0.20398,0.4548,False
+celltype_oligodendrocyte -0.371-0.164 (middle third),1,133,0.61539,0.60656,0.01017,0.86866,0.18408,0.44326,False
+celltype_neuron > 0.0321 (upper half)  AND  age_at_visit_max > 88.9 (upper half),2,93,0.60635,0.59593,0.01201,0.86694,0.20398,0.4548,False
+age_death 86.8-90 (middle third),1,266,0.62316,0.61843,0.0055,0.86022,0.16418,0.42602,False
+celltype_oligodendrocyte <= -0.127 (lower half),1,200,0.61945,0.61266,0.0079,0.85936,0.22388,0.49188,False
+celltype_astrocyte > 0.235 (high third)  AND  age_at_visit_max 85.7-90 (middle third),2,90,0.60596,0.59593,0.01201,0.83447,0.21891,0.48449,False
+celltype_neuron > 0.194 (high third)  AND  ceradsc = 2,2,44,0.592,0.57936,0.01553,0.8143,0.20398,0.4548,False
+celltype_astrocyte > 0.235 (high third)  AND  cogdx = 1,2,51,0.59707,0.58435,0.01562,0.81404,0.199,0.4548,False
+celltype_neuron > 0.194 (high third)  AND  educ <= 14 (low third),2,50,0.59705,0.58435,0.01562,0.81312,0.199,0.4548,False
+celltype_neuron > 0.194 (high third)  AND  celltype_oligodendrocyte <= -0.127 (lower half),2,70,0.60144,0.59085,0.01304,0.8117,0.20398,0.4548,False
+cts_mmse30_lv <= 26 (lower half)  AND  celltype_oligodendrocyte -0.371-0.164 (middle third),2,77,0.60636,0.59548,0.01378,0.78946,0.18408,0.44326,False
+celltype_astrocyte > 0.235 (high third)  AND  dcfdx_lv = 1,2,52,0.59663,0.58435,0.01562,0.78624,0.20398,0.4548,False
+celltype_neuron > 0.0321 (upper half)  AND  age_death > 89.4 (upper half),2,94,0.60514,0.59593,0.01201,0.7662,0.23383,0.50635,False
+cts_mmse30_lv <= 26 (lower half)  AND  celltype_neuron -0.149-0.194 (middle third),2,67,0.60022,0.59085,0.01304,0.71835,0.23881,0.50979,False
+cts_mmse30_lv <= 26 (lower half)  AND  celltype_oligodendrocyte <= -0.371 (low third),2,68,0.59998,0.59085,0.01304,0.70008,0.23881,0.50979,False
+celltype_astrocyte > 0.235 (high third)  AND  celltype_microglia -0.284-0.197 (middle third),2,42,0.59009,0.57936,0.01553,0.69101,0.24378,0.51675,False
+pmi 5.67-7.61 (middle third),1,131,0.61355,0.60656,0.01017,0.68718,0.23383,0.50635,False
+cogdx = 1,1,168,0.61705,0.61085,0.00916,0.67726,0.25373,0.53037,False
+celltype_astrocyte > 0.235 (high third)  AND  celltype_endothelial <= -0.043 (lower half),2,53,0.59471,0.58435,0.01562,0.6634,0.25373,0.53037,False
+celltype_neuron > 0.0321 (upper half)  AND  celltype_endothelial -0.263-0.217 (middle third),2,67,0.5992,0.59085,0.01304,0.64008,0.25871,0.53336,False
+celltype_neuron > 0.0321 (upper half)  AND  msex = 0,2,130,0.61277,0.60656,0.01017,0.61095,0.25871,0.53336,False
+cts_mmse30_lv <= 26 (lower half)  AND  celltype_oligodendrocyte > -0.127 (upper half),2,108,0.60895,0.60227,0.01113,0.60028,0.26368,0.53992,False
+celltype_neuron > 0.194 (high third)  AND  Study = MAP,2,81,0.60364,0.59548,0.01378,0.59191,0.27363,0.55651,False
+celltype_neuron > 0.0321 (upper half)  AND  celltype_microglia -0.284-0.197 (middle third),2,62,0.59747,0.58907,0.01434,0.58544,0.28856,0.5592,False
+celltype_neuron > 0.194 (high third)  AND  celltype_endothelial > -0.043 (upper half),2,46,0.59316,0.58435,0.01562,0.564,0.28856,0.5592,False
+celltype_neuron > 0.0321 (upper half)  AND  celltype_astrocyte <= -0.186 (low third),2,75,0.60326,0.59548,0.01378,0.56393,0.28358,0.5592,False
+celltype_neuron > 0.0321 (upper half)  AND  pmi <= 6.5 (lower half),2,99,0.60512,0.599,0.01092,0.56011,0.28358,0.5592,False
+celltype_neuron > 0.0321 (upper half)  AND  celltype_microglia <= -0.077 (lower half),2,120,0.61026,0.60413,0.01094,0.56003,0.29353,0.5592,False
+celltype_neuron > 0.0321 (upper half)  AND  age_at_visit_max 85.7-90 (middle third),2,122,0.61022,0.60413,0.01094,0.55685,0.29353,0.5592,False
+celltype_astrocyte > 0.235 (high third)  AND  msex = 1,2,45,0.5879,0.57936,0.01553,0.5502,0.28358,0.5592,False
+celltype_neuron > 0.0321 (upper half)  AND  cts_mmse30_lv > 28 (high third),2,41,0.5879,0.57936,0.01553,0.54995,0.28358,0.5592,False
+cts_mmse30_lv <= 26 (lower half)  AND  celltype_oligodendrocyte > 0.164 (high third),2,65,0.5968,0.58907,0.01434,0.53865,0.31343,0.57879,False
+celltype_astrocyte > 0.235 (high third)  AND  pmi <= 6.5 (lower half),2,84,0.60281,0.59548,0.01378,0.53177,0.30846,0.57668,False
+celltype_neuron > 0.194 (high third)  AND  pmi <= 6.5 (lower half),2,66,0.59738,0.59085,0.01304,0.50055,0.29353,0.5592,False
+age_at_visit_max 85.7-90 (middle third),1,266,0.62118,0.61843,0.0055,0.50051,0.29353,0.5592,False
+cts_mmse30_lv <= 26 (lower half)  AND  braaksc <= 3 (low third),2,77,0.60219,0.59548,0.01378,0.48656,0.32338,0.58993,False
+celltype_neuron > 0.194 (high third)  AND  msex = 0,2,87,0.60158,0.59593,0.01201,0.46992,0.33831,0.5955,False
+age_first_ad_dx > 89 (upper half),1,66,0.5969,0.59085,0.01304,0.46368,0.31343,0.57879,False
+celltype_astrocyte > 0.235 (high third)  AND  age_at_visit_max <= 85.7 (low third),2,43,0.58655,0.57936,0.01553,0.46327,0.30846,0.57668,False
+braaksc <= 4 (lower half),1,326,0.62258,0.62076,0.00397,0.46008,0.30348,0.57452,False
+celltype_astrocyte > 0.235 (high third)  AND  celltype_endothelial > -0.043 (upper half),2,80,0.60177,0.59548,0.01378,0.45621,0.32836,0.59183,False
+pmi > 6.5 (upper half),1,197,0.6161,0.61266,0.0079,0.43583,0.32836,0.59183,False
+cts_mmse30_lv <= 26 (lower half)  AND  celltype_microglia -0.284-0.197 (middle third),2,82,0.60145,0.59548,0.01378,0.43324,0.33333,0.59369,False
+cts_mmse30_lv <= 26 (lower half)  AND  pmi <= 6.5 (lower half),2,110,0.60705,0.60227,0.01113,0.42972,0.31841,0.5844,False
+braaksc <= 3 (low third),1,195,0.61576,0.61266,0.0079,0.39263,0.35821,0.62324,False
+celltype_astrocyte > 0.235 (high third)  AND  celltype_endothelial -0.263-0.217 (middle third),2,43,0.58502,0.57936,0.01553,0.3649,0.33333,0.59369,False
+celltype_neuron > 0.194 (high third)  AND  celltype_astrocyte <= -0.186 (low third),2,54,0.59002,0.58435,0.01562,0.36314,0.33831,0.5955,False
+celltype_endothelial <= -0.043 (lower half),1,200,0.61539,0.61266,0.0079,0.3448,0.37313,0.64179,False
+celltype_astrocyte > 0.235 (high third)  AND  braaksc <= 3 (low third),2,61,0.59391,0.58907,0.01434,0.33729,0.37811,0.64665,False
+celltype_neuron > 0.194 (high third)  AND  age_death 86.8-90 (middle third),2,80,0.59995,0.59548,0.01378,0.32393,0.36318,0.62827,False
+cts_mmse30_lv <= 26 (lower half)  AND  celltype_endothelial <= -0.263 (low third),2,74,0.59479,0.59085,0.01304,0.3018,0.39801,0.65567,False
+cts_mmse30_lv <= 26 (lower half)  AND  age_first_ad_dx > 89 (upper half),2,64,0.59337,0.58907,0.01434,0.29966,0.39303,0.65567,False
+apoe_genotype = 34,1,73,0.59462,0.59085,0.01304,0.28906,0.39801,0.65567,False
+celltype_neuron > 0.194 (high third)  AND  braaksc 3-4 (middle third),2,47,0.58886,0.58435,0.01562,0.28898,0.34826,0.60945,False
+celltype_astrocyte > 0.235 (high third)  AND  age_death <= 86.8 (low third),2,41,0.58361,0.57936,0.01553,0.27404,0.39801,0.65567,False
+dcfdx_lv = 1,1,174,0.61336,0.61085,0.00916,0.27385,0.40299,0.65567,False
+celltype_endothelial > -0.043 (upper half),1,200,0.61482,0.61266,0.0079,0.27326,0.39801,0.65567,False
+celltype_neuron > 0.0321 (upper half)  AND  age_first_ad_dx 86.5-90 (middle third),2,42,0.58345,0.57936,0.01553,0.26387,0.40299,0.65567,False
+celltype_astrocyte > 0.235 (high third)  AND  celltype_neuron -0.149-0.194 (middle third),2,44,0.58345,0.57936,0.01553,0.26362,0.40299,0.65567,False
+celltype_neuron > 0.0321 (upper half)  AND  braaksc 3-4 (middle third),2,66,0.59429,0.59085,0.01304,0.26348,0.41791,0.66206,False
+cts_mmse30_lv <= 26 (lower half)  AND  celltype_endothelial > 0.217 (high third),2,74,0.59413,0.59085,0.01304,0.25159,0.41791,0.66206,False
+celltype_neuron > 0.0321 (upper half)  AND  cts_mmse30_lv <= 23 (low third),2,69,0.59412,0.59085,0.01304,0.25061,0.41791,0.66206,False
+celltype_neuron > 0.194 (high third)  AND  celltype_microglia <= -0.077 (lower half),2,79,0.59859,0.59548,0.01378,0.22555,0.40796,0.66019,False
+celltype_astrocyte <= 0.0643 (lower half),1,200,0.61427,0.61266,0.0079,0.20428,0.41791,0.66206,False
+celltype_neuron > 0.194 (high third)  AND  age_at_visit_max > 88.9 (upper half),2,64,0.59196,0.58907,0.01434,0.20134,0.42289,0.66471,False
+celltype_astrocyte > 0.0643 (upper half),1,200,0.61418,0.61266,0.0079,0.19246,0.42786,0.66471,False
+celltype_neuron > 0.194 (high third)  AND  cts_mmse30_lv > 26 (upper half),2,62,0.59162,0.58907,0.01434,0.17783,0.42786,0.66471,False
+celltype_astrocyte > 0.235 (high third)  AND  celltype_endothelial > 0.217 (high third),2,54,0.58712,0.58435,0.01562,0.17733,0.40299,0.65567,False
+celltype_neuron > 0.194 (high third)  AND  cts_mmse30_lv <= 23 (low third),2,45,0.58186,0.57936,0.01553,0.16097,0.43781,0.66894,False
+celltype_astrocyte > 0.235 (high third)  AND  age_at_visit_max <= 88.9 (lower half),2,64,0.59137,0.58907,0.01434,0.16033,0.43284,0.66471,False
+cts_mmse30_lv <= 26 (lower half)  AND  cts_mmse30_first_ad_dx <= 21 (lower half),2,71,0.59286,0.59085,0.01304,0.15396,0.44279,0.66974,False
+cts_mmse30_first_ad_dx <= 21 (lower half),1,71,0.59286,0.59085,0.01304,0.15396,0.44279,0.66974,False
+celltype_neuron > 0.0321 (upper half)  AND  celltype_endothelial > -0.043 (upper half),2,76,0.59735,0.59548,0.01378,0.13557,0.43284,0.66471,False
+celltype_microglia <= -0.284 (low third),1,134,0.60789,0.60656,0.01017,0.13098,0.49254,0.69794,False
+celltype_astrocyte > 0.235 (high third)  AND  cts_mmse30_lv <= 23 (low third),2,49,0.5862,0.58435,0.01562,0.1182,0.43284,0.66471,False
+cts_mmse30_lv <= 26 (lower half)  AND  Study = ROS,2,87,0.59735,0.59593,0.01201,0.11771,0.47264,0.69794,False
+pmi <= 5.67 (low third),1,134,0.6076,0.60656,0.01017,0.10232,0.49254,0.69794,False
+cts_mmse30_lv <= 26 (lower half)  AND  celltype_astrocyte <= 0.0643 (lower half),2,95,0.60009,0.599,0.01092,0.09967,0.48756,0.69794,False
+celltype_neuron > 0.194 (high third)  AND  pmi <= 5.67 (low third),2,43,0.58084,0.57936,0.01553,0.09568,0.47761,0.69794,False
+celltype_neuron > 0.194 (high third)  AND  celltype_microglia <= -0.284 (low third),2,60,0.59037,0.58907,0.01434,0.09069,0.45771,0.68886,False
+celltype_endothelial -0.263-0.217 (middle third),1,133,0.60745,0.60656,0.01017,0.08749,0.49254,0.69794,False
+celltype_neuron -0.149-0.194 (middle third),1,133,0.60744,0.60656,0.01017,0.08662,0.49254,0.69794,False
+ceradsc = 4,1,106,0.60294,0.60227,0.01113,0.06086,0.47761,0.69794,False
+celltype_astrocyte > 0.235 (high third)  AND  celltype_neuron <= 0.0321 (lower half),2,64,0.58994,0.58907,0.01434,0.06024,0.47264,0.69794,False
+celltype_neuron > 0.194 (high third)  AND  age_death > 89.4 (upper half),2,64,0.58983,0.58907,0.01434,0.05237,0.47761,0.69794,False
+celltype_neuron > 0.0321 (upper half)  AND  cts_mmse30_lv > 26 (upper half),2,89,0.59635,0.59593,0.01201,0.03496,0.51244,0.69794,False
+cts_mmse30_lv <= 26 (lower half)  AND  msex = 1,2,61,0.58949,0.58907,0.01434,0.02931,0.48756,0.69794,False
+celltype_microglia > 0.197 (high third),1,133,0.60684,0.60656,0.01017,0.02744,0.50249,0.69794,False
+celltype_astrocyte > 0.235 (high third)  AND  age_death <= 89.4 (lower half),2,63,0.58938,0.58907,0.01434,0.02096,0.49254,0.69794,False
+celltype_astrocyte > 0.235 (high third)  AND  braaksc 3-4 (middle third),2,40,0.57961,0.57936,0.01553,0.01634,0.50746,0.69794,False
+celltype_microglia -0.284-0.197 (middle third),1,133,0.60657,0.60656,0.01017,0.00109,0.51244,0.69794,False
+celltype_neuron > 0.0321 (upper half)  AND  pmi <= 5.67 (low third),2,62,0.58894,0.58907,0.01434,-0.0091,0.49751,0.69794,False
+age_first_ad_dx 86.5-90 (middle third),1,88,0.59579,0.59593,0.01201,-0.01173,0.52239,0.70828,False
+cts_mmse30_lv <= 26 (lower half)  AND  pmi <= 5.67 (low third),2,72,0.59043,0.59085,0.01304,-0.03256,0.50249,0.69794,False
+pmi <= 6.5 (lower half),1,201,0.6124,0.61266,0.0079,-0.03341,0.49751,0.69794,False
+celltype_neuron > 0.194 (high third)  AND  age_at_visit_max 85.7-90 (middle third),2,82,0.59465,0.59548,0.01378,-0.06029,0.53234,0.71533,False
+celltype_astrocyte > 0.235 (high third)  AND  celltype_oligodendrocyte <= -0.127 (lower half),2,74,0.59005,0.59085,0.01304,-0.06203,0.51244,0.69794,False
+celltype_neuron > 0.0321 (upper half)  AND  celltype_oligodendrocyte <= -0.371 (low third),2,73,0.58989,0.59085,0.01304,-0.07413,0.51244,0.69794,False
+celltype_neuron > 0.194 (high third)  AND  educ > 16 (upper half),2,53,0.58318,0.58435,0.01562,-0.07469,0.53234,0.71533,False
+cts_mmse30_lv <= 26 (lower half)  AND  age_death <= 89.4 (lower half),2,82,0.59398,0.59548,0.01378,-0.10886,0.57711,0.72988,False
+celltype_astrocyte <= -0.186 (low third),1,134,0.60539,0.60656,0.01017,-0.11476,0.55721,0.72988,False
+cts_mmse30_lv <= 26 (lower half)  AND  celltype_microglia > 0.197 (high third),2,63,0.58734,0.58907,0.01434,-0.12121,0.54726,0.72888,False
+Study = MAP,1,252,0.61601,0.61683,0.00605,-0.1348,0.57214,0.72988,False
+celltype_astrocyte > 0.235 (high third)  AND  pmi <= 5.67 (low third),2,56,0.58705,0.58907,0.01434,-0.14129,0.55721,0.72988,False
+celltype_astrocyte > 0.235 (high third)  AND  educ 14-18 (middle third),2,51,0.58208,0.58435,0.01562,-0.14502,0.57214,0.72988,False
+celltype_endothelial <= -0.263 (low third),1,134,0.60507,0.60656,0.01017,-0.14675,0.57214,0.72988,False
+celltype_endothelial > 0.217 (high third),1,133,0.60506,0.60656,0.01017,-0.14753,0.57214,0.72988,False
+braaksc > 4 (upper half),1,74,0.58889,0.59085,0.01304,-0.15094,0.57214,0.72988,False
+braaksc > 4 (high third),1,74,0.58889,0.59085,0.01304,-0.15094,0.57214,0.72988,False
+ceradsc = 3,1,43,0.57701,0.57936,0.01553,-0.15114,0.54229,0.72546,False
+celltype_astrocyte > 0.235 (high third)  AND  Study = ROS,2,46,0.58188,0.58435,0.01562,-0.1581,0.57711,0.72988,False
+braaksc 3-4 (middle third),1,131,0.60491,0.60656,0.01017,-0.16277,0.58706,0.73628,False
+cts_mmse30_lv <= 26 (lower half)  AND  braaksc > 4 (upper half),2,62,0.58673,0.58907,0.01434,-0.16381,0.57711,0.72988,False
+cts_mmse30_lv <= 26 (lower half)  AND  braaksc > 4 (high third),2,62,0.58673,0.58907,0.01434,-0.16381,0.57711,0.72988,False
+celltype_neuron > 0.0321 (upper half)  AND  celltype_endothelial > 0.217 (high third),2,46,0.58112,0.58435,0.01562,-0.20655,0.59701,0.73951,False
+cts_mmse30_lv <= 26 (lower half)  AND  age_first_ad_dx 86.5-90 (middle third),2,85,0.59263,0.59548,0.01378,-0.20719,0.60697,0.74876,False
+cts_mmse30_lv <= 26 (lower half)  AND  age_at_visit_max <= 88.9 (lower half),2,79,0.59236,0.59548,0.01378,-0.22703,0.61194,0.74876,False
+cts_mmse30_lv <= 26 (lower half)  AND  celltype_astrocyte -0.186-0.235 (middle third),2,70,0.58784,0.59085,0.01304,-0.23164,0.59701,0.73951,False
+cts_mmse30_lv <= 26 (lower half)  AND  apoe_genotype = 34,2,40,0.57509,0.57936,0.01553,-0.2744,0.58706,0.73628,False
+Study = ROS,1,148,0.60392,0.60722,0.01018,-0.32387,0.59701,0.73951,False
+celltype_oligodendrocyte > 0.164 (high third),1,133,0.60296,0.60656,0.01017,-0.35392,0.64677,0.78183,False
+celltype_astrocyte > 0.235 (high third)  AND  celltype_neuron <= -0.149 (low third),2,44,0.57382,0.57936,0.01553,-0.35627,0.62189,0.75785,False
+educ 14-18 (middle third),1,168,0.60756,0.61085,0.00916,-0.35943,0.61194,0.74876,False
+celltype_astrocyte > 0.235 (high third)  AND  apoe_genotype = 33,2,86,0.59116,0.59593,0.01201,-0.39739,0.64677,0.78183,False
+cts_mmse30_lv <= 26 (lower half)  AND  educ > 16 (upper half),2,86,0.59071,0.59593,0.01201,-0.43518,0.66667,0.80267,False
+celltype_astrocyte > 0.235 (high third)  AND  cts_mmse30_lv > 26 (upper half),2,53,0.57687,0.58435,0.01562,-0.47894,0.69154,0.82601,False
+celltype_microglia <= -0.077 (lower half),1,200,0.60885,0.61266,0.0079,-0.48235,0.68159,0.81737,False
+celltype_neuron > 0.0321 (upper half)  AND  educ > 16 (upper half),2,77,0.58881,0.59548,0.01378,-0.4843,0.71144,0.84309,False
+celltype_astrocyte > 0.235 (high third)  AND  celltype_microglia > 0.197 (high third),2,50,0.57559,0.58435,0.01562,-0.56058,0.72139,0.85153,False
+cts_mmse30_lv > 28 (high third),1,90,0.58902,0.59593,0.01201,-0.57569,0.70149,0.83458,False
+celltype_astrocyte > 0.235 (high third)  AND  celltype_oligodendrocyte <= -0.371 (low third),2,52,0.5748,0.58435,0.01562,-0.61092,0.73134,0.8599,False
+celltype_oligodendrocyte > -0.127 (upper half),1,200,0.60783,0.61266,0.0079,-0.61129,0.76119,0.88123,False
+pmi > 7.61 (high third),1,133,0.59997,0.60656,0.01017,-0.64854,0.74627,0.87065,False
+cts_mmse30_lv <= 26 (lower half)  AND  celltype_neuron <= 0.0321 (lower half),2,99,0.59192,0.599,0.01092,-0.64869,0.74129,0.86821,False
+cts_mmse30_lv <= 26 (lower half)  AND  celltype_astrocyte <= -0.186 (low third),2,60,0.57889,0.58907,0.01434,-0.71047,0.77114,0.88593,False
+age_at_visit_max <= 85.7 (low third),1,134,0.59915,0.60656,0.01017,-0.7293,0.76119,0.88123,False
+cts_mmse30_lv <= 26 (lower half)  AND  age_death <= 86.8 (low third),2,45,0.56794,0.57936,0.01553,-0.73491,0.77114,0.88593,False
+celltype_neuron > 0.0321 (upper half)  AND  celltype_astrocyte -0.186-0.235 (middle third),2,56,0.57792,0.58907,0.01434,-0.77811,0.78109,0.89395,False
+cts_mmse30_lv <= 26 (lower half)  AND  educ 14-18 (middle third),2,84,0.5844,0.59548,0.01378,-0.80445,0.81592,0.91982,False
+apoe_genotype = 33,1,256,0.61291,0.61788,0.00617,-0.80644,0.79104,0.90191,False
+cts_mmse30_lv <= 23 (low third),1,136,0.5983,0.60744,0.01004,-0.91046,0.801,0.90981,False
+celltype_oligodendrocyte <= -0.371 (low third),1,134,0.59715,0.60656,0.01017,-0.92569,0.81592,0.91982,False
+cts_mmse30_lv <= 26 (lower half)  AND  age_first_ad_dx <= 86.5 (low third),2,42,0.56495,0.57936,0.01553,-0.92733,0.85075,0.938,False
+age_first_ad_dx <= 86.5 (low third),1,44,0.56456,0.57936,0.01553,-0.95297,0.8607,0.93858,False
+cts_mmse30_lv <= 26 (lower half)  AND  educ > 18 (high third),2,41,0.56422,0.57936,0.01553,-0.97448,0.87065,0.93858,False
+cts_mmse30_lv <= 26 (lower half)  AND  celltype_neuron <= -0.149 (low third),2,72,0.5778,0.59085,0.01304,-1.00166,0.83085,0.92968,False
+celltype_neuron > 0.194 (high third)  AND  celltype_oligodendrocyte <= -0.371 (low third),2,42,0.56378,0.57936,0.01553,-1.00293,0.87562,0.93858,False
+age_death <= 89.4 (lower half),1,200,0.60464,0.61266,0.0079,-1.01479,0.8408,0.93044,False
+cts_mmse30_lv <= 26 (lower half)  AND  age_at_visit_max <= 85.7 (low third),2,47,0.56784,0.58435,0.01562,-1.05658,0.83085,0.92968,False
+celltype_neuron > 0.0321 (upper half)  AND  cogdx = 4,2,55,0.5732,0.58907,0.01434,-1.10738,0.83582,0.93044,False
+celltype_neuron > 0.0321 (upper half)  AND  dcfdx_lv = 4,2,51,0.56636,0.58435,0.01562,-1.15125,0.87065,0.93858,False
+cts_mmse30_first_ad_dx > 21 (upper half),1,55,0.57241,0.58907,0.01434,-1.16268,0.8408,0.93044,False
+cts_mmse30_first_ad_dx <= 18 (low third),1,48,0.56614,0.58435,0.01562,-1.16566,0.88557,0.93858,False
+cts_mmse30_lv <= 26 (lower half)  AND  cts_mmse30_first_ad_dx <= 18 (low third),2,48,0.56614,0.58435,0.01562,-1.16566,0.88557,0.93858,False
+cts_mmse30_lv <= 26 (lower half)  AND  ceradsc = 1,2,78,0.57939,0.59548,0.01378,-1.16786,0.89055,0.94054,False
+age_at_visit_max <= 88.9 (lower half),1,200,0.60339,0.61266,0.0079,-1.17334,0.8806,0.93858,False
+msex = 1,1,119,0.59103,0.60413,0.01094,-1.19759,0.88557,0.93858,False
+cts_mmse30_lv <= 26 (lower half)  AND  cts_mmse30_first_ad_dx > 21 (upper half),2,51,0.56558,0.58435,0.01562,-1.20159,0.90547,0.94634,False
+celltype_astrocyte > 0.235 (high third)  AND  educ > 16 (upper half),2,57,0.57164,0.58907,0.01434,-1.21591,0.87065,0.93858,False
+age_death <= 86.8 (low third),1,134,0.59397,0.60656,0.01017,-1.23907,0.88557,0.93858,False
+cts_mmse30_lv <= 26 (lower half)  AND  age_first_ad_dx <= 89 (lower half),2,63,0.57105,0.58907,0.01434,-1.25728,0.8806,0.93858,False
+celltype_neuron > 0.0321 (upper half)  AND  ceradsc = 1,2,48,0.56427,0.58435,0.01562,-1.28482,0.9204,0.95862,False
+age_first_ad_dx <= 89 (lower half),1,66,0.57317,0.59085,0.01304,-1.3568,0.90547,0.94634,False
+cts_mmse30_lv > 26 (upper half),1,190,0.60159,0.61252,0.00805,-1.35863,0.89552,0.94249,False
+educ > 16 (upper half),1,153,0.59289,0.60722,0.01018,-1.40714,0.95025,0.97338,False
+celltype_astrocyte > 0.235 (high third)  AND  ceradsc = 1,2,40,0.5555,0.57936,0.01553,-1.53593,0.9403,0.97261,False
+educ > 18 (high third),1,74,0.5698,0.59085,0.01304,-1.61561,0.9403,0.97261,False
+celltype_astrocyte > 0.235 (high third)  AND  cogdx = 4,2,42,0.55391,0.57936,0.01553,-1.63856,0.95025,0.97338,False
+cogdx = 4,1,109,0.58336,0.60227,0.01113,-1.699,0.9602,0.97338,False
+dcfdx_lv = 4,1,104,0.58018,0.599,0.01092,-1.72363,0.95522,0.97338,False
+celltype_neuron <= -0.149 (low third),1,134,0.58894,0.60656,0.01017,-1.73303,0.96517,0.97338,False
+cts_mmse30_lv <= 26 (lower half)  AND  cogdx = 4,2,106,0.58296,0.60227,0.01113,-1.73411,0.97015,0.97338,False
+cts_mmse30_lv <= 26 (lower half)  AND  dcfdx_lv = 4,2,102,0.57929,0.599,0.01092,-1.80512,0.9602,0.97338,False
+celltype_astrocyte -0.186-0.235 (middle third),1,133,0.58649,0.60656,0.01017,-1.97421,0.97015,0.97338,False
+celltype_neuron <= 0.0321 (lower half),1,200,0.59634,0.61266,0.0079,-2.06492,0.97015,0.97338,False
+ceradsc = 1,1,113,0.5762,0.60227,0.01113,-2.34171,0.98507,0.98507,False

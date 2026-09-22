@@ -1,0 +1,420 @@
+region,depth,n,auroc,null_mean,null_sd,z,p_vs_random_same_size,q_fdr,strong
+PMI <= 6.83 (lower half)  AND  race = White,2,256,0.66149,0.63352,0.00835,3.3519,0.00498,0.05084,True
+PMI <= 6.83 (lower half)  AND  celltype_microglia <= -0.289 (low third),2,139,0.66332,0.62586,0.01125,3.3312,0.00498,0.05084,True
+PMI <= 5.17 (low third)  AND  race = White,2,172,0.65883,0.62836,0.00978,3.11595,0.00498,0.05084,True
+celltype_neuron <= 0.103 (lower half)  AND  celltype_oligodendrocyte <= -0.11 (lower half),2,162,0.65629,0.62746,0.0103,2.79944,0.00498,0.05084,True
+PMI <= 6.83 (lower half)  AND  celltype_astrocyte <= -0.213 (low third),2,108,0.65502,0.62088,0.01248,2.73496,0.00498,0.05084,True
+PMI <= 5.17 (low third)  AND  celltype_astrocyte <= 0.0206 (lower half),2,116,0.65367,0.6223,0.01165,2.6924,0.00995,0.07188,True
+race = White  AND  sex = female,2,279,0.65557,0.63475,0.0078,2.66861,0.00995,0.07188,True
+celltype_neuron <= 0.103 (lower half)  AND  reag = Low Likelihood,2,64,0.65333,0.60994,0.01645,2.63829,0.01493,0.08934,True
+PMI <= 6.83 (lower half)  AND  celltype_astrocyte <= 0.0206 (lower half),2,177,0.65464,0.62963,0.00957,2.61379,0.01493,0.08934,True
+celltype_neuron <= 0.103 (lower half)  AND  ADoutcome = Control,2,66,0.64706,0.61159,0.01371,2.58675,0.00498,0.05084,True
+PMI <= 5.17 (low third)  AND  celltype_microglia <= -0.289 (low third),2,95,0.65486,0.62031,0.01354,2.55053,0.00498,0.05084,True
+PMI <= 6.83 (lower half)  AND  celltype_microglia <= -0.0479 (lower half),2,202,0.65503,0.63218,0.00911,2.50853,0.01493,0.08934,True
+PMI <= 5.17 (low third)  AND  celltype_astrocyte <= -0.213 (low third),2,71,0.64561,0.61159,0.01371,2.48144,0.00498,0.05084,True
+PMI <= 5.17 (low third)  AND  celltype_endothelial -0.298-0.239 (middle third),2,102,0.65354,0.62031,0.01354,2.45368,0.00498,0.05084,True
+PMI <= 5.17 (low third)  AND  sex = female,2,160,0.65247,0.62746,0.0103,2.42893,0.00995,0.07188,True
+celltype_neuron <= -0.0632 (low third)  AND  celltype_microglia <= -0.0479 (lower half),2,77,0.64963,0.61449,0.01459,2.40859,0.00498,0.05084,True
+celltype_neuron <= -0.0632 (low third)  AND  dataContributionGroup = Rush,2,110,0.65062,0.62088,0.01248,2.38236,0.00995,0.07188,True
+celltype_neuron <= 0.103 (lower half)  AND  race = White,2,224,0.65451,0.63266,0.00924,2.36599,0.00995,0.07188,True
+celltype_neuron <= 0.103 (lower half)  AND  amyAny = 0,2,51,0.64491,0.60492,0.01704,2.34623,0.00995,0.07188,True
+celltype_neuron <= 0.103 (lower half)  AND  amyCerad = None/No AD/C0,2,51,0.64491,0.60492,0.01704,2.34623,0.00995,0.07188,True
+PMI <= 5.17 (low third)  AND  isHispanic = FALSE,2,228,0.65357,0.63332,0.00882,2.29604,0.01493,0.08934,True
+celltype_neuron <= 0.103 (lower half),1,482,0.65168,0.641,0.0048,2.22365,0.0199,0.10971,False
+PMI <= 6.83 (lower half),1,409,0.65128,0.63914,0.00552,2.19679,0.00995,0.07188,True
+PMI <= 5.17 (low third)  AND  bScore = Braak Stage III-IV,2,99,0.65,0.62031,0.01354,2.19214,0.00995,0.07188,True
+race = White  AND  celltype_oligodendrocyte -0.482-0.323 (middle third),2,175,0.65059,0.62963,0.00957,2.19079,0.02488,0.13029,False
+PMI <= 5.17 (low third),1,274,0.65261,0.6353,0.0079,2.19027,0.02985,0.14053,False
+PMI <= 5.17 (low third)  AND  derivedOutcomeBasedOnMayoDx = FALSE,2,220,0.65261,0.63266,0.00924,2.16045,0.01493,0.08934,True
+race = White  AND  celltype_microglia <= -0.289 (low third),2,156,0.64964,0.62746,0.0103,2.1542,0.00995,0.07188,True
+PMI <= 6.83 (lower half)  AND  amyCerad = None/No AD/C0,2,68,0.64103,0.61159,0.01371,2.14732,0.00995,0.07188,True
+PMI <= 6.83 (lower half)  AND  amyAny = 0,2,68,0.64103,0.61159,0.01371,2.14732,0.00995,0.07188,True
+celltype_neuron <= 0.103 (lower half)  AND  apoeGenotype = 33,2,206,0.65207,0.63281,0.00897,2.14577,0.0199,0.10971,False
+PMI <= 6.83 (lower half)  AND  sex = female,2,244,0.65019,0.6335,0.00778,2.14548,0.0199,0.10971,False
+PMI <= 5.17 (low third)  AND  reag = Intermediate Likelihood,2,82,0.6457,0.61449,0.01459,2.13874,0.00995,0.07188,True
+PMI <= 6.83 (lower half)  AND  apoeGenotype = 34,2,120,0.64715,0.6223,0.01165,2.13276,0.03483,0.1489,False
+PMI <= 6.83 (lower half)  AND  reag = Low Likelihood,2,90,0.64885,0.61751,0.01471,2.13059,0.00995,0.07188,True
+PMI <= 6.83 (lower half)  AND  dataContributionGroup = Emory,2,58,0.64473,0.60994,0.01645,2.11527,0.02985,0.14053,False
+PMI <= 5.17 (low third)  AND  apoeGenotype = 34,2,80,0.64488,0.61449,0.01459,2.08296,0.00995,0.07188,True
+PMI <= 5.17 (low third)  AND  celltype_microglia <= -0.0479 (lower half),2,142,0.64911,0.62586,0.01125,2.06797,0.00995,0.07188,True
+celltype_neuron <= 0.103 (lower half)  AND  derivedOutcomeBasedOnMayoDx = FALSE,2,335,0.65168,0.63785,0.00676,2.04522,0.0398,0.15882,False
+celltype_neuron <= 0.103 (lower half)  AND  sex = female,2,295,0.65245,0.63665,0.00775,2.03848,0.01493,0.08934,True
+PMI <= 6.83 (lower half)  AND  ageDeath <= 79 (low third),2,109,0.64611,0.62088,0.01248,2.02096,0.01493,0.08934,True
+race = White  AND  celltype_neuron <= -0.0632 (low third),2,129,0.64778,0.62339,0.01211,2.01399,0.01493,0.08934,True
+PMI <= 5.17 (low third)  AND  amyAny = 1,2,178,0.64889,0.62963,0.00957,2.01316,0.03483,0.1489,False
+PMI <= 6.83 (lower half)  AND  celltype_neuron <= -0.0632 (low third),2,128,0.64751,0.62339,0.01211,1.99139,0.01493,0.08934,False
+PMI <= 6.83 (lower half)  AND  derivedOutcomeBasedOnMayoDx = FALSE,2,345,0.65128,0.63785,0.00676,1.98651,0.04975,0.17517,False
+celltype_neuron <= 0.103 (lower half)  AND  PMI <= 5.17 (low third),2,143,0.64817,0.62586,0.01125,1.98401,0.02488,0.13029,False
+celltype_neuron <= 0.103 (lower half)  AND  PMI <= 6.83 (lower half),2,220,0.65091,0.63266,0.00924,1.97617,0.0199,0.10971,False
+race = White  AND  isHispanic = FALSE,2,430,0.65103,0.63945,0.00586,1.97486,0.02985,0.14053,False
+celltype_neuron <= 0.103 (lower half)  AND  isHispanic = FALSE,2,343,0.65117,0.63785,0.00676,1.97108,0.05473,0.18199,False
+PMI <= 5.17 (low third)  AND  celltype_oligodendrocyte <= -0.11 (lower half),2,140,0.64766,0.62586,0.01125,1.93912,0.02488,0.13029,False
+celltype_neuron <= -0.0632 (low third)  AND  PMI 5.17-10 (middle third),2,96,0.64649,0.62031,0.01354,1.9331,0.01493,0.08934,False
+PMI <= 5.17 (low third)  AND  Braak = Stage III,2,50,0.63778,0.60492,0.01704,1.92765,0.03483,0.1489,False
+PMI <= 6.83 (lower half)  AND  cohort = ROS,2,109,0.64487,0.62088,0.01248,1.9219,0.01493,0.08934,False
+race = White,1,465,0.64974,0.63969,0.00523,1.91996,0.0398,0.15882,False
+celltype_neuron <= -0.0632 (low third)  AND  derivedOutcomeBasedOnMayoDx = FALSE,2,199,0.64965,0.63218,0.00911,1.91773,0.02985,0.14053,False
+race = White  AND  reag = Intermediate Likelihood,2,144,0.64742,0.62586,0.01125,1.91714,0.02488,0.13029,False
+PMI <= 5.17 (low third)  AND  ageDeath > 83.6 (upper half),2,171,0.64707,0.62836,0.00978,1.91315,0.01493,0.08934,False
+race = White  AND  derivedOutcomeBasedOnMayoDx = FALSE,2,403,0.64974,0.63877,0.00575,1.90837,0.0398,0.15882,False
+PMI <= 5.17 (low third)  AND  amyCerad = Moderate/Probable/C2,2,62,0.64097,0.60994,0.01645,1.88663,0.0398,0.15882,False
+PMI <= 6.83 (lower half)  AND  Braak = Stage III,2,71,0.63722,0.61159,0.01371,1.86967,0.03483,0.1489,False
+PMI <= 6.83 (lower half)  AND  celltype_endothelial <= -0.0425 (lower half),2,206,0.64923,0.63281,0.00897,1.82978,0.02985,0.14053,False
+PMI <= 5.17 (low third)  AND  cohort = ROS,2,85,0.64099,0.61449,0.01459,1.81635,0.0199,0.10971,False
+celltype_neuron <= 0.103 (lower half)  AND  celltype_microglia -0.289-0.179 (middle third),2,159,0.64608,0.62746,0.0103,1.80772,0.02985,0.14053,False
+PMI <= 6.83 (lower half)  AND  isHispanic = FALSE,2,341,0.65004,0.63785,0.00676,1.80294,0.0597,0.18951,False
+celltype_neuron <= 0.103 (lower half)  AND  dataContributionGroup = Rush,2,191,0.64816,0.63188,0.00905,1.79898,0.04478,0.16751,False
+celltype_neuron <= -0.0632 (low third)  AND  celltype_microglia -0.289-0.179 (middle third),2,101,0.64464,0.62031,0.01354,1.79656,0.02985,0.14053,False
+race = White  AND  dataContributionGroup = Emory,2,62,0.6394,0.60994,0.01645,1.79128,0.0398,0.15882,False
+celltype_neuron <= 0.103 (lower half)  AND  Braak = Stage IV,2,76,0.64059,0.61449,0.01459,1.78883,0.0199,0.10971,False
+race = White  AND  ageDeath > 83.6 (upper half),2,308,0.65008,0.63769,0.007,1.76878,0.0398,0.15882,False
+celltype_neuron <= 0.103 (lower half)  AND  bScore = Braak Stage III-IV,2,142,0.64572,0.62586,0.01125,1.76657,0.0398,0.15882,False
+celltype_neuron <= -0.0632 (low third),1,322,0.64965,0.63701,0.00723,1.74825,0.03483,0.1489,False
+PMI <= 6.83 (lower half)  AND  ageDeath <= 83.6 (lower half),2,160,0.64545,0.62746,0.0103,1.7473,0.03483,0.1489,False
+PMI <= 5.17 (low third)  AND  apoeGenotype = 33,2,125,0.64248,0.6223,0.01165,1.7322,0.0597,0.18951,False
+celltype_neuron <= 0.103 (lower half)  AND  amyCerad = Moderate/Probable/C2,2,78,0.63976,0.61449,0.01459,1.73172,0.02985,0.14053,False
+PMI <= 6.83 (lower half)  AND  dataContributionGroup = Rush,2,181,0.64619,0.62963,0.00957,1.73001,0.05473,0.18199,False
+celltype_neuron <= 0.103 (lower half)  AND  celltype_endothelial -0.298-0.239 (middle third),2,124,0.64235,0.6223,0.01165,1.72076,0.0597,0.18951,False
+celltype_neuron <= -0.0632 (low third)  AND  bScore = Braak Stage III-IV,2,84,0.63946,0.61449,0.01459,1.71156,0.02985,0.14053,False
+celltype_neuron <= 0.103 (lower half)  AND  PMI 5.17-10 (middle third),2,143,0.64509,0.62586,0.01125,1.7103,0.04478,0.16751,False
+celltype_neuron <= -0.0632 (low third)  AND  celltype_oligodendrocyte <= -0.11 (lower half),2,95,0.64317,0.62031,0.01354,1.68757,0.04975,0.17517,False
+celltype_neuron <= 0.103 (lower half)  AND  celltype_oligodendrocyte <= -0.482 (low third),2,87,0.6422,0.61751,0.01471,1.67841,0.04478,0.16751,False
+race = White  AND  ageDeath 79-87.7 (middle third),2,152,0.64735,0.62824,0.01157,1.65192,0.06468,0.19781,False
+PMI <= 6.83 (lower half)  AND  celltype_oligodendrocyte > -0.11 (upper half),2,204,0.64719,0.63218,0.00911,1.64761,0.04478,0.16751,False
+race = White  AND  amyCerad = Moderate/Probable/C2,2,98,0.64255,0.62031,0.01354,1.64187,0.05473,0.18199,False
+race = White  AND  celltype_astrocyte <= -0.213 (low third),2,145,0.6443,0.62586,0.01125,1.64035,0.04975,0.17517,False
+celltype_neuron <= -0.0632 (low third)  AND  ageDeath > 83.6 (upper half),2,150,0.64705,0.62824,0.01157,1.6262,0.06965,0.20698,False
+celltype_neuron <= 0.103 (lower half)  AND  ageDeath > 83.6 (upper half),2,246,0.64684,0.63428,0.00773,1.62421,0.04975,0.17517,False
+PMI <= 5.17 (low third)  AND  dataContributionGroup = Rush,2,113,0.64108,0.62088,0.01248,1.61875,0.04478,0.16751,False
+celltype_neuron <= -0.0632 (low third)  AND  celltype_endothelial -0.298-0.239 (middle third),2,70,0.63378,0.61159,0.01371,1.61845,0.0597,0.18951,False
+celltype_neuron <= 0.103 (lower half)  AND  celltype_endothelial > -0.0425 (upper half),2,273,0.64802,0.6353,0.0079,1.60851,0.05473,0.18199,False
+celltype_neuron <= -0.0632 (low third)  AND  isHispanic = FALSE,2,208,0.64717,0.63281,0.00897,1.59989,0.04478,0.16751,False
+PMI <= 5.17 (low third)  AND  celltype_neuron <= -0.0632 (low third),2,80,0.63758,0.61449,0.01459,1.58283,0.03483,0.1489,False
+PMI <= 6.83 (lower half)  AND  amyCerad = Moderate/Probable/C2,2,79,0.63709,0.61449,0.01459,1.54926,0.04478,0.16751,False
+celltype_neuron <= -0.0632 (low third)  AND  sex = female,2,199,0.64624,0.63218,0.00911,1.54382,0.05473,0.18199,False
+celltype_neuron <= -0.0632 (low third)  AND  celltype_astrocyte -0.213-0.236 (middle third),2,70,0.63273,0.61159,0.01371,1.54178,0.06965,0.20698,False
+cohort = Emory,1,97,0.64114,0.62031,0.01354,1.53765,0.06468,0.19781,False
+celltype_neuron <= 0.103 (lower half)  AND  celltype_astrocyte -0.213-0.236 (middle third),2,137,0.643,0.62586,0.01125,1.52411,0.0597,0.18951,False
+celltype_neuron <= 0.103 (lower half)  AND  cohort = ROS,2,98,0.64064,0.62031,0.01354,1.50098,0.06468,0.19781,False
+celltype_neuron <= 0.103 (lower half)  AND  celltype_astrocyte <= 0.0206 (lower half),2,212,0.64627,0.63281,0.00897,1.49982,0.05473,0.18199,False
+PMI <= 6.83 (lower half)  AND  ADoutcome = Control,2,88,0.63954,0.61751,0.01471,1.49762,0.07463,0.2202,False
+celltype_neuron <= -0.0632 (low third)  AND  celltype_astrocyte > 0.0206 (upper half),2,174,0.643,0.62836,0.00978,1.49638,0.08458,0.23314,False
+celltype_neuron <= 0.103 (lower half)  AND  celltype_astrocyte <= -0.213 (low third),2,151,0.64537,0.62824,0.01157,1.48099,0.08458,0.23314,False
+celltype_neuron <= -0.0632 (low third)  AND  celltype_endothelial > -0.0425 (upper half),2,180,0.64376,0.62963,0.00957,1.47633,0.08458,0.23314,False
+PMI <= 6.83 (lower half)  AND  bScore = Braak Stage I-II,2,61,0.63421,0.60994,0.01645,1.47579,0.06965,0.20698,False
+celltype_neuron <= 0.103 (lower half)  AND  celltype_microglia <= -0.0479 (lower half),2,165,0.64249,0.62746,0.0103,1.459,0.06468,0.19781,False
+celltype_neuron <= 0.103 (lower half)  AND  ageDeath 79-87.7 (middle third),2,138,0.64216,0.62586,0.01125,1.44965,0.0597,0.18951,False
+PMI <= 5.17 (low third)  AND  celltype_oligodendrocyte > 0.323 (high third),2,92,0.63874,0.61751,0.01471,1.44372,0.08955,0.23576,False
+PMI <= 5.17 (low third)  AND  ADoutcome = Control,2,57,0.63368,0.60994,0.01645,1.44357,0.08955,0.23576,False
+amyA = Thal Phase 3,1,61,0.63362,0.60994,0.01645,1.43964,0.08955,0.23576,False
+amyThal = Phase 3,1,61,0.63362,0.60994,0.01645,1.43964,0.08955,0.23576,False
+celltype_neuron <= -0.0632 (low third)  AND  apoeGenotype = 33,2,129,0.64077,0.62339,0.01211,1.43524,0.04975,0.17517,False
+race = White  AND  apoeGenotype = 34,2,126,0.64044,0.62339,0.01211,1.40806,0.05473,0.18199,False
+celltype_endothelial -0.298-0.239 (middle third),1,321,0.64711,0.63701,0.00723,1.39636,0.06468,0.19781,False
+celltype_neuron <= 0.103 (lower half)  AND  Braak = Stage III,2,66,0.63066,0.61159,0.01371,1.39117,0.09453,0.23576,False
+celltype_neuron <= -0.0632 (low third)  AND  amyAny = 1,2,168,0.64193,0.62836,0.00978,1.38685,0.1194,0.26898,False
+race = White  AND  celltype_astrocyte > 0.0206 (upper half),2,241,0.64425,0.6335,0.00778,1.38148,0.0796,0.22845,False
+PMI <= 5.17 (low third)  AND  celltype_neuron -0.0632-0.277 (middle third),2,111,0.63802,0.62088,0.01248,1.37337,0.0796,0.22845,False
+celltype_microglia <= -0.289 (low third),1,322,0.64692,0.63701,0.00723,1.3699,0.06965,0.20698,False
+PMI <= 5.17 (low third)  AND  ageDeath > 87.7 (high third),2,115,0.6382,0.6223,0.01165,1.36488,0.08458,0.23314,False
+race = White  AND  amyAny = 1,2,312,0.64725,0.63769,0.007,1.36484,0.0796,0.22845,False
+race = White  AND  celltype_endothelial > 0.239 (high third),2,158,0.64148,0.62746,0.0103,1.36181,0.08955,0.23576,False
+PMI <= 6.83 (lower half)  AND  celltype_oligodendrocyte > 0.323 (high third),2,137,0.64115,0.62586,0.01125,1.35983,0.0796,0.22845,False
+PMI <= 6.83 (lower half)  AND  isHispanic = TRUE,2,68,0.63022,0.61159,0.01371,1.35914,0.10448,0.24873,False
+PMI <= 6.83 (lower half)  AND  celltype_oligodendrocyte <= -0.11 (lower half),2,205,0.64445,0.63218,0.00911,1.34713,0.08955,0.23576,False
+PMI <= 5.17 (low third)  AND  celltype_endothelial <= -0.0425 (lower half),2,148,0.64343,0.62824,0.01157,1.31328,0.09453,0.23576,False
+celltype_oligodendrocyte -0.482-0.323 (middle third),1,321,0.6464,0.63701,0.00723,1.29855,0.08458,0.23314,False
+PMI <= 5.17 (low third)  AND  celltype_microglia > -0.0479 (upper half),2,132,0.63911,0.62339,0.01211,1.29774,0.08458,0.23314,False
+race = White  AND  PMI 5.17-10 (middle third),2,155,0.6408,0.62746,0.0103,1.29555,0.10945,0.25198,False
+race = White  AND  celltype_oligodendrocyte <= -0.11 (lower half),2,243,0.64353,0.6335,0.00778,1.28893,0.09453,0.23576,False
+race = White  AND  celltype_microglia <= -0.0479 (lower half),2,229,0.64469,0.63332,0.00882,1.28881,0.08955,0.23576,False
+race = White  AND  celltype_endothelial > -0.0425 (upper half),2,236,0.64334,0.6335,0.00778,1.26477,0.0995,0.24381,False
+PMI <= 6.83 (lower half)  AND  celltype_endothelial <= -0.298 (low third),2,128,0.63866,0.62339,0.01211,1.26117,0.09453,0.23576,False
+PMI <= 6.83 (lower half)  AND  amyAny = 1,2,277,0.64454,0.63475,0.0078,1.25534,0.09453,0.23576,False
+celltype_neuron <= 0.103 (lower half)  AND  reag = Intermediate Likelihood,2,116,0.63687,0.6223,0.01165,1.2509,0.09453,0.23576,False
+PMI <= 5.17 (low third)  AND  reag = Low Likelihood,2,57,0.63051,0.60994,0.01645,1.25064,0.1194,0.26898,False
+celltype_neuron <= 0.103 (lower half)  AND  bScore = Braak Stage I-II,2,56,0.63044,0.60994,0.01645,1.24664,0.1194,0.26898,False
+PMI <= 6.83 (lower half)  AND  reag = Intermediate Likelihood,2,117,0.63681,0.6223,0.01165,1.24556,0.09453,0.23576,False
+celltype_neuron <= 0.103 (lower half)  AND  celltype_oligodendrocyte -0.482-0.323 (middle third),2,141,0.63984,0.62586,0.01125,1.24367,0.10448,0.24873,False
+PMI <= 5.17 (low third)  AND  Braak = Stage IV,2,49,0.62607,0.60492,0.01704,1.24083,0.09453,0.23576,False
+PMI <= 6.83 (lower half)  AND  ageDeath > 83.6 (upper half),2,249,0.64387,0.63428,0.00773,1.23966,0.12935,0.27938,False
+celltype_neuron <= -0.0632 (low third)  AND  ageDeath > 87.7 (high third),2,97,0.63709,0.62031,0.01354,1.23856,0.10945,0.25198,False
+celltype_neuron <= -0.0632 (low third)  AND  reag = Intermediate Likelihood,2,63,0.63012,0.60994,0.01645,1.22725,0.1194,0.26898,False
+celltype_neuron <= -0.0632 (low third)  AND  celltype_astrocyte <= -0.213 (low third),2,112,0.63615,0.62088,0.01248,1.22328,0.10945,0.25198,False
+race = White  AND  ADoutcome = AD,2,278,0.64429,0.63475,0.0078,1.22269,0.09453,0.23576,False
+amyCerad = Moderate/Probable/C2,1,138,0.63958,0.62586,0.01125,1.22045,0.10945,0.25198,False
+PMI <= 5.17 (low third)  AND  celltype_oligodendrocyte > -0.11 (upper half),2,134,0.63797,0.62339,0.01211,1.2044,0.0995,0.24381,False
+PMI <= 5.17 (low third)  AND  sex = male,2,114,0.63584,0.62088,0.01248,1.19891,0.10945,0.25198,False
+PMI <= 5.17 (low third)  AND  celltype_neuron > 0.103 (upper half),2,131,0.63788,0.62339,0.01211,1.19697,0.10448,0.24873,False
+PMI <= 5.17 (low third)  AND  celltype_endothelial > -0.0425 (upper half),2,126,0.63781,0.62339,0.01211,1.19115,0.10448,0.24873,False
+celltype_neuron <= -0.0632 (low third)  AND  PMI > 6.83 (upper half),2,133,0.63773,0.62339,0.01211,1.18437,0.10448,0.24873,False
+celltype_neuron <= 0.103 (lower half)  AND  amyAny = 1,2,281,0.64395,0.63475,0.0078,1.17886,0.0995,0.24381,False
+celltype_neuron <= 0.103 (lower half)  AND  celltype_microglia > -0.0479 (upper half),2,317,0.64544,0.63701,0.00723,1.16513,0.10945,0.25198,False
+PMI <= 6.83 (lower half)  AND  apoeGenotype = 33,2,188,0.64232,0.63188,0.00905,1.15386,0.12935,0.27938,False
+celltype_neuron <= 0.103 (lower half)  AND  celltype_astrocyte > 0.0206 (upper half),2,270,0.64442,0.6353,0.0079,1.15312,0.13433,0.2857,False
+PMI <= 6.83 (lower half)  AND  bScore = Braak Stage III-IV,2,150,0.64152,0.62824,0.01157,1.14774,0.12935,0.27938,False
+PMI <= 6.83 (lower half)  AND  amyThal = Phase 5,2,73,0.62722,0.61159,0.01371,1.14009,0.12438,0.27574,False
+PMI <= 5.17 (low third)  AND  ageDeath <= 79 (low third),2,72,0.62716,0.61159,0.01371,1.13606,0.12438,0.27574,False
+celltype_neuron <= 0.103 (lower half)  AND  ageDeath <= 83.6 (lower half),2,236,0.64231,0.6335,0.00778,1.13214,0.12438,0.27574,False
+PMI <= 6.83 (lower half)  AND  sex = male,2,165,0.63901,0.62746,0.0103,1.12123,0.13433,0.2857,False
+celltype_neuron <= 0.103 (lower half)  AND  dataContributionGroup = Emory,2,59,0.62809,0.60994,0.01645,1.10343,0.1393,0.29479,False
+ageDeath > 83.6 (upper half),1,481,0.64629,0.641,0.0048,1.10136,0.1592,0.32699,False
+race = White  AND  celltype_oligodendrocyte > -0.11 (upper half),2,222,0.64278,0.63266,0.00924,1.09562,0.12935,0.27938,False
+celltype_astrocyte <= -0.213 (low third),1,322,0.64486,0.63701,0.00723,1.08585,0.13433,0.2857,False
+PMI <= 6.83 (lower half)  AND  celltype_endothelial -0.298-0.239 (middle third),2,150,0.64075,0.62824,0.01157,1.08142,0.15423,0.31833,False
+cohort = MAP,1,69,0.62622,0.61159,0.01371,1.0668,0.14428,0.30378,False
+celltype_neuron <= -0.0632 (low third)  AND  celltype_astrocyte > 0.236 (high third),2,140,0.63773,0.62586,0.01125,1.05607,0.12935,0.27938,False
+PMI <= 6.83 (lower half)  AND  ageDeath 79-87.7 (middle third),2,130,0.63604,0.62339,0.01211,1.04504,0.14925,0.31113,False
+PMI <= 6.83 (lower half)  AND  celltype_oligodendrocyte <= -0.482 (low third),2,126,0.63594,0.62339,0.01211,1.0362,0.15423,0.31833,False
+PMI <= 5.17 (low third)  AND  ADoutcome = AD,2,166,0.63848,0.62836,0.00978,1.03444,0.18408,0.35219,False
+celltype_neuron <= 0.103 (lower half)  AND  celltype_microglia <= -0.289 (low third),2,92,0.63263,0.61751,0.01471,1.02787,0.1791,0.35219,False
+race = White  AND  amyAny = 0,2,89,0.632,0.61751,0.01471,0.98513,0.18408,0.35219,False
+race = White  AND  amyCerad = None/No AD/C0,2,89,0.632,0.61751,0.01471,0.98513,0.18408,0.35219,False
+PMI <= 5.17 (low third)  AND  celltype_microglia > 0.179 (high third),2,88,0.63198,0.61751,0.01471,0.98403,0.18408,0.35219,False
+PMI <= 6.83 (lower half)  AND  celltype_oligodendrocyte -0.482-0.323 (middle third),2,146,0.63958,0.62824,0.01157,0.98,0.17413,0.34909,False
+celltype_neuron <= -0.0632 (low third)  AND  celltype_oligodendrocyte <= -0.482 (low third),2,50,0.62151,0.60492,0.01704,0.97333,0.14925,0.31113,False
+PMI <= 5.17 (low third)  AND  celltype_astrocyte -0.213-0.236 (middle third),2,99,0.63332,0.62031,0.01354,0.9608,0.18408,0.35219,False
+PMI <= 6.83 (lower half)  AND  ADoutcome = Other,2,69,0.62457,0.61159,0.01371,0.9465,0.16418,0.33394,False
+celltype_neuron <= 0.103 (lower half)  AND  ageDeath > 87.7 (high third),2,169,0.6376,0.62836,0.00978,0.94493,0.20896,0.384,False
+PMI <= 5.17 (low third)  AND  celltype_oligodendrocyte <= -0.482 (low third),2,87,0.63139,0.61751,0.01471,0.94387,0.18905,0.36006,False
+race = White  AND  bScore = Braak Stage III-IV,2,183,0.63851,0.62963,0.00957,0.92752,0.16418,0.33394,False
+celltype_neuron <= 0.103 (lower half)  AND  apoeGenotype = 34,2,160,0.63699,0.62746,0.0103,0.92561,0.17413,0.34909,False
+Braak = Stage IV,1,164,0.63696,0.62746,0.0103,0.92194,0.1791,0.35219,False
+celltype_neuron <= 0.103 (lower half)  AND  ADoutcome = Other,2,86,0.63078,0.61751,0.01471,0.9026,0.21891,0.39197,False
+race = White  AND  Braak = Stage IV,2,98,0.63238,0.62031,0.01354,0.891,0.19403,0.36133,False
+race = White  AND  celltype_microglia > -0.0479 (upper half),2,236,0.64037,0.6335,0.00778,0.88252,0.1791,0.35219,False
+celltype_neuron <= 0.103 (lower half)  AND  PMI > 10 (high third),2,124,0.63257,0.6223,0.01165,0.88172,0.18408,0.35219,False
+race = White  AND  apoeGenotype = 33,2,233,0.64098,0.63332,0.00882,0.8691,0.17413,0.34909,False
+PMI <= 6.83 (lower half)  AND  celltype_neuron -0.0632-0.277 (middle third),2,165,0.63624,0.62746,0.0103,0.85216,0.19403,0.36133,False
+PMI <= 6.83 (lower half)  AND  celltype_astrocyte > 0.236 (high third),2,147,0.63804,0.62824,0.01157,0.84674,0.19403,0.36133,False
+race = White  AND  celltype_astrocyte > 0.236 (high third),2,150,0.63802,0.62824,0.01157,0.84505,0.19403,0.36133,False
+amyAny = 0,1,167,0.63648,0.62836,0.00978,0.83044,0.22886,0.40122,False
+amyCerad = None/No AD/C0,1,167,0.63648,0.62836,0.00978,0.83044,0.22886,0.40122,False
+celltype_neuron <= -0.0632 (low third)  AND  race = Black or African American,2,95,0.63154,0.62031,0.01354,0.82891,0.21891,0.39197,False
+PMI <= 5.17 (low third)  AND  celltype_oligodendrocyte -0.482-0.323 (middle third),2,95,0.63146,0.62031,0.01354,0.82337,0.21891,0.39197,False
+PMI <= 5.17 (low third)  AND  celltype_astrocyte > 0.236 (high third),2,104,0.63134,0.62031,0.01354,0.81409,0.21891,0.39197,False
+PMI <= 5.17 (low third)  AND  ageDeath <= 83.6 (lower half),2,103,0.63129,0.62031,0.01354,0.81062,0.21891,0.39197,False
+race = White  AND  cohort = MAP,2,59,0.62314,0.60994,0.01645,0.80266,0.18408,0.35219,False
+celltype_neuron <= -0.0632 (low third)  AND  Braak = Stage V,2,71,0.62255,0.61159,0.01371,0.79949,0.22886,0.40122,False
+celltype_neuron <= -0.0632 (low third)  AND  ADoutcome = Other,2,57,0.62299,0.60994,0.01645,0.79359,0.19403,0.36133,False
+PMI <= 5.17 (low third)  AND  celltype_neuron > 0.277 (high third),2,83,0.62603,0.61449,0.01459,0.79114,0.23881,0.41519,False
+race = White  AND  ADoutcome = Control,2,123,0.63146,0.6223,0.01165,0.78623,0.22388,0.39748,False
+race = White  AND  celltype_astrocyte <= 0.0206 (lower half),2,224,0.63989,0.63266,0.00924,0.78301,0.20896,0.384,False
+celltype_neuron <= 0.103 (lower half)  AND  PMI > 6.83 (upper half),2,190,0.63889,0.63188,0.00905,0.77533,0.24378,0.41692,False
+dataContributionGroup = Rush,1,355,0.64315,0.63855,0.00598,0.76958,0.24378,0.41692,False
+celltype_neuron <= 0.103 (lower half)  AND  celltype_endothelial > 0.239 (high third),2,203,0.6389,0.63218,0.00911,0.73752,0.21393,0.39143,False
+celltype_neuron <= -0.0632 (low third)  AND  celltype_astrocyte <= 0.0206 (lower half),2,148,0.63667,0.62824,0.01157,0.72822,0.22388,0.39748,False
+race = White  AND  celltype_endothelial -0.298-0.239 (middle third),2,163,0.63481,0.62746,0.0103,0.71393,0.26866,0.44493,False
+sex = female,1,567,0.64453,0.64159,0.00422,0.69743,0.25871,0.43709,False
+race = White  AND  ADoutcome = Other,2,62,0.62121,0.60994,0.01645,0.68513,0.23383,0.40823,False
+PMI 5.17-10 (middle third),1,275,0.63999,0.63475,0.0078,0.6712,0.25373,0.43042,False
+race = White  AND  Braak = Stage III,2,85,0.62421,0.61449,0.01459,0.66615,0.26368,0.44017,False
+cohort = CLINCOR,1,65,0.62088,0.60994,0.01645,0.66498,0.24378,0.41692,False
+race = White  AND  ageDeath > 87.7 (high third),2,214,0.63872,0.63281,0.00897,0.65798,0.28358,0.4624,False
+PMI <= 5.17 (low third)  AND  ADoutcome = Other,2,51,0.61611,0.60492,0.01704,0.65654,0.25373,0.43042,False
+PMI <= 5.17 (low third)  AND  celltype_astrocyte > 0.0206 (upper half),2,158,0.63418,0.62746,0.0103,0.6525,0.28856,0.4624,False
+celltype_neuron <= 0.103 (lower half)  AND  celltype_astrocyte > 0.236 (high third),2,194,0.63775,0.63188,0.00905,0.64879,0.26368,0.44017,False
+apoeGenotype = 33,1,449,0.64302,0.6397,0.00522,0.63663,0.29353,0.4624,False
+celltype_neuron <= -0.0632 (low third)  AND  celltype_endothelial > 0.239 (high third),2,140,0.63299,0.62586,0.01125,0.63468,0.26866,0.44493,False
+reag = Intermediate Likelihood,1,209,0.63844,0.63281,0.00897,0.6271,0.29353,0.4624,False
+race = White  AND  cohort = ROS,2,163,0.63391,0.62746,0.0103,0.62604,0.29353,0.4624,False
+celltype_neuron <= -0.0632 (low third)  AND  celltype_microglia > -0.0479 (upper half),2,245,0.63837,0.6335,0.00778,0.62592,0.24378,0.41692,False
+celltype_neuron <= -0.0632 (low third)  AND  sex = male,2,123,0.62951,0.6223,0.01165,0.61909,0.26368,0.44017,False
+PMI <= 6.83 (lower half)  AND  celltype_endothelial > 0.239 (high third),2,131,0.63083,0.62339,0.01211,0.61487,0.31841,0.47142,False
+PMI <= 5.17 (low third)  AND  dataContributionGroup = MSSM,2,68,0.61974,0.61159,0.01371,0.59473,0.29851,0.4624,False
+race = White  AND  celltype_endothelial <= -0.0425 (lower half),2,229,0.63855,0.63332,0.00882,0.59352,0.28856,0.4624,False
+race = White  AND  celltype_microglia > 0.179 (high third),2,162,0.63342,0.62746,0.0103,0.5781,0.30348,0.4624,False
+PMI <= 5.17 (low third)  AND  celltype_endothelial > 0.239 (high third),2,77,0.62288,0.61449,0.01459,0.57497,0.30348,0.4624,False
+PMI <= 5.17 (low third)  AND  ageDeath 79-87.7 (middle third),2,87,0.62581,0.61751,0.01471,0.56474,0.29353,0.4624,False
+PMI <= 6.83 (lower half)  AND  Braak = Stage V,2,88,0.6258,0.61751,0.01471,0.56399,0.29353,0.4624,False
+celltype_neuron <= -0.0632 (low third)  AND  reag = High Likelihood,2,93,0.62578,0.61751,0.01471,0.56263,0.29353,0.4624,False
+isHispanic = FALSE,1,707,0.64447,0.64265,0.00333,0.5457,0.30348,0.4624,False
+PMI <= 5.17 (low third)  AND  bScore = Braak Stage V-VI,2,125,0.62863,0.6223,0.01165,0.54388,0.28358,0.4624,False
+race = White  AND  dataContributionGroup = Rush,2,230,0.63805,0.63332,0.00882,0.53707,0.29851,0.4624,False
+PMI <= 6.83 (lower half)  AND  Braak = Stage IV,2,79,0.62229,0.61449,0.01459,0.53437,0.31343,0.46903,False
+celltype_neuron <= -0.0632 (low third)  AND  PMI > 10 (high third),2,85,0.62228,0.61449,0.01459,0.53368,0.31343,0.46903,False
+race = White  AND  bScore = Braak Stage V-VI,2,193,0.6367,0.63188,0.00905,0.53345,0.29851,0.4624,False
+PMI <= 6.83 (lower half)  AND  amyA = Thal Phase 4 or 5,2,88,0.62534,0.61751,0.01471,0.53214,0.30846,0.46658,False
+PMI <= 5.17 (low third)  AND  amyThal = Phase 5,2,50,0.61395,0.60492,0.01704,0.52966,0.32836,0.47772,False
+race = White  AND  amyCerad = Frequent/Definite/C3,2,186,0.63665,0.63188,0.00905,0.52691,0.29851,0.4624,False
+celltype_neuron <= -0.0632 (low third)  AND  celltype_endothelial <= -0.0425 (lower half),2,142,0.63177,0.62586,0.01125,0.52563,0.29851,0.4624,False
+PMI <= 5.17 (low third)  AND  celltype_endothelial <= -0.298 (low third),2,95,0.6274,0.62031,0.01354,0.52367,0.30348,0.4624,False
+celltype_neuron <= -0.0632 (low third)  AND  ADoutcome = AD,2,228,0.63784,0.63332,0.00882,0.51289,0.29851,0.4624,False
+celltype_neuron <= -0.0632 (low third)  AND  amyCerad = Frequent/Definite/C3,2,119,0.62823,0.6223,0.01165,0.50964,0.30846,0.46658,False
+PMI <= 6.83 (lower half)  AND  celltype_astrocyte > 0.0206 (upper half),2,232,0.63777,0.63332,0.00882,0.50525,0.30348,0.4624,False
+PMI <= 6.83 (lower half)  AND  amyCerad = Frequent/Definite/C3,2,172,0.63323,0.62836,0.00978,0.49762,0.29353,0.4624,False
+PMI <= 5.17 (low third)  AND  amyCerad = Frequent/Definite/C3,2,100,0.62698,0.62031,0.01354,0.49265,0.32338,0.47543,False
+cohort = ROS,1,188,0.63628,0.63188,0.00905,0.48649,0.32836,0.47772,False
+celltype_neuron <= 0.103 (lower half)  AND  celltype_endothelial <= -0.0425 (lower half),2,209,0.63704,0.63281,0.00897,0.471,0.33333,0.48328,False
+race = White  AND  celltype_endothelial <= -0.298 (low third),2,144,0.63112,0.62586,0.01125,0.46777,0.32338,0.47543,False
+PMI <= 5.17 (low third)  AND  reag = High Likelihood,2,76,0.62115,0.61449,0.01459,0.45689,0.34826,0.49465,False
+PMI <= 6.83 (lower half)  AND  celltype_neuron > 0.103 (upper half),2,189,0.63601,0.63188,0.00905,0.45651,0.33831,0.48545,False
+celltype_neuron <= -0.0632 (low third)  AND  ageDeath 79-87.7 (middle third),2,96,0.62643,0.62031,0.01354,0.45171,0.33831,0.48545,False
+PMI <= 5.17 (low third)  AND  amyA = Thal Phase 4 or 5,2,59,0.61722,0.60994,0.01645,0.44281,0.31841,0.47142,False
+derivedOutcomeBasedOnMayoDx = FALSE,1,679,0.64406,0.64261,0.00327,0.44257,0.36816,0.51079,False
+celltype_neuron <= 0.103 (lower half)  AND  race = Black or African American,2,139,0.63075,0.62586,0.01125,0.43522,0.32836,0.47772,False
+bScore = Braak Stage III-IV,1,324,0.64009,0.63701,0.00723,0.42585,0.37313,0.51429,False
+race = White  AND  reag = High Likelihood,2,133,0.62848,0.62339,0.01211,0.42045,0.37313,0.51429,False
+race = White  AND  celltype_oligodendrocyte <= -0.482 (low third),2,149,0.6331,0.62824,0.01157,0.41989,0.31841,0.47142,False
+race = White  AND  ageDeath <= 83.6 (lower half),2,157,0.63178,0.62746,0.0103,0.41952,0.35323,0.49666,False
+race = White  AND  ageDeath <= 79 (low third),2,99,0.6259,0.62031,0.01354,0.41281,0.35821,0.5003,False
+race = White  AND  celltype_oligodendrocyte > 0.323 (high third),2,141,0.63044,0.62586,0.01125,0.40723,0.33831,0.48545,False
+celltype_neuron <= -0.0632 (low third)  AND  celltype_oligodendrocyte > -0.11 (upper half),2,227,0.6367,0.63332,0.00882,0.38402,0.34328,0.49091,False
+celltype_neuron <= 0.103 (lower half)  AND  ADoutcome = AD,2,327,0.63957,0.63679,0.00729,0.38141,0.35323,0.49666,False
+reag = Low Likelihood,1,191,0.6353,0.63188,0.00905,0.37802,0.35821,0.5003,False
+PMI <= 5.17 (low third)  AND  Braak = Stage V,2,58,0.6157,0.60994,0.01645,0.35007,0.36318,0.50556,False
+ADoutcome = Control,1,209,0.63593,0.63281,0.00897,0.34709,0.39303,0.52952,False
+PMI <= 6.83 (lower half)  AND  celltype_endothelial > -0.0425 (upper half),2,203,0.63523,0.63218,0.00911,0.33461,0.35323,0.49666,False
+dataContributionGroup = Emory,1,141,0.62956,0.62586,0.01125,0.32951,0.37811,0.51438,False
+celltype_neuron <= -0.0632 (low third)  AND  celltype_oligodendrocyte > 0.323 (high third),2,190,0.63486,0.63188,0.00905,0.32913,0.38308,0.51946,False
+PMI <= 6.83 (lower half)  AND  reag = High Likelihood,2,129,0.62729,0.62339,0.01211,0.32265,0.40299,0.53434,False
+celltype_neuron <= 0.103 (lower half)  AND  Braak = Stage V,2,104,0.62455,0.62031,0.01354,0.31281,0.39303,0.52952,False
+Braak = Stage I,1,68,0.61579,0.61159,0.01371,0.3062,0.40299,0.53434,False
+celltype_microglia <= -0.0479 (lower half),1,482,0.64245,0.641,0.0048,0.3013,0.37811,0.51438,False
+celltype_neuron <= 0.103 (lower half)  AND  celltype_oligodendrocyte > 0.323 (high third),2,254,0.63658,0.63428,0.00773,0.29789,0.43284,0.55461,False
+PMI <= 6.83 (lower half)  AND  celltype_neuron > 0.277 (high third),2,116,0.62576,0.6223,0.01165,0.29711,0.39801,0.53434,False
+celltype_endothelial > -0.0425 (upper half),1,482,0.64241,0.641,0.0048,0.29228,0.37811,0.51438,False
+PMI <= 5.17 (low third)  AND  cohort = Mt Sinai Brain Bank,2,79,0.61854,0.61449,0.01459,0.27776,0.40796,0.53753,False
+celltype_neuron <= -0.0632 (low third)  AND  apoeGenotype = 34,2,116,0.62548,0.6223,0.01165,0.27365,0.40796,0.53753,False
+celltype_neuron <= 0.103 (lower half)  AND  reag = High Likelihood,2,142,0.62893,0.62586,0.01125,0.27292,0.40299,0.53434,False
+celltype_neuron <= 0.103 (lower half)  AND  celltype_microglia > 0.179 (high third),2,231,0.63553,0.63332,0.00882,0.25038,0.37811,0.51438,False
+PMI <= 6.83 (lower half)  AND  celltype_microglia > 0.179 (high third),2,138,0.62848,0.62586,0.01125,0.23289,0.41791,0.5438,False
+celltype_neuron <= 0.103 (lower half)  AND  celltype_oligodendrocyte > -0.11 (upper half),2,320,0.63867,0.63701,0.00723,0.22969,0.41294,0.539,False
+celltype_neuron <= -0.0632 (low third)  AND  celltype_endothelial <= -0.298 (low third),2,112,0.62342,0.62088,0.01248,0.20351,0.45274,0.56966,False
+PMI <= 6.83 (lower half)  AND  celltype_microglia > -0.0479 (upper half),2,207,0.63462,0.63281,0.00897,0.20139,0.44776,0.5651,False
+PMI <= 6.83 (lower half)  AND  bScore = Braak Stage V-VI,2,187,0.63369,0.63188,0.00905,0.20081,0.41294,0.539,False
+celltype_neuron <= 0.103 (lower half)  AND  amyCerad = Frequent/Definite/C3,2,186,0.63368,0.63188,0.00905,0.19906,0.41294,0.539,False
+celltype_neuron <= 0.103 (lower half)  AND  celltype_endothelial <= -0.298 (low third),2,155,0.62947,0.62746,0.0103,0.19533,0.43284,0.55461,False
+PMI <= 6.83 (lower half)  AND  celltype_astrocyte -0.213-0.236 (middle third),2,154,0.63016,0.62824,0.01157,0.16598,0.40299,0.53434,False
+apoeGenotype = 23,1,73,0.61378,0.61159,0.01371,0.15998,0.46269,0.57698,False
+celltype_neuron <= 0.103 (lower half)  AND  sex = male,2,187,0.63327,0.63188,0.00905,0.15381,0.42786,0.55331,False
+celltype_neuron <= -0.0632 (low third)  AND  celltype_oligodendrocyte -0.482-0.323 (middle third),2,82,0.6167,0.61449,0.01459,0.15166,0.43284,0.55461,False
+race = White  AND  reag = Low Likelihood,2,109,0.62266,0.62088,0.01248,0.14233,0.47264,0.58417,False
+PMI <= 6.83 (lower half)  AND  ADoutcome = AD,2,252,0.63516,0.63428,0.00773,0.11394,0.46766,0.57973,False
+PMI <= 6.83 (lower half)  AND  celltype_microglia -0.289-0.179 (middle third),2,132,0.62477,0.62339,0.01211,0.11387,0.52239,0.62717,False
+PMI <= 6.83 (lower half)  AND  ageDeath > 87.7 (high third),2,170,0.6293,0.62836,0.00978,0.09545,0.44279,0.5622,False
+celltype_astrocyte <= 0.0206 (lower half),1,482,0.64145,0.641,0.0048,0.09331,0.44776,0.5651,False
+celltype_neuron <= 0.103 (lower half)  AND  ageDeath <= 79 (low third),2,175,0.6305,0.62963,0.00957,0.0909,0.42786,0.55331,False
+celltype_neuron <= -0.0632 (low third)  AND  bScore = Braak Stage V-VI,2,189,0.63258,0.63188,0.00905,0.07754,0.44279,0.5622,False
+Braak = Stage III,1,160,0.62819,0.62746,0.0103,0.07094,0.48259,0.59472,False
+race = White  AND  celltype_astrocyte -0.213-0.236 (middle third),2,170,0.62901,0.62836,0.00978,0.06597,0.46269,0.57698,False
+race = White  AND  celltype_neuron > 0.277 (high third),2,146,0.62887,0.62824,0.01157,0.05369,0.44279,0.5622,False
+race = White  AND  bScore = Braak Stage I-II,2,71,0.61228,0.61159,0.01371,0.05042,0.49254,0.60343,False
+celltype_neuron <= -0.0632 (low third)  AND  celltype_microglia > 0.179 (high third),2,183,0.62999,0.62963,0.00957,0.03718,0.46269,0.57698,False
+amyAny = 1,1,509,0.64146,0.64131,0.00473,0.03238,0.50249,0.61204,False
+race = White  AND  celltype_neuron -0.0632-0.277 (middle third),2,190,0.63212,0.63188,0.00905,0.02697,0.46766,0.57973,False
+race = White  AND  amyThal = Phase 5,2,61,0.61036,0.60994,0.01645,0.02565,0.49751,0.60775,False
+race = White  AND  Braak = Stage V,2,94,0.61788,0.61751,0.01471,0.02507,0.51244,0.62235,False
+race = White  AND  Braak = Stage VI,2,99,0.62058,0.62031,0.01354,0.01973,0.48756,0.59909,False
+race = White  AND  amyA = Thal Phase 4 or 5,2,72,0.6114,0.61159,0.01371,-0.01381,0.51741,0.62477,False
+ageDeath > 87.7 (high third),1,321,0.63684,0.63701,0.00723,-0.02398,0.52736,0.63133,False
+celltype_neuron <= 0.103 (lower half)  AND  bScore = Braak Stage V-VI,2,261,0.633,0.63352,0.00835,-0.06135,0.51741,0.62477,False
+apoeGenotype = 34,1,286,0.63604,0.63654,0.0071,-0.07155,0.55224,0.65364,False
+celltype_astrocyte > 0.236 (high third),1,321,0.63641,0.63701,0.00723,-0.08334,0.55721,0.65767,False
+race = White  AND  celltype_microglia -0.289-0.179 (middle third),2,147,0.62698,0.62824,0.01157,-0.10911,0.52239,0.62717,False
+PMI <= 5.17 (low third)  AND  celltype_microglia -0.289-0.179 (middle third),2,91,0.61562,0.61751,0.01471,-0.1286,0.54229,0.64551,False
+celltype_neuron <= -0.0632 (low third)  AND  cohort = Mt Sinai Brain Bank,2,63,0.60779,0.60994,0.01645,-0.13091,0.54726,0.64958,False
+celltype_neuron <= -0.0632 (low third)  AND  amyA = Thal Phase 4 or 5,2,127,0.62149,0.62339,0.01211,-0.15672,0.60697,0.70644,False
+celltype_oligodendrocyte > -0.11 (upper half),1,482,0.6402,0.641,0.0048,-0.16655,0.58706,0.68902,False
+ADoutcome = Other,1,192,0.63036,0.63188,0.00905,-0.16757,0.54229,0.64551,False
+race = White  AND  celltype_neuron > 0.103 (upper half),2,241,0.63217,0.6335,0.00778,-0.17075,0.61194,0.71026,False
+celltype_neuron <= -0.0632 (low third)  AND  ageDeath <= 83.6 (lower half),2,172,0.62667,0.62836,0.00978,-0.17341,0.56219,0.66168,False
+celltype_microglia -0.289-0.179 (middle third),1,321,0.63569,0.63701,0.00723,-0.1825,0.59204,0.69292,False
+celltype_astrocyte > 0.0206 (upper half),1,482,0.63994,0.641,0.0048,-0.22186,0.60199,0.7026,False
+PMI <= 5.17 (low third)  AND  race = Black or African American,2,58,0.60519,0.60994,0.01645,-0.28858,0.63184,0.73133,False
+ageDeath 79-87.7 (middle third),1,303,0.63436,0.63665,0.00775,-0.29513,0.64677,0.74042,False
+celltype_neuron <= 0.103 (lower half)  AND  dataContributionGroup = MSSM,2,85,0.61014,0.61449,0.01459,-0.29812,0.63682,0.73304,False
+celltype_oligodendrocyte <= -0.11 (lower half),1,482,0.6395,0.641,0.0048,-0.31301,0.63682,0.73304,False
+race = White  AND  dataContributionGroup = MSSM,2,111,0.61687,0.62088,0.01248,-0.3216,0.66169,0.75339,False
+celltype_endothelial > 0.239 (high third),1,321,0.63451,0.63701,0.00723,-0.34545,0.64677,0.74042,False
+race = White  AND  cohort = Mt Sinai Brain Bank,2,122,0.61752,0.6223,0.01165,-0.40992,0.66169,0.75339,False
+PMI <= 5.17 (low third)  AND  Braak = Stage VI,2,67,0.60587,0.61159,0.01371,-0.41721,0.68657,0.77124,False
+celltype_neuron <= 0.103 (lower half)  AND  amyThal = Phase 5,2,132,0.61813,0.62339,0.01211,-0.43362,0.69652,0.78032,False
+PMI <= 6.83 (lower half)  AND  dataContributionGroup = MSSM,2,106,0.61547,0.62088,0.01248,-0.43379,0.68159,0.76978,False
+celltype_astrocyte -0.213-0.236 (middle third),1,321,0.63387,0.63701,0.00723,-0.43503,0.67662,0.7683,False
+PMI <= 6.83 (lower half)  AND  Braak = Stage VI,2,99,0.61436,0.62031,0.01354,-0.43898,0.73134,0.80009,False
+celltype_neuron <= 0.103 (lower half)  AND  cohort = Mt Sinai Brain Bank,2,99,0.61418,0.62031,0.01354,-0.45279,0.73134,0.80009,False
+ageDeath <= 79 (low third),1,339,0.63463,0.63785,0.00676,-0.47625,0.68657,0.77124,False
+celltype_neuron <= 0.103 (lower half)  AND  amyA = Thal Phase 4 or 5,2,164,0.62251,0.62746,0.0103,-0.48076,0.68159,0.76978,False
+celltype_neuron <= -0.0632 (low third)  AND  amyThal = Phase 5,2,102,0.6138,0.62031,0.01354,-0.48088,0.75124,0.81336,False
+bScore = Braak Stage I-II,1,154,0.62215,0.62824,0.01157,-0.52712,0.71642,0.79412,False
+celltype_oligodendrocyte <= -0.482 (low third),1,322,0.63306,0.63701,0.00723,-0.54659,0.73134,0.80009,False
+PMI <= 6.83 (lower half)  AND  cohort = Mt Sinai Brain Bank,2,122,0.61584,0.6223,0.01165,-0.55428,0.70149,0.7838,False
+celltype_oligodendrocyte > 0.323 (high third),1,321,0.63292,0.63701,0.00723,-0.56596,0.74627,0.81007,False
+Braak = Stage II,1,86,0.60902,0.61751,0.01471,-0.57678,0.71144,0.7928,False
+amyCerad = Frequent/Definite/C3,1,326,0.63256,0.63679,0.00729,-0.58028,0.71642,0.79412,False
+Braak = Stage V,1,191,0.62635,0.63188,0.00905,-0.61057,0.74627,0.81007,False
+amyA = Thal Phase 1 or 2,1,64,0.59959,0.60994,0.01645,-0.62907,0.73134,0.80009,False
+celltype_neuron -0.0632-0.277 (middle third),1,321,0.63244,0.63701,0.00723,-0.63195,0.76119,0.8199,False
+celltype_neuron <= -0.0632 (low third)  AND  dataContributionGroup = MSSM,2,56,0.59953,0.60994,0.01645,-0.63325,0.73134,0.80009,False
+celltype_neuron <= -0.0632 (low third)  AND  isHispanic = TRUE,2,114,0.61256,0.62088,0.01248,-0.66647,0.76119,0.8199,False
+sex = male,1,397,0.63468,0.63877,0.00575,-0.711,0.74129,0.80886,False
+celltype_neuron <= -0.0632 (low third)  AND  ageDeath <= 79 (low third),2,129,0.61421,0.62339,0.01211,-0.75766,0.77612,0.83383,False
+reag = High Likelihood,1,244,0.62758,0.6335,0.00778,-0.76156,0.78109,0.83489,False
+amyThal = Phase 5,1,217,0.62517,0.63266,0.00924,-0.81043,0.81592,0.8699,False
+celltype_microglia > -0.0479 (upper half),1,482,0.63693,0.641,0.0048,-0.84946,0.78109,0.83489,False
+race = White  AND  sex = male,2,186,0.62285,0.63188,0.00905,-0.99729,0.85075,0.90016,False
+race = White  AND  PMI > 6.83 (upper half),2,185,0.61988,0.62963,0.00957,-1.01948,0.85075,0.90016,False
+ADoutcome = AD,1,560,0.63676,0.64136,0.00447,-1.02769,0.85075,0.90016,False
+race = White  AND  PMI > 10 (high third),2,114,0.60795,0.62088,0.01248,-1.03603,0.85572,0.90087,False
+race = Black or African American,1,267,0.62699,0.6353,0.0079,-1.0517,0.89055,0.9259,False
+celltype_neuron <= 0.103 (lower half)  AND  isHispanic = TRUE,2,139,0.61378,0.62586,0.01125,-1.07369,0.87562,0.91493,False
+apoeGenotype = 44,1,58,0.59223,0.60994,0.01645,-1.07692,0.86567,0.90906,False
+PMI <= 6.83 (lower half)  AND  race = Black or African American,2,91,0.60161,0.61751,0.01471,-1.08063,0.85572,0.90087,False
+celltype_neuron <= 0.103 (lower half)  AND  Braak = Stage VI,2,157,0.6161,0.62746,0.0103,-1.10389,0.87065,0.912,False
+celltype_neuron > 0.277 (high third),1,321,0.62795,0.63701,0.00723,-1.25304,0.90547,0.93909,False
+celltype_endothelial <= -0.0425 (lower half),1,482,0.63478,0.641,0.0048,-1.2964,0.88557,0.92302,False
+celltype_microglia > 0.179 (high third),1,321,0.62732,0.63701,0.00723,-1.34055,0.91542,0.94241,False
+bScore = Braak Stage V-VI,1,430,0.6315,0.63945,0.00586,-1.35659,0.91045,0.94192,False
+dataContributionGroup = MSSM,1,183,0.61658,0.62963,0.00957,-1.36419,0.92537,0.948,False
+PMI > 10 (high third),1,269,0.62424,0.6353,0.0079,-1.39942,0.9403,0.9586,False
+PMI > 6.83 (upper half),1,409,0.6314,0.63914,0.00552,-1.40251,0.91542,0.94241,False
+celltype_neuron <= -0.0632 (low third)  AND  Braak = Stage VI,2,118,0.60588,0.6223,0.01165,-1.40871,0.92537,0.948,False
+cohort = Mt Sinai Brain Bank,1,205,0.61767,0.63218,0.00911,-1.59175,0.94527,0.96133,False
+celltype_endothelial <= -0.298 (low third),1,322,0.62474,0.63701,0.00723,-1.69688,0.9403,0.9586,False
+ageDeath <= 83.6 (lower half),1,482,0.63233,0.641,0.0048,-1.80812,0.97015,0.98424,False
+isHispanic = TRUE,1,256,0.61755,0.63352,0.00835,-1.9128,0.99005,0.99242,False
+Braak = Stage VI,1,239,0.61816,0.6335,0.00778,-1.97208,0.98507,0.99242,False
+celltype_neuron > 0.103 (upper half),1,482,0.62969,0.641,0.0048,-2.35772,0.99005,0.99242,False
+amyA = Thal Phase 4 or 5,1,273,0.61604,0.6353,0.0079,-2.43704,0.99005,0.99242,False
+amyThal = Phase 4,1,52,0.55989,0.60492,0.01704,-2.64197,0.99005,0.99242,False
+race = other,1,214,0.57669,0.63281,0.00897,-6.2555,1.0,1.0,False
+dataContributionGroup = Mayo,1,285,,0.63475,0.0078,,0.00498,0.05084,False
+cohort = Mayo Clinic,1,248,,0.63428,0.00773,,0.00498,0.05084,False
+amyCerad = Sparse/Possible/C1,1,45,0.61326,,,,0.20896,0.384,False
+mayoDx = AD,1,181,,0.62963,0.00957,,0.00498,0.05084,False
+mayoDx = Other,1,78,,0.61449,0.01459,,0.00498,0.05084,False
+derivedOutcomeBasedOnMayoDx = TRUE,1,285,,0.63475,0.0078,,0.00498,0.05084,False
+celltype_neuron <= 0.103 (lower half)  AND  dataContributionGroup = Mayo,2,147,,0.62824,0.01157,,0.00498,0.05084,False
+celltype_neuron <= 0.103 (lower half)  AND  cohort = CLINCOR,2,41,0.62764,,,,0.04975,0.17517,False
+celltype_neuron <= 0.103 (lower half)  AND  cohort = Mayo Clinic,2,129,,0.62339,0.01211,,0.00498,0.05084,False
+celltype_neuron <= 0.103 (lower half)  AND  race = other,2,111,,0.62088,0.01248,,0.00498,0.05084,False
+celltype_neuron <= 0.103 (lower half)  AND  mayoDx = AD,2,108,,0.62088,0.01248,,0.00498,0.05084,False
+celltype_neuron <= 0.103 (lower half)  AND  derivedOutcomeBasedOnMayoDx = TRUE,2,147,,0.62824,0.01157,,0.00498,0.05084,False
+PMI <= 6.83 (lower half)  AND  dataContributionGroup = Mayo,2,64,,0.60994,0.01645,,0.00498,0.05084,False
+PMI <= 6.83 (lower half)  AND  cohort = Emory,2,40,0.65583,,,,0.00498,0.05084,False
+PMI <= 6.83 (lower half)  AND  cohort = Mayo Clinic,2,49,,0.60492,0.01704,,0.00498,0.05084,False
+PMI <= 6.83 (lower half)  AND  race = other,2,49,,0.60492,0.01704,,0.00498,0.05084,False
+PMI <= 6.83 (lower half)  AND  mayoDx = AD,2,43,,,,,0.00498,0.05084,False
+PMI <= 6.83 (lower half)  AND  derivedOutcomeBasedOnMayoDx = TRUE,2,64,,0.60994,0.01645,,0.00498,0.05084,False
+PMI <= 5.17 (low third)  AND  dataContributionGroup = Mayo,2,54,,0.60492,0.01704,,0.00498,0.05084,False
+PMI <= 5.17 (low third)  AND  cohort = Mayo Clinic,2,40,,,,,0.00498,0.05084,False
+PMI <= 5.17 (low third)  AND  isHispanic = TRUE,2,46,,0.60492,0.01704,,0.00498,0.05084,False
+PMI <= 5.17 (low third)  AND  amyCerad = None/No AD/C0,2,42,0.63039,,,,0.03483,0.1489,False
+PMI <= 5.17 (low third)  AND  amyAny = 0,2,42,0.63039,,,,0.03483,0.1489,False
+PMI <= 5.17 (low third)  AND  bScore = Braak Stage I-II,2,44,0.60549,,,,0.34826,0.49465,False
+PMI <= 5.17 (low third)  AND  derivedOutcomeBasedOnMayoDx = TRUE,2,54,,0.60492,0.01704,,0.00498,0.05084,False
+race = White  AND  dataContributionGroup = Mayo,2,62,,0.60994,0.01645,,0.00498,0.05084,False
+race = White  AND  cohort = Emory,2,40,0.65525,,,,0.00498,0.05084,False
+race = White  AND  cohort = Mayo Clinic,2,62,,0.60994,0.01645,,0.00498,0.05084,False
+race = White  AND  apoeGenotype = 23,2,41,0.60722,,,,0.31343,0.46903,False
+race = White  AND  mayoDx = AD,2,43,,,,,0.00498,0.05084,False
+race = White  AND  derivedOutcomeBasedOnMayoDx = TRUE,2,62,,0.60994,0.01645,,0.00498,0.05084,False
+celltype_neuron <= -0.0632 (low third)  AND  dataContributionGroup = Mayo,2,123,,0.6223,0.01165,,0.00498,0.05084,False
+celltype_neuron <= -0.0632 (low third)  AND  cohort = Mayo Clinic,2,111,,0.62088,0.01248,,0.00498,0.05084,False
+celltype_neuron <= -0.0632 (low third)  AND  cohort = ROS,2,45,0.64078,,,,0.00498,0.05084,False
+celltype_neuron <= -0.0632 (low third)  AND  race = other,2,93,,0.61751,0.01471,,0.00498,0.05084,False
+celltype_neuron <= -0.0632 (low third)  AND  amyCerad = Moderate/Probable/C2,2,42,0.63863,,,,0.00995,0.07188,False
+celltype_neuron <= -0.0632 (low third)  AND  Braak = Stage IV,2,45,0.6265,,,,0.04975,0.17517,False
+celltype_neuron <= -0.0632 (low third)  AND  mayoDx = AD,2,92,,0.61751,0.01471,,0.00498,0.05084,False
+celltype_neuron <= -0.0632 (low third)  AND  derivedOutcomeBasedOnMayoDx = TRUE,2,123,,0.6223,0.01165,,0.00498,0.05084,False

@@ -1,0 +1,55 @@
+{
+  "dataset": "ROSMAP",
+  "n_people": 400,
+  "proteins_found": 80,
+  "auroc_raw": 0.5926,
+  "auroc_adjusted": 0.6232,
+  "Z_star": [
+    "proteomePC6",
+    "proteomePC2",
+    "celltype_neuron",
+    "celltype_oligodendrocyte",
+    "proteomePC8"
+  ],
+  "n_strong_regions": 0,
+  "best_region": null,
+  "top_regions": [
+    {
+      "region": "celltype_neuron > 0.0321 (upper half)  AND  celltype_endothelial <= -0.043 (lower half)",
+      "n": 124,
+      "auroc": 0.6325,
+      "z": 2.5942,
+      "q_fdr": 0.2643
+    },
+    {
+      "region": "celltype_neuron > 0.0321 (upper half)  AND  pmi 5.67-7.61 (middle third)",
+      "n": 69,
+      "auroc": 0.6244,
+      "z": 2.5769,
+      "q_fdr": 0.2643
+    },
+    {
+      "region": "celltype_neuron > 0.0321 (upper half)  AND  cts_mmse30_lv <= 26 (lower half)",
+      "n": 111,
+      "auroc": 0.6309,
+      "z": 2.5708,
+      "q_fdr": 0.2643
+    },
+    {
+      "region": "celltype_astrocyte > 0.235 (high third)  AND  ceradsc = 2",
+      "n": 49,
+      "auroc": 0.6234,
+      "z": 2.498,
+      "q_fdr": 0.2643
+    },
+    {
+      "region": "cts_mmse30_lv <= 26 (lower half)  AND  educ <= 14 (low third)",
+      "n": 85,
+      "auroc": 0.6299,
+      "z": 2.4973,
+      "q_fdr": 0.2643
+    }
+  ],
+  "data_supported_edges": 251,
+  "prior_edges": 1308
+}

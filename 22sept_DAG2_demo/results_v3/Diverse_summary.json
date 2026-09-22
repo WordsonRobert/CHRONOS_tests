@@ -1,0 +1,55 @@
+{
+  "dataset": "Diverse",
+  "n_people": 964,
+  "proteins_found": 80,
+  "auroc_raw": 0.5767,
+  "auroc_adjusted": 0.6441,
+  "Z_star": [
+    "celltype_oligodendrocyte",
+    "reag",
+    "proteomePC2",
+    "proteomePC8",
+    "proteomePC6"
+  ],
+  "n_strong_regions": 34,
+  "best_region": "PMI <= 6.83 (lower half)  AND  race = White",
+  "top_regions": [
+    {
+      "region": "PMI <= 6.83 (lower half)  AND  race = White",
+      "n": 256,
+      "auroc": 0.6615,
+      "z": 3.3519,
+      "q_fdr": 0.0508
+    },
+    {
+      "region": "PMI <= 6.83 (lower half)  AND  celltype_microglia <= -0.289 (low third)",
+      "n": 139,
+      "auroc": 0.6633,
+      "z": 3.3312,
+      "q_fdr": 0.0508
+    },
+    {
+      "region": "PMI <= 5.17 (low third)  AND  race = White",
+      "n": 172,
+      "auroc": 0.6588,
+      "z": 3.1159,
+      "q_fdr": 0.0508
+    },
+    {
+      "region": "celltype_neuron <= 0.103 (lower half)  AND  celltype_oligodendrocyte <= -0.11 (lower half)",
+      "n": 162,
+      "auroc": 0.6563,
+      "z": 2.7994,
+      "q_fdr": 0.0508
+    },
+    {
+      "region": "PMI <= 6.83 (lower half)  AND  celltype_astrocyte <= -0.213 (low third)",
+      "n": 108,
+      "auroc": 0.655,
+      "z": 2.735,
+      "q_fdr": 0.0508
+    }
+  ],
+  "data_supported_edges": 464,
+  "prior_edges": 1308
+}
