@@ -1,0 +1,60 @@
+stage 1: 72 configs x 21 states x 2 halves = 3024 pipeline runs, 2 workers
+  [1/42] sex=female half1  89s
+  [2/42] sex=female half0  89s
+  [3/42] sex=male half0  178s
+  [4/42] sex=male half1  178s
+  [5/42] apoe_genotype=23 half1  269s
+  [6/42] apoe_genotype=23 half0  270s
+  [7/42] apoe_genotype=33 half0  357s
+  [8/42] apoe_genotype=33 half1  359s
+  [9/42] apoe_genotype=34 half0  449s
+  [10/42] apoe_genotype=34 half1  452s
+  [11/42] cts_mmse30_lv=24-30 half0  539s
+  [12/42] cts_mmse30_lv=24-30 half1  542s
+  [13/42] braaksc=3 half0  630s
+  [14/42] braaksc=3 half1  637s
+  [15/42] braaksc=4 half0  721s
+  [16/42] braaksc=4 half1  727s
+  [17/42] braaksc=5 half0  815s
+  [18/42] braaksc=5 half1  820s
+  [19/42] braaksc=6 half0  910s
+  [20/42] braaksc=6 half1  913s
+  [21/42] ceradsc=2 half0  998s
+  [22/42] ceradsc=2 half1  1004s
+  [23/42] ceradsc=3 half0  1086s
+  [24/42] ceradsc=3 half1  1097s
+  [25/42] amyThal=5 half0  1174s
+  [26/42] amyThal=5 half1  1185s
+  [27/42] amyA=3 half0  1264s
+  [28/42] amyA=3 half1  1276s
+  [29/42] amyCerad=0 half0  1356s
+  [30/42] amyCerad=0 half1  1369s
+  [31/42] amyCerad=3 half0  1443s
+  [32/42] amyCerad=3 half1  1460s
+  [33/42] amyAny=0 half0  1535s
+  [34/42] amyAny=0 half1  1551s
+  [35/42] amyAny=1 half0  1620s
+  [36/42] amyAny=1 half1  1639s
+  [37/42] reag=1 half0  1711s
+  [38/42] reag=1 half1  1726s
+  [39/42] reag=2 half0  1802s
+  [40/42] reag=2 half1  1813s
+  [41/42] reag=3 half0  1894s
+  [42/42] reag=3 half1  1904s
+                                                                                                config  eligible  score  rep_edges  rep_pos  rep_top  density  sink_entropy  kendall  C_z_+5  C_z_-1  C_orient
+  LAMBDA_MODE=abs|LAMBDA=0.15|LAMBDA_Q=0.85|TAU_A_RATIO=0.5|T_SOFTMAX=0.1|SHRINK_SCALE=1.0|CONTEXT=all      True  0.362      0.117    0.608    0.129    0.230         0.849    0.322   6.139  -1.470     0.483
+ LAMBDA_MODE=abs|LAMBDA=0.12|LAMBDA_Q=0.85|TAU_A_RATIO=0.5|T_SOFTMAX=0.05|SHRINK_SCALE=1.0|CONTEXT=all      True  0.356      0.118    0.594    0.133    0.266         0.531    0.523   6.461  -1.725     0.478
+ LAMBDA_MODE=abs|LAMBDA=0.15|LAMBDA_Q=0.85|TAU_A_RATIO=0.5|T_SOFTMAX=0.05|SHRINK_SCALE=1.0|CONTEXT=all      True  0.356      0.118    0.595    0.125    0.231         0.618    0.555   6.219  -1.664     0.497
+ LAMBDA_MODE=abs|LAMBDA=0.2|LAMBDA_Q=0.85|TAU_A_RATIO=0.25|T_SOFTMAX=0.05|SHRINK_SCALE=1.0|CONTEXT=all      True  0.356      0.102    0.609    0.125    0.075         0.585    0.641   7.812  -1.892     0.524
+  LAMBDA_MODE=abs|LAMBDA=0.1|LAMBDA_Q=0.85|TAU_A_RATIO=0.5|T_SOFTMAX=0.05|SHRINK_SCALE=1.0|CONTEXT=all      True  0.355      0.126    0.583    0.133    0.302         0.509    0.452   6.098  -1.593     0.477
+ LAMBDA_MODE=abs|LAMBDA=0.12|LAMBDA_Q=0.85|TAU_A_RATIO=0.5|T_SOFTMAX=0.02|SHRINK_SCALE=1.0|CONTEXT=all      True  0.354      0.123    0.585    0.125    0.267         0.227    0.732   6.404  -1.680     0.496
+  LAMBDA_MODE=abs|LAMBDA=0.2|LAMBDA_Q=0.85|TAU_A_RATIO=0.25|T_SOFTMAX=0.2|SHRINK_SCALE=1.0|CONTEXT=all      True  0.353      0.109    0.598    0.129    0.073         0.918    0.244   7.871  -1.928     0.481
+  LAMBDA_MODE=abs|LAMBDA=0.08|LAMBDA_Q=0.85|TAU_A_RATIO=0.5|T_SOFTMAX=0.1|SHRINK_SCALE=1.0|CONTEXT=all      True  0.352      0.117    0.586    0.141    0.347         0.894    0.136   5.817  -1.418     0.453
+ LAMBDA_MODE=abs|LAMBDA=0.12|LAMBDA_Q=0.85|TAU_A_RATIO=0.25|T_SOFTMAX=0.1|SHRINK_SCALE=1.0|CONTEXT=all      True  0.350      0.122    0.579    0.133    0.158         0.659    0.274   7.082  -1.898     0.485
+  LAMBDA_MODE=abs|LAMBDA=0.2|LAMBDA_Q=0.85|TAU_A_RATIO=0.5|T_SOFTMAX=0.05|SHRINK_SCALE=1.0|CONTEXT=all      True  0.348      0.107    0.590    0.125    0.197         0.743    0.534   6.412  -1.724     0.487
+   LAMBDA_MODE=abs|LAMBDA=0.2|LAMBDA_Q=0.85|TAU_A_RATIO=0.5|T_SOFTMAX=0.1|SHRINK_SCALE=1.0|CONTEXT=all      True  0.348      0.104    0.592    0.125    0.196         0.899    0.324   6.402  -1.710     0.489
+ LAMBDA_MODE=abs|LAMBDA=0.15|LAMBDA_Q=0.85|TAU_A_RATIO=0.25|T_SOFTMAX=0.2|SHRINK_SCALE=1.0|CONTEXT=all      True  0.348      0.114    0.582    0.129    0.112         0.894    0.206   7.415  -1.782     0.496
+  LAMBDA_MODE=abs|LAMBDA=0.2|LAMBDA_Q=0.85|TAU_A_RATIO=0.25|T_SOFTMAX=0.1|SHRINK_SCALE=1.0|CONTEXT=all      True  0.348      0.104    0.592    0.133    0.074         0.789    0.460   7.690  -1.831     0.516
+  LAMBDA_MODE=abs|LAMBDA=0.12|LAMBDA_Q=0.85|TAU_A_RATIO=0.5|T_SOFTMAX=0.1|SHRINK_SCALE=1.0|CONTEXT=all      True  0.347      0.118    0.576    0.129    0.264         0.826    0.302   6.474  -1.656     0.482
+LAMBDA_MODE=abs|LAMBDA=0.15|LAMBDA_Q=0.85|TAU_A_RATIO=0.25|T_SOFTMAX=0.05|SHRINK_SCALE=1.0|CONTEXT=all      True  0.347      0.119    0.574    0.137    0.115         0.378    0.598   7.513  -1.849     0.517
+done in 1905s

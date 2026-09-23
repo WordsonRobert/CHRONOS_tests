@@ -1,0 +1,16 @@
+{
+  "W": 40,
+  "STEP": 2,
+  "Z_ADAPT": 1.25,
+  "FLOOR": 0.62,
+  "FLAT_R": 0.15,
+  "MIN_VALID": 15,
+  "MIN_RUN": 3,
+  "MIN_PEOPLE_REGION": 15,
+  "skipped": {
+    "sex": "binary / unordered",
+    "apoe_genotype": "unordered category",
+    "amyAny": "binary 0/1 flag"
+  },
+  "rule": "positive c: both |r|>=FLAT_R & same sign (co-move); negative c: both |r|<FLAT_R (flat/no change)"
+}
