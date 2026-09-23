@@ -1,0 +1,71 @@
+version,variable,cohort,stratum_n,held,remaining_variation,buckets,used
+cell,sex,ROSMAP,398,"cts_mmse30_lv, braaksc, ceradsc",0.898,female:279 male:119,True
+cell,sex,Diverse,54,braaksc,0.788,female:26 male:28,True
+cell,sex,Diverse,400,"braaksc, amyCerad",0.833,female:247 male:153,True
+cell,sex,Diverse,93,"braaksc, amyThal",0.932,female:51 male:42,True
+cell,sex,Diverse,179,"braaksc, amyThal, amyCerad",0.885,female:118 male:61,True
+cell,sex,Banner,189,"cts_mmse30_lv, braaksc, ceradsc, PlaqueTotal, TangleTotal",0.848,female:80 male:109,True
+cell,apoe_genotype,ROSMAP,394,"cts_mmse30_lv, braaksc, ceradsc",0.901,33:256 23:57 24:9 34:72,True
+cell,apoe_genotype,Diverse,47,braaksc,0.697,33:36 34:11,True
+cell,apoe_genotype,Diverse,397,"braaksc, amyCerad",0.854,33:200 23:49 24:10 34:123 44:15,True
+cell,apoe_genotype,Diverse,90,"braaksc, amyThal",0.863,33:46 23:6 34:31 44:7,True
+cell,apoe_genotype,Diverse,179,"braaksc, amyThal, amyCerad",0.825,33:78 23:12 24:7 34:62 44:20,True
+cell,apoe_genotype,Banner,185,"cts_mmse30_lv, braaksc, ceradsc, PlaqueTotal, TangleTotal",0.786,33:92 23:23 34:62 44:8,True
+cell,cts_mmse30_lv,ROSMAP,398,"braaksc, ceradsc",0.867,0-6:32 6-12:18 12-18:35 18-24:53 24-30:260,True
+cell,cts_mmse30_lv,Banner,189,"braaksc, ceradsc, PlaqueTotal, TangleTotal",0.352,0-6:30 6-12:12 12-18:21 18-24:21 24-30:105,True
+cell,cts_mmse30_first_ad_dx,ROSMAP,126,"cts_mmse30_lv, braaksc, ceradsc",0.695,0-6:6 6-12:13 12-18:20 18-24:48 24-30:39,True
+cell,braaksc,ROSMAP,395,"cts_mmse30_lv, ceradsc",0.678,0:6 1:29 2:39 3:120 4:130 5:71,True
+cell,braaksc,Diverse,51,(none measured),0.578,1:7 2:14 3:14 5:7 6:9,True
+cell,braaksc,Diverse,400,amyCerad,0.456,1:36 2:35 3:87 4:93 5:67 6:82,True
+cell,braaksc,Diverse,93,amyThal,0.306,1:2 2:6 3:13 4:9 5:23 6:40,True
+cell,braaksc,Diverse,179,"amyThal, amyCerad",0.484,1:8 2:12 3:17 4:47 5:52 6:43,True
+cell,braaksc,Banner,189,"cts_mmse30_lv, ceradsc, PlaqueTotal, TangleTotal",0.152,1:6 2:15 3:38 4:57 5:47 6:26,True
+cell,ceradsc,ROSMAP,398,"cts_mmse30_lv, braaksc",0.648,0:106 1:43 2:138 3:111,True
+cell,ceradsc,Banner,189,"cts_mmse30_lv, braaksc, PlaqueTotal, TangleTotal",0.21,0:38 1:15 2:31 3:105,True
+cell,amyThal,Diverse,93,braaksc,0.354,1:6 2:7 3:12 4:9 5:59,True
+cell,amyThal,Diverse,179,"braaksc, amyCerad",0.375,1:17 2:12 3:41 4:27 5:82,True
+cell,amyA,Diverse,93,braaksc,0.369,1:13 2:12 3:68,True
+cell,amyA,Diverse,184,"braaksc, amyCerad",0.36,1:30 2:41 3:113,True
+cell,amyCerad,Diverse,400,braaksc,0.448,0:96 1:34 2:90 3:180,True
+cell,amyCerad,Diverse,179,"braaksc, amyThal",0.379,0:19 1:7 2:36 3:117,True
+cell,amyAny,Diverse,400,braaksc,0.6,0:96 1:304,True
+cell,amyAny,Diverse,179,"braaksc, amyThal",0.578,0:19 1:160,True
+cell,reag,Diverse,424,(none measured),0.763,0:24 1:136 2:139 3:125,True
+cell,reag,Diverse,185,amyThal,0.405,0:3 1:32 2:60 3:90,True
+cell,PlaqueTotal,Banner,189,"cts_mmse30_lv, braaksc, ceradsc, TangleTotal",0.22,0-3:43 3-6:13 6-9:15 9-12:22 12-15:96,True
+cell,TangleTotal,Banner,189,"cts_mmse30_lv, braaksc, ceradsc, PlaqueTotal",0.149,0-3:24 3-6:37 6-9:43 9-12:22 12-15:63,True
+nocell,sex,ROSMAP,398,"cts_mmse30_lv, braaksc, ceradsc",0.962,female:279 male:119,True
+nocell,sex,Diverse,54,braaksc,0.9,female:26 male:28,True
+nocell,sex,Diverse,400,"braaksc, amyCerad",0.931,female:247 male:153,True
+nocell,sex,Diverse,93,"braaksc, amyThal",0.993,female:51 male:42,True
+nocell,sex,Diverse,179,"braaksc, amyThal, amyCerad",0.978,female:118 male:61,True
+nocell,sex,Banner,189,"cts_mmse30_lv, braaksc, ceradsc, PlaqueTotal, TangleTotal",0.98,female:80 male:109,True
+nocell,apoe_genotype,ROSMAP,394,"cts_mmse30_lv, braaksc, ceradsc",0.939,33:256 23:57 24:9 34:72,True
+nocell,apoe_genotype,Diverse,47,braaksc,0.807,33:36 34:11,True
+nocell,apoe_genotype,Diverse,397,"braaksc, amyCerad",0.9,33:200 23:49 24:10 34:123 44:15,True
+nocell,apoe_genotype,Diverse,90,"braaksc, amyThal",0.895,33:46 23:6 34:31 44:7,True
+nocell,apoe_genotype,Diverse,179,"braaksc, amyThal, amyCerad",0.856,33:78 23:12 24:7 34:62 44:20,True
+nocell,apoe_genotype,Banner,185,"cts_mmse30_lv, braaksc, ceradsc, PlaqueTotal, TangleTotal",0.789,33:92 23:23 34:62 44:8,True
+nocell,cts_mmse30_lv,ROSMAP,398,"braaksc, ceradsc",0.878,0-6:32 6-12:18 12-18:35 18-24:53 24-30:260,True
+nocell,cts_mmse30_lv,Banner,189,"braaksc, ceradsc, PlaqueTotal, TangleTotal",0.409,0-6:30 6-12:12 12-18:21 18-24:21 24-30:105,True
+nocell,cts_mmse30_first_ad_dx,ROSMAP,126,"cts_mmse30_lv, braaksc, ceradsc",0.73,0-6:6 6-12:13 12-18:20 18-24:48 24-30:39,True
+nocell,braaksc,ROSMAP,395,"cts_mmse30_lv, ceradsc",0.695,0:6 1:29 2:39 3:120 4:130 5:71,True
+nocell,braaksc,Diverse,51,(none measured),0.846,1:7 2:14 3:14 5:7 6:9,True
+nocell,braaksc,Diverse,400,amyCerad,0.463,1:36 2:35 3:87 4:93 5:67 6:82,True
+nocell,braaksc,Diverse,93,amyThal,0.375,1:2 2:6 3:13 4:9 5:23 6:40,True
+nocell,braaksc,Diverse,179,"amyThal, amyCerad",0.507,1:8 2:12 3:17 4:47 5:52 6:43,True
+nocell,braaksc,Banner,189,"cts_mmse30_lv, ceradsc, PlaqueTotal, TangleTotal",0.157,1:6 2:15 3:38 4:57 5:47 6:26,True
+nocell,ceradsc,ROSMAP,398,"cts_mmse30_lv, braaksc",0.663,0:106 1:43 2:138 3:111,True
+nocell,ceradsc,Banner,189,"cts_mmse30_lv, braaksc, PlaqueTotal, TangleTotal",0.214,0:38 1:15 2:31 3:105,True
+nocell,amyThal,Diverse,93,braaksc,0.381,1:6 2:7 3:12 4:9 5:59,True
+nocell,amyThal,Diverse,179,"braaksc, amyCerad",0.378,1:17 2:12 3:41 4:27 5:82,True
+nocell,amyA,Diverse,93,braaksc,0.382,1:13 2:12 3:68,True
+nocell,amyA,Diverse,184,"braaksc, amyCerad",0.362,1:30 2:41 3:113,True
+nocell,amyCerad,Diverse,400,braaksc,0.472,0:96 1:34 2:90 3:180,True
+nocell,amyCerad,Diverse,179,"braaksc, amyThal",0.392,0:19 1:7 2:36 3:117,True
+nocell,amyAny,Diverse,400,braaksc,0.618,0:96 1:304,True
+nocell,amyAny,Diverse,179,"braaksc, amyThal",0.589,0:19 1:160,True
+nocell,reag,Diverse,424,(none measured),0.879,0:24 1:136 2:139 3:125,True
+nocell,reag,Diverse,185,amyThal,0.429,0:3 1:32 2:60 3:90,True
+nocell,PlaqueTotal,Banner,189,"cts_mmse30_lv, braaksc, ceradsc, TangleTotal",0.224,0-3:43 3-6:13 6-9:15 9-12:22 12-15:96,True
+nocell,TangleTotal,Banner,189,"cts_mmse30_lv, braaksc, ceradsc, PlaqueTotal",0.151,0-3:24 3-6:37 6-9:43 9-12:22 12-15:63,True

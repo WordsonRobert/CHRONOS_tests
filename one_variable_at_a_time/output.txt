@@ -1,0 +1,130 @@
+=== DESIGN: what was held constant, and can the variable still move? (cell version) ===
+              variable  cohort  stratum_n  remaining_variation  used                                                      held
+                   sex  ROSMAP        398                0.898  True                           cts_mmse30_lv, braaksc, ceradsc
+                   sex Diverse         54                0.788  True                                                   braaksc
+                   sex Diverse        400                0.833  True                                         braaksc, amyCerad
+                   sex Diverse         93                0.932  True                                          braaksc, amyThal
+                   sex Diverse        179                0.885  True                                braaksc, amyThal, amyCerad
+                   sex  Banner        189                0.848  True cts_mmse30_lv, braaksc, ceradsc, PlaqueTotal, TangleTotal
+         apoe_genotype  ROSMAP        394                0.901  True                           cts_mmse30_lv, braaksc, ceradsc
+         apoe_genotype Diverse         47                0.697  True                                                   braaksc
+         apoe_genotype Diverse        397                0.854  True                                         braaksc, amyCerad
+         apoe_genotype Diverse         90                0.863  True                                          braaksc, amyThal
+         apoe_genotype Diverse        179                0.825  True                                braaksc, amyThal, amyCerad
+         apoe_genotype  Banner        185                0.786  True cts_mmse30_lv, braaksc, ceradsc, PlaqueTotal, TangleTotal
+         cts_mmse30_lv  ROSMAP        398                0.867  True                                          braaksc, ceradsc
+         cts_mmse30_lv  Banner        189                0.352  True                braaksc, ceradsc, PlaqueTotal, TangleTotal
+cts_mmse30_first_ad_dx  ROSMAP        126                0.695  True                           cts_mmse30_lv, braaksc, ceradsc
+               braaksc  ROSMAP        395                0.678  True                                    cts_mmse30_lv, ceradsc
+               braaksc Diverse         51                0.578  True                                           (none measured)
+               braaksc Diverse        400                0.456  True                                                  amyCerad
+               braaksc Diverse         93                0.306  True                                                   amyThal
+               braaksc Diverse        179                0.484  True                                         amyThal, amyCerad
+               braaksc  Banner        189                0.152  True          cts_mmse30_lv, ceradsc, PlaqueTotal, TangleTotal
+               ceradsc  ROSMAP        398                0.648  True                                    cts_mmse30_lv, braaksc
+               ceradsc  Banner        189                0.210  True          cts_mmse30_lv, braaksc, PlaqueTotal, TangleTotal
+               amyThal Diverse         93                0.354  True                                                   braaksc
+               amyThal Diverse        179                0.375  True                                         braaksc, amyCerad
+                  amyA Diverse         93                0.369  True                                                   braaksc
+                  amyA Diverse        184                0.360  True                                         braaksc, amyCerad
+              amyCerad Diverse        400                0.448  True                                                   braaksc
+              amyCerad Diverse        179                0.379  True                                          braaksc, amyThal
+                amyAny Diverse        400                0.600  True                                                   braaksc
+                amyAny Diverse        179                0.578  True                                          braaksc, amyThal
+                  reag Diverse        424                0.763  True                                           (none measured)
+                  reag Diverse        185                0.405  True                                                   amyThal
+           PlaqueTotal  Banner        189                0.220  True              cts_mmse30_lv, braaksc, ceradsc, TangleTotal
+           TangleTotal  Banner        189                0.149  True              cts_mmse30_lv, braaksc, ceradsc, PlaqueTotal
+
+=== EFFECTS (cell composition held too). z-units of protein per step of the variable ===
+
+sex (male vs female): n=1313  proteins changed at FDR 5%: 14/80 (down 9, up 5)
+   down: EIF2S1 -0.32, IDE -0.25, VPS35 -0.23, GGA1 -0.22, COPG2 -0.17, GGA3 -0.16
+   up:   VLDLR +0.25, SNX4 +0.24, PREB +0.15, SEC16A +0.14, ADAM10 +0.08
+   TMED: TMED2 -0.059 (p=0.32, q=0.48), TMED9 -0.058 (p=0.3, q=0.48), TMED10 -0.015 (p=0.8, q=0.91)
+
+APOE (per e4 allele): n=1292  proteins changed at FDR 5%: 3/80 (down 1, up 2)
+   down: AP2A1 -0.07
+   up:   APP +0.24, CLU +0.20
+   TMED: TMED2 -0.031 (p=0.56, q=0.74), TMED9 -0.018 (p=0.72, q=0.79), TMED10 -0.034 (p=0.52, q=0.74)
+
+MMSE last visit (per box of 6, higher = better): n=587  proteins changed at FDR 5%: 4/80 (down 1, up 3)
+   down: VPS26A -0.14
+   up:   MFN2 +0.20, SEC23A +0.13, AP2A1 +0.09
+   TMED: TMED2 +0.040 (p=0.27, q=0.58), TMED9 +0.101 (p=0.0065, q=0.052), TMED10 +0.101 (p=0.0063, q=0.052)
+
+MMSE at AD dx (per box of 6, higher = better): n=126  proteins changed at FDR 5%: 0/80 (down 0, up 0)
+   TMED: TMED2 -0.001 (p=0.99, q=0.99), TMED9 +0.067 (p=0.47, q=0.83), TMED10 +0.112 (p=0.13, q=0.81)
+
+Braak (per stage): n=1307  proteins changed at FDR 5%: 7/80 (down 4, up 3)
+   down: IDE -0.09, PICALM -0.09, MFN2 -0.05, AP3B2 -0.05
+   up:   APP +0.10, LRP1 +0.06, ADAM10 +0.03
+   TMED: TMED2 -0.031 (p=0.26, q=0.6), TMED9 -0.039 (p=0.13, q=0.42), TMED10 -0.038 (p=0.17, q=0.48)
+
+CERAD R/B (per step): n=587  proteins changed at FDR 5%: 3/80 (down 0, up 3)
+   up:   LRP1 +0.23, APOE +0.20, ITPR2 +0.16
+   TMED: TMED2 -0.006 (p=0.89, q=0.97), TMED9 +0.100 (p=0.041, q=0.25), TMED10 +0.021 (p=0.68, q=0.89)
+
+Thal phase (per phase): n=272  proteins changed at FDR 5%: 3/80 (down 0, up 3)
+   up:   APOE +0.23, APP +0.21, CLU +0.18
+   TMED: TMED2 -0.090 (p=0.2, q=0.7), TMED9 -0.018 (p=0.79, q=0.9), TMED10 -0.066 (p=0.35, q=0.82)
+
+A-score (per step): n=277  proteins changed at FDR 5%: 2/80 (down 0, up 2)
+   up:   CLU +0.33, APP +0.32
+   TMED: TMED2 -0.095 (p=0.46, q=0.78), TMED9 -0.055 (p=0.64, q=0.89), TMED10 -0.107 (p=0.4, q=0.75)
+
+CERAD Diverse (per step): n=579  proteins changed at FDR 5%: 4/80 (down 1, up 3)
+   down: RTN4 -0.12
+   up:   APP +0.26, LRP1 +0.14, HSPA9 +0.11
+   TMED: TMED2 +0.032 (p=0.54, q=0.76), TMED9 +0.061 (p=0.2, q=0.47), TMED10 +0.040 (p=0.43, q=0.7)
+
+any amyloid (yes vs no): n=579  proteins changed at FDR 5%: 2/80 (down 0, up 2)
+   up:   APP +0.59, LRP1 +0.25
+   TMED: TMED2 +0.162 (p=0.21, q=0.6), TMED9 +0.198 (p=0.094, q=0.42), TMED10 +0.216 (p=0.086, q=0.42)
+
+NIA-Reagan (per step): n=609  proteins changed at FDR 5%: 23/80 (down 12, up 11)
+   down: PICALM -0.22, IDE -0.21, RTN4 -0.21, GGA1 -0.18, SEC24A -0.13, SORL1 -0.13
+   up:   APP +0.50, BACE1 +0.28, LRP1 +0.24, VPS26A +0.18, RAB1B +0.16, CLU +0.16
+   TMED: TMED2 -0.033 (p=0.55, q=0.66), TMED9 -0.059 (p=0.23, q=0.46), TMED10 -0.046 (p=0.37, q=0.6)
+
+plaque total (per box of 3): n=189  proteins changed at FDR 5%: 2/80 (down 1, up 1)
+   down: AP4M1 -0.44
+   up:   APP +0.29
+   TMED: TMED2 -0.152 (p=0.082, q=0.52), TMED9 -0.118 (p=0.21, q=0.63), TMED10 -0.121 (p=0.19, q=0.63)
+
+tangle total (per box of 3): n=189  proteins changed at FDR 5%: 0/80 (down 0, up 0)
+   TMED: TMED2 -0.054 (p=0.66, q=0.98), TMED9 -0.020 (p=0.88, q=0.98), TMED10 +0.124 (p=0.35, q=0.82)
+
+=== does holding everything else matter? (vs holding only sex, APOE, PMI, cell types) ===
+              variable  sig_q05_hold_only_sex_apoe_pmi_cell  sig_q05_hold_everything  corr_of_80_effects  median_abs_effect_ratio
+                   sex                                   16                       14                0.97                     1.18
+         apoe_genotype                                   19                        3                0.92                     0.84
+         cts_mmse30_lv                                   21                        4                0.92                     0.74
+cts_mmse30_first_ad_dx                                    0                        0                0.88                     1.40
+               braaksc                                   30                        7                0.84                     0.66
+               ceradsc                                   13                        3                0.83                     0.92
+               amyThal                                   17                        3                0.78                     1.12
+                  amyA                                   18                        2                0.75                     1.07
+              amyCerad                                   29                        4                0.74                     0.81
+                amyAny                                   26                        2                0.73                     0.78
+                  reag                                   29                       23                0.98                     0.88
+           PlaqueTotal                                    5                        2                0.42                     1.25
+           TangleTotal                                   17                        0                0.49                     1.07
+
+=== cell composition NOT held: proteins at FDR 5% per variable ===
+variable
+sex                       16
+apoe_genotype             19
+cts_mmse30_lv             14
+cts_mmse30_first_ad_dx     0
+braaksc                   15
+ceradsc                    3
+amyThal                    1
+amyA                       1
+amyCerad                  19
+amyAny                     8
+reag                      45
+PlaqueTotal                1
+TangleTotal                0
+
+saved heatmap_cell.png

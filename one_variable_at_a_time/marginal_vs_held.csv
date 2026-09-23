@@ -1,0 +1,14 @@
+variable,sig_q05_hold_only_sex_apoe_pmi_cell,sig_q05_hold_everything,corr_of_80_effects,median_abs_effect_ratio
+sex,16,14,0.97,1.18
+apoe_genotype,19,3,0.92,0.84
+cts_mmse30_lv,21,4,0.92,0.74
+cts_mmse30_first_ad_dx,0,0,0.88,1.4
+braaksc,30,7,0.84,0.66
+ceradsc,13,3,0.83,0.92
+amyThal,17,3,0.78,1.12
+amyA,18,2,0.75,1.07
+amyCerad,29,4,0.74,0.81
+amyAny,26,2,0.73,0.78
+reag,29,23,0.98,0.88
+PlaqueTotal,5,2,0.42,1.25
+TangleTotal,17,0,0.49,1.07
