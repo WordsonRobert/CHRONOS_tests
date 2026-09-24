@@ -4,7 +4,14 @@ Proteomics from three AMP-AD cohorts (ROSMAP, Diverse Cohorts, Banner; 1,570 sub
 causal DAGs over the 80 CHRONOS proteins, separately for each value of 13 trajectory variables
 (Braak stage, amyloid staging, CERAD, MMSE, plaque/tangle load, APOE, sex, …). The literature
 confidence matrix C is never used to build any graph; it is only compared against afterwards.
+##LINKS TO VISUALIZE RESULTS
+Best DAG for every disease state
+For each clinical variable, people are split into buckets (for example Braak stage 0 to 6). For each bucket the pipeline drew 100 causal graphs (DAGs) over the 80 CHRONOS proteins. This page shows the single best of those 100: the one whose edges have the highest average edge probability. Pick a variable, then a bucket.
+https://claude.ai/artifact/C8jB1LzwAyiTtPTWtbxJSc
 
+Consensus graph for every disease state
+For each clinical variable, people are split into buckets (for example Braak stage 0 to 6). For each bucket the pipeline drew 100 causal graphs (DAGs) over the 80 CHRONOS proteins. This page adds all 100 together: each link is weighted by how many of the 100 DAGs contain it, divided by the total number of edges in all 100 (so each graph sums to 1). Pick a variable, then a bucket.
+https://claude.ai/artifact/MocZicdZvgAcaVE47nLUpF
 ## Layout
 | path | what it is | README |
 |---|---|---|
